@@ -1,6 +1,6 @@
 # KurumCELL
 
-KurumCELL, sesli mesaj, telefonla anket ve toplu faks gönderimi gibi katma değerli servislerimizi müşterilerimize sunmak için iş ortaklığı modeli ile kullandığımız ticari bir markadır. Bu web sitesinde yürütmekte olduğumuz tüm telekomünikasyon faaliyetleri yasal olarak şirketimiz Mobileksen ad ve namına yapılmaktadır.
+KurumCELL, sesli mesaj, telefonla anket ve toplu faks gönderimi gibi katma değerli servislerimizi müşterilerimize sunmak için iş ortaklığı modeli ile kullandığımız ticari bir markadır. 
 
 ## Özellikler
 
