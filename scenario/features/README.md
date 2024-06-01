@@ -11,5 +11,3 @@
 ## Ekran Görüntüsü
 
 ![BLIND_TRANSFER](BLIND_TRANSFER.png)
-
-<img src="BLIND_TRANSFER.png" alt="Örnek Resim" width="200"/>
