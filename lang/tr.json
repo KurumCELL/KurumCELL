@@ -1,0 +1,3835 @@
+{
+    "accessControls": {
+        "button": {
+            "AddNewAccessControl": "Yeni Access Control Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Access Controls"
+        },
+        "label": {
+            "AccessControlName": "Access Control Name",
+            "AccessControlDefault": "Access Control Default",
+            "AccessControlDescription": "Access Control Description",
+            "AddNewAccessControl": "Yeni Access Control Name Ekle"
+        },
+        "labelMsg": {
+            "AccessControlName": "Access Control Name",
+            "AccessControlDefault": "Access Control Default",
+            "AccessControlDescription": "Access Control Description"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı AccessControlName silmek istiyor musunuz?",
+            "add": {
+                "Error": "AccessControlName eklenemedi.",
+                "OK": "Yeni AccessControlName eklendi."
+            },
+            "save": {
+                "Error": "AccessControlName güncellenemedi.",
+                "OK": "AccessControlName güncellendi."
+            },
+            "remove": {
+                "Error": "AccessControlName silinemedi.",
+                "OK": "AccessControlName silindi."
+            }
+        },
+        "search": {
+            "Search": "AccessControlName Ara"
+        },
+        "selectBox": {
+            "AccessControlDefault": {
+                "deny": "Deny",
+                "allow": "Allow"
+            }
+        }
+    },
+    "admin": {
+        "fs": {
+            "msg": {
+                "restartOnay": "Freeswitch sunucularını yeniden başlatmak istiyor musunuz?",
+                "restartOkey": "Freeswitchler yeniden başlatıldı.",
+                "reloadList": "Freeswitch listesi güncellendi."
+            },
+            "label": {
+                "Name": "Adı",
+                "Version": "Versiyon",
+                "IpAddress": "Ip Adresi",
+                "Port": "Port",
+                "Uptime": "Çalışma Süresi",
+                "MaxSessions": "Maksimum Oturum Sayısı",
+                "TotalSessions": "Toplam Oturum Sayısı",
+                "SessionRate": "Oturum Oranı (Tüm Zamanlar)",
+                "PeakSessionse": "Yoğun Oturum (Tüm Zamanlar)",
+                "CurrentSessions": "Şimdiki Oturumlar",
+                "Last5Min": "Son 5dk",
+                "Max": "Max",
+                "AllTime": "Tüm Zamanlar"
+            },
+            "btn": {
+                "Reload": "Listeyi Güncelle",
+                "Restart": "Freeswitchler Yeniden Başlat"
+            }
+        }
+    },
+    "audioPromts": {
+        "button": {
+            "AddNewAudioPromt": "Yeni Prompt Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Audio Promts"
+        },
+        "label": {
+            "PromptName": "Prompt Name",
+            "PromptDesc": "Prompt Desc",
+            "LanguageUUID": "Language UUID",
+            "TenantUUID": "Tenant UUID",
+            "DomainUUID": "Domain UUID",
+            "PromptType": "Prompt Type",
+            "Type": "Type",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewAudioPromt": "Yeni Prompt Name Ekle"
+        },
+        "labelMsg": {
+            "PromptName": "Prompt Name",
+            "PromptDesc": "Prompt Desc",
+            "LanguageUUID": "Language UUID",
+            "TenantUUID": "Tenant UUID",
+            "DomainUUID": "Domain UUID",
+            "PromptType": "Prompt Type",
+            "Type": "Type",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı PromptName silmek istiyor musunuz?",
+            "add": {
+                "Error": "PromptName eklenemedi.",
+                "OK": "Yeni PromptName eklendi."
+            },
+            "save": {
+                "Error": "PromptName güncellenemedi.",
+                "OK": "PromptName güncellendi."
+            },
+            "remove": {
+                "Error": "PromptName silinemedi.",
+                "OK": "PromptName silindi."
+            }
+        },
+        "search": {
+            "Search": "PromptName Ara"
+        },
+        "selectBox": {
+            "PromptType": {
+                "SYSTEM": "SYSTEM",
+                "CUSTOM": "CUSTOM"
+            },
+            "Type": {
+                "UPLOAD": "UPLOAD",
+                "RECORDING": "RECORDING"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "autoCall": {
+        "button": {
+            "AddNewAutoCall": "Yeni Number Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Auto Call",
+            "GROUP1": "Durum",
+            "GROUP2": "Tarih"
+        },
+        "label": {
+            "Number": "Number",
+            "AutoCallCampaignUUID": "Auto Call Campaign UUID",
+            "Status": "Status",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewAutoCall": "Yeni Number Ekle"
+        },
+        "labelMsg": {
+            "Number": "Number",
+            "AutoCallCampaignUUID": "Auto Call Campaign UUID",
+            "Status": "Status",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Number silmek istiyor musunuz?",
+            "add": {
+                "Error": "Number eklenemedi.",
+                "OK": "Yeni Number eklendi."
+            },
+            "save": {
+                "Error": "Number güncellenemedi.",
+                "OK": "Number güncellendi."
+            },
+            "remove": {
+                "Error": "Number silinemedi.",
+                "OK": "Number silindi."
+            }
+        },
+        "search": {
+            "Search": "Number Ara"
+        },
+        "selectBox": {
+            "Status": {
+                "waiting": "Waiting",
+                "ringing": "Ringing",
+                "answered": "Answered",
+                "busy": "Busy",
+                "no_answer": "NoAnswer",
+                "completed": "Completed",
+                "failed": "Failed"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "autoCallCampaigns": {
+        "button": {
+            "AddNewAutoCallCampaign": "Yeni Campaign Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Auto Call Campaigns",
+            "GROUP2": "Tarih",
+            "GROUP1": "Durum"
+        },
+        "label": {
+            "CampaignName": "Campaign Name",
+            "ScenarioUUID": "Scenario UUID",
+            "ScenarioVersion": "Scenario Version",
+            "DidUUID": "Did UUID",
+            "RingDuration": "Ring Duration",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewAutoCallCampaign": "Yeni Campaign Name Ekle"
+        },
+        "labelMsg": {
+            "CampaignName": "Campaign Name",
+            "ScenarioUUID": "Scenario UUID",
+            "ScenarioVersion": "Scenario Version",
+            "DidUUID": "Did UUID",
+            "RingDuration": "Ring Duration",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı CampaignName silmek istiyor musunuz?",
+            "add": {
+                "Error": "CampaignName eklenemedi.",
+                "OK": "Yeni CampaignName eklendi."
+            },
+            "save": {
+                "Error": "CampaignName güncellenemedi.",
+                "OK": "CampaignName güncellendi."
+            },
+            "remove": {
+                "Error": "CampaignName silinemedi.",
+                "OK": "CampaignName silindi."
+            }
+        },
+        "search": {
+            "Search": "CampaignName Ara"
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "blacklist": {
+        "button": {
+            "AddNewBlacklist": "Yeni Blacklist Number Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Blacklist"
+        },
+        "label": {
+            "BlacklistNumber": "Blacklist Number",
+            "BlacklistDesc": "Blacklist Desc",
+            "BlacklistType": "Blacklist Type",
+            "BlacklistBy": "Blacklist By",
+            "BlacklistRelate": "Blacklist Relate",
+            "DomainUUID": "Domain UUID",
+            "TenantUUID": "Tenant UUID",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewBlacklist": "Yeni Blacklist Number Ekle"
+        },
+        "labelMsg": {
+            "BlacklistNumber": "Blacklist Number",
+            "BlacklistDesc": "Blacklist Desc",
+            "BlacklistType": "Blacklist Type",
+            "BlacklistBy": "Blacklist By",
+            "BlacklistRelate": "Blacklist Relate",
+            "DomainUUID": "Domain UUID",
+            "TenantUUID": "Tenant UUID",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı BlacklistNumber silmek istiyor musunuz?",
+            "add": {
+                "Error": "BlacklistNumber eklenemedi.",
+                "OK": "Yeni BlacklistNumber eklendi."
+            },
+            "save": {
+                "Error": "BlacklistNumber güncellenemedi.",
+                "OK": "BlacklistNumber güncellendi."
+            },
+            "remove": {
+                "Error": "BlacklistNumber silinemedi.",
+                "OK": "BlacklistNumber silindi."
+            }
+        },
+        "search": {
+            "Search": "BlacklistNumber Ara"
+        },
+        "selectBox": {
+            "BlacklistType": {
+                "BOTH": "BOTH",
+                "IN": "IN",
+                "OUT": "OUT"
+            },
+            "BlacklistBy": {
+                "ADMIN": "ADMIN",
+                "EXTENSION": "EXTENSION",
+                "TENANT": "TENANT",
+                "DOMAIN": "DOMAIN"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "call": {
+        "button": {
+            "AddNewCall": "Yeni Çağrı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Call"
+        },
+        "label": {
+            "CallName": "Çağrı",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewCall": "Yeni Çağrı Ekle"
+        },
+        "labelMsg": {
+            "CallName": "Call Name",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Çağrı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Çağrı eklenemedi.",
+                "OK": "Yeni Çağrı eklendi."
+            },
+            "save": {
+                "Error": "Çağrı güncellenemedi.",
+                "OK": "Çağrı güncellendi."
+            },
+            "remove": {
+                "Error": "Çağrı silinemedi.",
+                "OK": "Çağrı silindi."
+            }
+        },
+        "search": {
+            "Search": "Çağrı Ara"
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "callList": {
+        "button": {
+            "AddNewCallList": "Yeni Çağrı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Call List",
+            "GROUP1": "Tarih",
+            "GROUP2": "Loglar"
+        },
+        "label": {
+            "CallListName": "Çağrı",
+            "CallerNumber": "Caller Number",
+            "CallerName": "Caller Name",
+            "MainUniqueID": "Main Unique ID",
+            "Extension": "Extension",
+            "UserUUID": "User UUID",
+            "SipUserUUID": "Sip User UUID",
+            "ExitCodeNumber": "Exit Code Number",
+            "Number": "Number",
+            "SocketID": "Socket ID",
+            "CallDirection": "Call Direction",
+            "ElasticLog": "Elastic Log",
+            "JsonData": "Json Data",
+            "JsonLog": "Json Log",
+            "DateStart": "Date Start",
+            "DateStop": "Date Stop",
+            "DateDuration": "Date Duration",
+            "DateUpdate": "Date Update",
+            "Status": "Status",
+            "Enabled": "Enabled",
+            "AddNewCallList": "Yeni Çağrı Ekle"
+        },
+        "labelMsg": {
+            "CallListName": "Call List Name",
+            "CallerNumber": "Caller Number",
+            "CallerName": "Caller Name",
+            "MainUniqueID": "Main Unique ID",
+            "Extension": "Extension",
+            "UserUUID": "User UUID",
+            "SipUserUUID": "Sip User UUID",
+            "ExitCodeNumber": "Exit Code Number",
+            "Number": "Number",
+            "SocketID": "Socket ID",
+            "CallDirection": "Call Direction",
+            "ElasticLog": "Elastic Log",
+            "JsonData": "Json Data",
+            "JsonLog": "Json Log",
+            "DateStart": "Date Start",
+            "DateStop": "Date Stop",
+            "DateDuration": "Date Duration",
+            "DateUpdate": "Date Update",
+            "Status": "Status",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Çağrı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Çağrı eklenemedi.",
+                "OK": "Yeni Çağrı eklendi."
+            },
+            "save": {
+                "Error": "Çağrı güncellenemedi.",
+                "OK": "Çağrı güncellendi."
+            },
+            "remove": {
+                "Error": "Çağrı silinemedi.",
+                "OK": "Çağrı silindi."
+            }
+        },
+        "search": {
+            "Search": "Çağrı Ara"
+        },
+        "selectBox": {
+            "CallDirection": {
+                "remote": "Remote",
+                "local_user": "LocalUser",
+                "local_gateway": "LocalGateway",
+                "local_scenario": "LocalScenario",
+                "local_feature": "LocalFeature",
+                "local_did_scenario": "LocalDidScenario",
+                "local_did_user": "LocalDidUser",
+                "local_did_gateway": "LocalDidGateway",
+                "remote_scenario": "RemoteScenario",
+                "remote_did_scenario": "RemoteDidScenario",
+                "remote_did_user": "RemoteDidUser",
+                "remote_did_gateway": "RemoteDidGateway",
+                "none": "None"
+            },
+            "Status": {
+                "progress": "Progress",
+                "completed": "Completed"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "callRecord": {
+        "button": {
+            "AddNewCallRecord": "Yeni Ses  Dosyası Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Call Record"
+        },
+        "label": {
+            "CallListUUID": "Call List UUID",
+            "DomainUUID": "Domain UUID",
+            "TenantUUID": "Tenant UUID",
+            "DirectoryPathDate": "Directory Path Date",
+            "FileName": "Ses  Dosyası",
+            "RecordDuration": "Record Duration",
+            "DateStart": "Date Start",
+            "DateStop": "Date Stop",
+            "DateUpdate": "Date Update",
+            "RecordStatus": "Record Status",
+            "AddNewCallRecord": "Yeni Ses  Dosyası Ekle"
+        },
+        "labelMsg": {
+            "CallListUUID": "Call List UUID",
+            "DomainUUID": "Domain UUID",
+            "TenantUUID": "Tenant UUID",
+            "DirectoryPathDate": "Directory Path Date",
+            "FileName": "File Name",
+            "RecordDuration": "Record Duration",
+            "DateStart": "Date Start",
+            "DateStop": "Date Stop",
+            "DateUpdate": "Date Update",
+            "RecordStatus": "Record Status"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Ses Dosyası silmek istiyor musunuz?",
+            "add": {
+                "Error": "Ses Dosyası eklenemedi.",
+                "OK": "Yeni Ses Dosyası eklendi."
+            },
+            "save": {
+                "Error": "Ses Dosyası güncellenemedi.",
+                "OK": "Ses Dosyası güncellendi."
+            },
+            "remove": {
+                "Error": "Ses Dosyası silinemedi.",
+                "OK": "Ses Dosyası silindi."
+            }
+        },
+        "search": {
+            "Search": "Ses Dosyası Ara"
+        },
+        "selectBox": {
+            "RecordStatus": {
+                "recording": "Recording",
+                "completed": "Completed",
+                "copying": "Copying"
+            }
+        }
+    },
+    "command": {
+        "label": {
+            "CommandEdit": "Command Edit",
+            "GetVariable": "Get Variable",
+            "SetVariableTrue": "Set Variable (<b>True<\/b>)",
+            "SetVariableFalse": "Set Variable (<b>False<\/b>)"
+        }
+    },
+    "contactList": {
+        "button": {
+            "AddNewContactList": "Yeni Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Contact List",
+            "GROUP1": "İletişim Bilgileri",
+            "GROUP3": "Tarih"
+        },
+        "label": {
+            "Name": "Name",
+            "Number": "Number",
+            "Favori": "Favori",
+            "FirstName": "First Name",
+            "LastName": "Last Name",
+            "PhoneNumber": "Phone Number",
+            "MobileNumber": "Mobile Number",
+            "EmailAddress": "Email Address",
+            "Address": "Address",
+            "City": "City",
+            "District": "District",
+            "PostCode": "Post Code",
+            "Description": "Description",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewContactList": "Yeni Name Ekle"
+        },
+        "labelMsg": {
+            "Name": "Name",
+            "Number": "Number",
+            "Favori": "Favori",
+            "FirstName": "First Name",
+            "LastName": "Last Name",
+            "PhoneNumber": "Phone Number",
+            "MobileNumber": "Mobile Number",
+            "EmailAddress": "Email Address",
+            "Address": "Address",
+            "City": "City",
+            "District": "District",
+            "PostCode": "Post Code",
+            "Description": "Description",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Name silmek istiyor musunuz?",
+            "add": {
+                "Error": "Name eklenemedi.",
+                "OK": "Yeni Name eklendi."
+            },
+            "save": {
+                "Error": "Name güncellenemedi.",
+                "OK": "Name güncellendi."
+            },
+            "remove": {
+                "Error": "Name silinemedi.",
+                "OK": "Name silindi."
+            }
+        },
+        "search": {
+            "Search": "Name Ara"
+        },
+        "switch": {
+            "Favori": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "countries": {
+        "button": {
+            "AddNewCountrie": "Yeni Country Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Countries"
+        },
+        "label": {
+            "CountryCode": "Country Code",
+            "CountryName": "Country Name",
+            "AddNewCountrie": "Yeni Country Name Ekle"
+        },
+        "labelMsg": {
+            "CountryCode": "Country Code",
+            "CountryName": "Country Name"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı CountryName silmek istiyor musunuz?",
+            "add": {
+                "Error": "CountryName eklenemedi.",
+                "OK": "Yeni CountryName eklendi."
+            },
+            "save": {
+                "Error": "CountryName güncellenemedi.",
+                "OK": "CountryName güncellendi."
+            },
+            "remove": {
+                "Error": "CountryName silinemedi.",
+                "OK": "CountryName silindi."
+            }
+        },
+        "search": {
+            "Search": "CountryName Ara"
+        }
+    },
+    "currencies": {
+        "button": {
+            "AddNewCurrencie": "Yeni Cur Code Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Currencies"
+        },
+        "label": {
+            "CurCode": "Cur Code",
+            "CurDesc": "Cur Desc",
+            "CurAllow": "Cur Allow",
+            "CurDefault": "Cur Default",
+            "AddNewCurrencie": "Yeni Cur Code Ekle"
+        },
+        "labelMsg": {
+            "CurCode": "Cur Code",
+            "CurDesc": "Cur Desc",
+            "CurAllow": "Cur Allow",
+            "CurDefault": "Cur Default"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı CurCode silmek istiyor musunuz?",
+            "add": {
+                "Error": "CurCode eklenemedi.",
+                "OK": "Yeni CurCode eklendi."
+            },
+            "save": {
+                "Error": "CurCode güncellenemedi.",
+                "OK": "CurCode güncellendi."
+            },
+            "remove": {
+                "Error": "CurCode silinemedi.",
+                "OK": "CurCode silindi."
+            }
+        },
+        "search": {
+            "Search": "CurCode Ara"
+        },
+        "switch": {
+            "CurAllow": {
+                "YES": "YES",
+                "NO": "NO"
+            },
+            "CurDefault": {
+                "YES": "YES",
+                "NO": "NO"
+            }
+        }
+    },
+    "destinationSetRoutes": {
+        "button": {
+            "AddNewDestinationSetRoute": "Yeni Prefix Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Destination Set Routes",
+            "GROUP1": "Tanımlar",
+            "GROUP2": "Rates",
+            "GROUP3": "Timers",
+            "GROUP4": "Tarih"
+        },
+        "label": {
+            "Prefix": "Prefix",
+            "Description": "Description",
+            "Hunstop": "Hunstop",
+            "Forbidden": "Forbidden",
+            "Preference": "Preference",
+            "Interval1": "Interval 1, sec",
+            "IntervalN": "Interval N, sec",
+            "Price1": "Price1",
+            "PriceN": "Price N",
+            "Timeout1xx": "Timeouts 1xx, sec",
+            "Timeout2xx": "Timeouts 2xx, sec",
+            "ActivationDate": "Activation Date",
+            "ExpirationDate": "Expiration Date",
+            "DestinationSetRouteDateCreate": "Ekleme Tarihi",
+            "DestinationSetRouteDateUpdate": "Güncelleme Tarihi",
+            "AddNewDestinationSetRoute": "Yeni Prefix Ekle",
+            "CountryUUID": "Ülke"
+        },
+        "labelMsg": {
+            "Prefix": "Prefix",
+            "Description": "Description",
+            "Hunstop": "Bu prefiks'le eşleşmişse dene, hata olursa sonrakilere devam etme.",
+            "Forbidden": "Bu prefkis'e doğru aramaya izin verme.",
+            "Preference": "Tercih sırası",
+            "Interval1": "Interval1",
+            "IntervalN": "Interval N",
+            "Price1": "Price1",
+            "PriceN": "Price N",
+            "Timeout1xx": "Timeout1xx",
+            "Timeout2xx": "Timeout2xx",
+            "ActivationDate": "Activation Date",
+            "ExpirationDate": "Expiration Date",
+            "DestinationSetRouteDateCreate": "Destination Set Route Date Create",
+            "DestinationSetRouteDateUpdate": "Destination Set Route Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Prefix silmek istiyor musunuz?",
+            "add": {
+                "Error": "Prefix eklenemedi.",
+                "OK": "Yeni Prefix eklendi."
+            },
+            "save": {
+                "Error": "Prefix güncellenemedi.",
+                "OK": "Prefix güncellendi."
+            },
+            "remove": {
+                "Error": "Prefix silinemedi.",
+                "OK": "Prefix silindi."
+            }
+        },
+        "search": {
+            "Search": "Prefix Ara"
+        },
+        "switch": {
+            "Hunstop": {
+                "true": "True",
+                "false": "False"
+            },
+            "Forbidden": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "destinationSets": {
+        "button": {
+            "AddNewDestinationSet": "Yeni Destination Set Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Destination Sets",
+            "GROUP2": "İşlemler",
+            "GROUP1": "Destination Sets"
+        },
+        "label": {
+            "DestinationSetName": "Destination Set Name",
+            "Description": "Description",
+            "CurrencyUUID": "Currency UUID",
+            "FileUploadBtn": "Dosya Yükle",
+            "FileDownloadBtn": "Dosya İndir",
+            "RemoveAllBtn": "Tümünü Sil",
+            "Enabled": "Enabled",
+            "AddNewDestinationSet": "Yeni Destination Set Name Ekle"
+        },
+        "labelMsg": {
+            "DestinationSetName": "Destination Set Name",
+            "Description": "Description",
+            "CurrencyUUID": "Currency UUID",
+            "FileUploadBtn": "File Upload Btn",
+            "FileDownloadBtn": "File Download Btn",
+            "RemoveAllBtn": "Remove All Btn",
+            "Enabled": "Enabled"
+        },
+        "modal": {
+            "upload": "Dosya Yükle",
+            "download": "Dosya İndir",
+            "removeAll": "Tümünü Sil"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı DestinationSetName silmek istiyor musunuz?",
+            "add": {
+                "Error": "DestinationSetName eklenemedi.",
+                "OK": "Yeni DestinationSetName eklendi."
+            },
+            "save": {
+                "Error": "DestinationSetName güncellenemedi.",
+                "OK": "DestinationSetName güncellendi."
+            },
+            "remove": {
+                "Error": "DestinationSetName silinemedi.",
+                "OK": "DestinationSetName silindi."
+            }
+        },
+        "search": {
+            "Search": "DestinationSetName Ara"
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "diagram": {
+        "settings": {
+            "label": {
+                "Settings": "Ayarlar",
+                "Name": "Adi",
+                "Comment": "Açıklama",
+                "Enabled": "Durum",
+                "KabloHizala": "Kablo Hızala",
+                "PanoHizala": "Pano Hızala",
+                "LangVariable": "Language Değişkeni",
+                "LangNames": "Varsayılan TTS",
+                "DateCreate": "Ekleme Tarihi",
+                "DateUpdate": "Güncelleme Tarihi",
+                "Date": "Tarih",
+                "DafeultLang": "Varsayılan Dil"
+            },
+            "labelMsg": []
+        },
+        "file": {
+            "msg": {
+                "add": {
+                    "Error": "Ses kayıt edilemedi.",
+                    "Ok": "Ses kayıt edildi."
+                },
+                "remove": {
+                    "Error": "Ses dosyası silinemedi.",
+                    "Ok": "<b>{{name}}<\/b> ses dosyası silindi.",
+                    "Used": "Ses dosyası <b>{{count}} adet<\/b> menüde kullanıldığından silinemez."
+                },
+                "upload": {
+                    "Error": "Dosya Eklenemedi.",
+                    "Ok": "<b>{{add}}<\/b> yeni dosya eklendi ve <b>{{update}}<\/b> dosya güncellendi."
+                }
+            }
+        },
+        "msg": {
+            "save": {
+                "Error": "Diagram kayıt edilemedi.",
+                "Ok": "Diagram kayıt edildi."
+            }
+        },
+        "pano": {
+            "anons": {
+                "select": {
+                    "sesdosyalari": "Ses Dosyaları",
+                    "tts": "TTS"
+                },
+                "type": {
+                    "hata": "Hata Anonsu",
+                    "karsilama": "Karşılama Anonsu",
+                    "kisaon": "Kısa Ön Anons",
+                    "tuslamasonrasi": "Tuşlama Sonrası Anons",
+                    "zamanasimi": "Zaman Aşımı Anonsu",
+                    "noExtension": "Dahili Hat Yok"
+                }
+            },
+            "name": {
+                "Api": "Api",
+                "CloseCall": "Çağrı Kapat",
+                "ConnectCall": "Çağrı Bağla",
+                "IVRMenu": "IVR Menüsü",
+                "Login": "Giriş",
+                "OpenCall": "Çağrı Aç",
+                "PlayAnnouncement": "Anons Dinlet",
+                "Scenario": "Senaryo"
+            },
+            "type": {
+                "ivr": {
+                    "ayarlar": "ayarlar"
+                }
+            }
+        },
+        "port": {
+            "form": {
+                "title": {
+                    "Add": "Yeni port ekle",
+                    "Edit": "Port düzenle"
+                }
+            }
+        },
+        "ses": {
+            "form": {
+                "SesFile": "{{lang}} Ses Dosyası",
+                "SesLang": "Ses Dili",
+                "SesName": "Ses Adı",
+                "SesTts": "{{lang}} Metin",
+                "SesTtsType": "Metin Okuyucu",
+                "SesTtsTypeSelect": {
+                    "FEMALE": "Kadın",
+                    "MALE": "Erkek",
+                    "NEUTRAL": "Doğal",
+                    "SSML_VOICE_GENDER_UNSPECIFIED": "Cinsiyet Belli Değil"
+                },
+                "langNameGlobal": "Varsayılan ({{lang}})",
+                "langSelectName": "Select lang name",
+                "SesType": "Ses Tipi",
+                "SesTypeSelect": {
+                    "FILE": "Ses Dosyası",
+                    "TTS": "Metin Okuyucu (Tts)"
+                },
+                "btn": {
+                    "Add": "Ekle",
+                    "Cancel": "İptal",
+                    "Save": "Kaydet"
+                },
+                "title": {
+                    "Add": "Yeni ses dosyası ekle",
+                    "Edit": "Ses dosyası düzenle"
+                }
+            },
+            "kaydet": {
+                "Tamam": "Tamam"
+            },
+            "msg": {
+                "save": {
+                    "Error": "Ses kayıt edilemedi.",
+                    "Ok": "Ses kayıt edildi."
+                }
+            }
+        }
+    },
+    "didIpGroups": {
+        "button": {
+            "AddNewDidIpGroup": "Yeni Group Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Did Ip Groups",
+            "GROUP4": "Group4"
+        },
+        "label": {
+            "GroupName": "Group Name",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewDidIpGroup": "Yeni Group Name Ekle"
+        },
+        "labelMsg": {
+            "GroupName": "Group Name",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı GroupName silmek istiyor musunuz?",
+            "add": {
+                "Error": "GroupName eklenemedi.",
+                "OK": "Yeni GroupName eklendi."
+            },
+            "save": {
+                "Error": "GroupName güncellenemedi.",
+                "OK": "GroupName güncellendi."
+            },
+            "remove": {
+                "Error": "GroupName silinemedi.",
+                "OK": "GroupName silindi."
+            }
+        },
+        "search": {
+            "Search": "GroupName Ara"
+        }
+    },
+    "dids": {
+        "button": {
+            "AddNewDid": "Yeni Did Number Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Dids",
+            "GROUP1": "Hedef",
+            "GROUP2": "External Settings"
+        },
+        "label": {
+            "DidNumber": "Did Number",
+            "DidRegex": "Did Regex",
+            "RoutingGroupUUID": "Routing Group",
+            "DidsAclGroupUUID": "Dids Acl Group UUID",
+            "Description": "Description",
+            "DidOrder": "Did Order",
+            "ScenarioUUID": "Hedef Senaryo",
+            "ExtensionUUID": "Hedef Dahili Hat",
+            "DestinationType": "Hedef Türü",
+            "AddPrefix": "Add Prefix",
+            "ScenarioVersion": "Scenario Version",
+            "ExternalNumber": "Number",
+            "ExternalOriginateTimeout": "Originate Timeout",
+            "ExternalEnableBypassMedia": "Enable Bypass Media",
+            "ExternalIgnoreEarlyMedia": "Ignore Early Media",
+            "ExternalRingBack": "Ring Back",
+            "AddNewDid": "Yeni Did Number Ekle",
+            "TenantUUID": "Santral",
+            "Scenario": "Senaryo",
+            "Extension": "Dahili Hat",
+            "External": "Dış Arama",
+            "Move": "Taşı",
+            "RoutingGroupName": "Routing Grup Adı",
+            "DidsAclGroupName": "Acl Grup Adı"
+        },
+        "labelMsg": {
+            "DidNumber": "Did Number",
+            "DidRegex": "Did Regex",
+            "RoutingGroupUUID": "Seçili Routing Group",
+            "DidsAclGroupUUID": "Dids Acl Group UUID",
+            "Description": "Description",
+            "DidOrder": "Did Order",
+            "ScenarioUUID": "Scenario UUID",
+            "ExtensionUUID": "Extension UUID",
+            "DestinationType": "Destination Type",
+            "AddPrefix": "Öncelik: Gateway.Prefix > Did.Prefix > Tenant.Prefix",
+            "ScenarioVersion": "Scenario Version",
+            "ExternalNumber": "Number",
+            "ExternalOriginateTimeout": "Originate Timeout",
+            "ExternalEnableBypassMedia": "Enable Bypass Media",
+            "ExternalIgnoreEarlyMedia": "Ignore Early Media",
+            "ExternalRingBack": "Ring Back",
+            "TenantUUID": "Seçili Santral"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı DidNumber silmek istiyor musunuz?",
+            "add": {
+                "Error": "DidNumber eklenemedi.",
+                "OK": "Yeni DidNumber eklendi."
+            },
+            "save": {
+                "Error": "DidNumber güncellenemedi.",
+                "OK": "DidNumber güncellendi."
+            },
+            "remove": {
+                "Error": "DidNumber silinemedi.",
+                "OK": "DidNumber silindi."
+            },
+            "editDid": {
+                "tenantSelect": "Lütfen önce santral seçiniz.",
+                "tenantAdd": "Lütfen önce {{tenant}} ekleyiniz.",
+                "routingGroupAdd": ""
+            },
+            "upDownDid": {
+                "Error": "DidNumber taşınamadı.",
+                "OK": "DidNumber taşındı."
+            }
+        },
+        "search": {
+            "Search": "DidNumber Ara"
+        },
+        "selectBox": {
+            "DestinationType": {
+                "select": "Hedef Seç",
+                "scenario_uuid": "Senaryo",
+                "extension_uuid": "Dahili Hat",
+                "external_number": "External",
+                "did_uuid": "Dids"
+            },
+            "Scenarios": {
+                "select": "Senaryo Seç"
+            },
+            "Extensions": {
+                "select": "Dahili Hat Seç"
+            }
+        },
+        "switch": {
+            "ExternalEnableBypassMedia": {
+                "true": "True",
+                "false": "False"
+            },
+            "ExternalIgnoreEarlyMedia": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "didsAclGroups": {
+        "button": {
+            "AddNewDidsAclGroup": "Yeni Dids Acl Group Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Dids Acl Groups",
+            "GROUP1": "Tarih"
+        },
+        "label": {
+            "DidsAclGroupName": "Dids Acl Group Name",
+            "Description": "Description",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewDidsAclGroup": "Yeni Dids Acl Group Name Ekle"
+        },
+        "labelMsg": {
+            "DidsAclGroupName": "Dids Acl Group Name",
+            "Description": "Description",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı DidsAclGroupName silmek istiyor musunuz?",
+            "add": {
+                "Error": "DidsAclGroupName eklenemedi.",
+                "OK": "Yeni DidsAclGroupName eklendi."
+            },
+            "save": {
+                "Error": "DidsAclGroupName güncellenemedi.",
+                "OK": "DidsAclGroupName güncellendi."
+            },
+            "remove": {
+                "Error": "DidsAclGroupName silinemedi.",
+                "OK": "DidsAclGroupName silindi."
+            }
+        },
+        "search": {
+            "Search": "DidsAclGroupName Ara"
+        }
+    },
+    "didsAclGroupsIp": {
+        "button": {
+            "AddNewDidAclGroupIp": "Yeni Ip Address Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Dids Acl Groups Ip"
+        },
+        "label": {
+            "DidsAclGroupUUID": "Dids Acl Group UUID",
+            "IpAddress": "Ip Address",
+            "Description": "Description",
+            "Enabled": "Enabled",
+            "AddNewDidAclGroupIp": "Yeni Ip Address Ekle"
+        },
+        "labelMsg": {
+            "DidsAclGroupUUID": "Dids Acl Group UUID",
+            "IpAddress": "Ip Address",
+            "Description": "Description",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı IpAddress silmek istiyor musunuz?",
+            "add": {
+                "Error": "IpAddress eklenemedi.",
+                "OK": "Yeni IpAddress eklendi."
+            },
+            "save": {
+                "Error": "IpAddress güncellenemedi.",
+                "OK": "IpAddress güncellendi."
+            },
+            "remove": {
+                "Error": "IpAddress silinemedi.",
+                "OK": "IpAddress silindi."
+            }
+        },
+        "search": {
+            "Search": "IpAddress Ara"
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "didsIpGroups": {
+        "button": {
+            "AddNewDidsIpGroup": "Yeni Group Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Dids Ip Groups",
+            "GROUP4": "Group4"
+        },
+        "label": {
+            "GroupName": "Group Name",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewDidsIpGroup": "Yeni Group Name Ekle"
+        },
+        "labelMsg": {
+            "GroupName": "Group Name",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı GroupName silmek istiyor musunuz?",
+            "add": {
+                "Error": "GroupName eklenemedi.",
+                "OK": "Yeni GroupName eklendi."
+            },
+            "save": {
+                "Error": "GroupName güncellenemedi.",
+                "OK": "GroupName güncellendi."
+            },
+            "remove": {
+                "Error": "GroupName silinemedi.",
+                "OK": "GroupName silindi."
+            }
+        },
+        "search": {
+            "Search": "GroupName Ara"
+        }
+    },
+    "domainRole": {
+        "button": {
+            "AddNewDomainRole": "Yeni Domain  Role Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Domain Role",
+            "GROUP1": "Roller",
+            "GROUP2": "Tarih"
+        },
+        "label": {
+            "DomainRoleName": "Rol Adı",
+            "RoleFull": "Full Yetki",
+            "DomainRoleDateCreate": "Ekleme Tarihi",
+            "DomainRoleDateUpdate": "Güncelleme Tarihi",
+            "AddNewDomainRole": "Yeni Domain  Role Ekle"
+        },
+        "labelMsg": {
+            "DomainRoleName": "Domain Role Name",
+            "RoleFull": "Role Full",
+            "DomainRoleDateCreate": "Domain Role Date Create",
+            "DomainRoleDateUpdate": "Domain Role Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Domain Role silmek istiyor musunuz?",
+            "add": {
+                "Error": "Domain Role eklenemedi.",
+                "OK": "Yeni Domain Role eklendi."
+            },
+            "save": {
+                "Error": "Domain Role güncellenemedi.",
+                "OK": "Domain Role güncellendi."
+            },
+            "remove": {
+                "Error": "Domain Role silinemedi.",
+                "OK": "Domain Role silindi."
+            }
+        },
+        "search": {
+            "Search": "Domain Role Ara"
+        },
+        "switch": {
+            "RoleFull": {
+                "true": "Var",
+                "false": "Yok"
+            }
+        }
+    },
+    "domains": {
+        "button": {
+            "AddNewDomain": "Yeni Domain Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Domain",
+            "GROUP1": "Domainler",
+            "GROUP2": "Tarih"
+        },
+        "label": {
+            "DomainName": "Domain",
+            "DomainUser": "Kullanıcı Oluşturma ve Listeleme",
+            "Enabled": "Enabled",
+            "DateCreate": "Ekleme Tarihi",
+            "DateUpdate": "Güncelleme Tarihi",
+            "AddNewDomain": "Yeni Domain Ekle",
+            "DomainUserAddress": "Domain Adresleri"
+        },
+        "labelMsg": {
+            "DomainName": "Domain Name",
+            "DomainUser": "Domain adresleri üzerinden yeni kullanıcı ekleyebilir veya listeleyebilir",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "DomainUserAddress": "Domain adresleri arasında virgül olmak zorunda"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Domain silmek istiyor musunuz?",
+            "add": {
+                "Error": "Domain eklenemedi.",
+                "OK": "Yeni Domain eklendi."
+            },
+            "save": {
+                "Error": "Domain güncellenemedi.",
+                "OK": "Domain güncellendi."
+            },
+            "remove": {
+                "Error": "Domain silinemedi.",
+                "OK": "Domain silindi."
+            },
+            "DomainUserAddress": {
+                "Error": "Domain adresleri geçerli değil. Birden çok domain adresi için lütfen domain adresleri arasına virgül ekleyiniz."
+            }
+        },
+        "search": {
+            "Search": "Domain Ara"
+        },
+        "switch": {
+            "DomainUser": {
+                "true": "Evet",
+                "false": "Hayır"
+            },
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "domainsAddress": {
+        "button": {
+            "AddNewDomainsAddres": "Yeni Domain  Adı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Domains Address",
+            "GROUP2": "Group2"
+        },
+        "label": {
+            "DomainsAddressName": "Domain  Adı",
+            "DnsTxt": "Dns Txt",
+            "DnsStatus": "Dns Status",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewDomainsAddres": "Yeni Domain  Adı Ekle"
+        },
+        "labelMsg": {
+            "DomainsAddressName": "Domains Address Name",
+            "DnsTxt": "Dns Txt",
+            "DnsStatus": "Dns Status",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Domain Adı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Domain Adı eklenemedi.",
+                "OK": "Yeni Domain Adı eklendi."
+            },
+            "save": {
+                "Error": "Domain Adı güncellenemedi.",
+                "OK": "Domain Adı güncellendi."
+            },
+            "remove": {
+                "Error": "Domain Adı silinemedi.",
+                "OK": "Domain Adı silindi."
+            }
+        },
+        "search": {
+            "Search": "Domain Adı Ara"
+        },
+        "selectBox": {
+            "DnsStatus": {
+                "Verified": "Verified",
+                "Unverified": "Unverified"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "domainsSip": {
+        "button": {
+            "AddNewDomainSip": "Yeni Domain Sip Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Domains Sip"
+        },
+        "label": {
+            "DomainSipName": "Domain Sip Name",
+            "DomainSipDescription": "Domain Sip Description",
+            "DomainUUID": "Domain UUID",
+            "UserUUID": "User UUID",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "DomainEnabled": "Domain Enabled",
+            "AddNewDomainSip": "Yeni Domain Sip Name Ekle"
+        },
+        "labelMsg": {
+            "DomainSipName": "Domain Sip Name",
+            "DomainSipDescription": "Domain Sip Description",
+            "DomainUUID": "Domain UUID",
+            "UserUUID": "User UUID",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "DomainEnabled": "Domain Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı DomainSipName silmek istiyor musunuz?",
+            "add": {
+                "Error": "DomainSipName eklenemedi.",
+                "OK": "Yeni DomainSipName eklendi."
+            },
+            "save": {
+                "Error": "DomainSipName güncellenemedi.",
+                "OK": "DomainSipName güncellendi."
+            },
+            "remove": {
+                "Error": "DomainSipName silinemedi.",
+                "OK": "DomainSipName silindi."
+            }
+        },
+        "search": {
+            "Search": "DomainSipName Ara"
+        },
+        "switch": {
+            "DomainEnabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "extensionRole": {
+        "button": {
+            "AddNewExtensionRole": "Yeni Extension Role Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Extension Role",
+            "GROUP1": "Roller",
+            "GROUP2": "Tarih"
+        },
+        "label": {
+            "ExtensionRoleName": "Rol Adı",
+            "RoleFull": "Full Yetki",
+            "ExtensionRoleDateCreate": "Ekleme Tarihi",
+            "ExtensionRoleDateUpdate": "Güncelleme Tarihi",
+            "AddNewExtensionRole": "Yeni Extension Role Name Ekle"
+        },
+        "labelMsg": {
+            "ExtensionRoleName": "Extension Role Name",
+            "RoleFull": "Role Full",
+            "ExtensionRoleDateCreate": "Extension Role Date Create",
+            "ExtensionRoleDateUpdate": "Extension Role Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı ExtensionRoleName silmek istiyor musunuz?",
+            "add": {
+                "Error": "ExtensionRoleName eklenemedi.",
+                "OK": "Yeni ExtensionRoleName eklendi."
+            },
+            "save": {
+                "Error": "ExtensionRoleName güncellenemedi.",
+                "OK": "ExtensionRoleName güncellendi."
+            },
+            "remove": {
+                "Error": "ExtensionRoleName silinemedi.",
+                "OK": "ExtensionRoleName silindi."
+            }
+        },
+        "search": {
+            "Search": "ExtensionRoleName Ara"
+        },
+        "switch": {
+            "RoleFull": {
+                "true": "Var",
+                "false": "Yok"
+            }
+        }
+    },
+    "extensions": {
+        "button": {
+            "AddNewExtension": "Yeni Dahili  Hat Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Extensions",
+            "GROUP1": "Tarih"
+        },
+        "label": {
+            "Extension": "Dahili  Hat",
+            "DidUUID": "DID",
+            "ExtensionType": "Extension Type",
+            "RingType": "Ring Type",
+            "CallTimeout": "Call Timeout",
+            "Description": "Description",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewExtension": "Yeni Dahili  Hat Ekle"
+        },
+        "labelMsg": {
+            "Extension": "Extension",
+            "DidUUID": "Did UUID",
+            "ExtensionType": "Extension Type",
+            "RingType": "Ring Type",
+            "CallTimeout": "Call Timeout",
+            "Description": "Description",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Dahili Hat silmek istiyor musunuz?",
+            "add": {
+                "Error": "Dahili Hat eklenemedi.",
+                "OK": "Yeni Dahili Hat eklendi."
+            },
+            "save": {
+                "Error": "Dahili Hat güncellenemedi.",
+                "OK": "Dahili Hat güncellendi."
+            },
+            "remove": {
+                "Error": "Dahili Hat silinemedi.",
+                "OK": "Dahili Hat silindi."
+            }
+        },
+        "search": {
+            "Search": "Dahili Hat Ara"
+        },
+        "selectBox": {
+            "ExtensionType": {
+                "normal": "Normal",
+                "call_group": "Çağrı Grubu",
+                "queue": "Sıra (Queue)",
+                "conference": "Konferans"
+            },
+            "RingType": {
+                "all": "All",
+                "order": "Order"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "extensionsConferences": {
+        "button": {
+            "AddNewExtensionsConference": "Yeni Unique ID Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Extensions Conferences",
+            "GROUP1": "Group1"
+        },
+        "label": {
+            "UniqueID": "Unique ID",
+            "LayoutName": "Layout Name",
+            "LayoutCount": "Layout Count",
+            "LayoutFloor": "Layout Floor",
+            "Banner": "Banner",
+            "BannerEnabled": "Banner Enabled",
+            "Profile": {
+                "videoCanvasBgcolor": "Video Canvas bgColor"
+            },
+            "Layouts": "Layouts",
+            "XmlLayouts": "Xml Layouts",
+            "XmlLayoutsGroup": "Xml Layouts Group",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewExtensionsConference": "Yeni Unique ID Ekle"
+        },
+        "labelMsg": {
+            "UniqueID": "Unique ID",
+            "LayoutName": "Layout Name",
+            "LayoutCount": "Layout Count",
+            "LayoutFloor": "Layout Floor",
+            "Banner": "Banner",
+            "BannerEnabled": "Banner Enabled",
+            "Profile": "Profile",
+            "Layouts": "Layouts",
+            "XmlLayouts": "Xml Layouts",
+            "XmlLayoutsGroup": "Xml Layouts Group",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı UniqueID silmek istiyor musunuz?",
+            "add": {
+                "Error": "UniqueID eklenemedi.",
+                "OK": "Yeni UniqueID eklendi."
+            },
+            "save": {
+                "Error": "UniqueID güncellenemedi.",
+                "OK": "UniqueID güncellendi."
+            },
+            "remove": {
+                "Error": "UniqueID silinemedi.",
+                "OK": "UniqueID silindi."
+            }
+        },
+        "search": {
+            "Search": "UniqueID Ara"
+        },
+        "switch": {
+            "BannerEnabled": {
+                "false": "False",
+                "true": "True"
+            }
+        }
+    },
+    "extensionsQueue": {
+        "button": {
+            "AddNewExtensionQueue": "Yeni Unique ID Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Extensions Queue",
+            "GROUP1": "Group1"
+        },
+        "label": {
+            "UniqueID": "Unique ID",
+            "FreeswitchAddress": "Freeswitch Address",
+            "CallStatus": "Call Status",
+            "CallScore": "Call Score",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewExtensionQueue": "Yeni Unique ID Ekle"
+        },
+        "labelMsg": {
+            "UniqueID": "Unique ID",
+            "FreeswitchAddress": "Freeswitch Address",
+            "CallStatus": "Call Status",
+            "CallScore": "Call Score",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı UniqueID silmek istiyor musunuz?",
+            "add": {
+                "Error": "UniqueID eklenemedi.",
+                "OK": "Yeni UniqueID eklendi."
+            },
+            "save": {
+                "Error": "UniqueID güncellenemedi.",
+                "OK": "UniqueID güncellendi."
+            },
+            "remove": {
+                "Error": "UniqueID silinemedi.",
+                "OK": "UniqueID silindi."
+            }
+        },
+        "search": {
+            "Search": "UniqueID Ara"
+        },
+        "selectBox": {
+            "CallStatus": {
+                "waiting": "Waiting",
+                "connecting": "Connecting",
+                "speaking": "Speaking",
+                "done": "Done"
+            }
+        }
+    },
+    "externalUsers": {
+        "button": {
+            "AddNewExternalUser": "Yeni External Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "External Number",
+            "GROUP1": "External Settings",
+            "GROUP6": "Tarih"
+        },
+        "label": {
+            "ExternalName": "External Name",
+            "ExternalNumber": "External Number",
+            "IgnoreEarlyMedia": "Ignore Early Media",
+            "RingOrder": "Ring Order",
+            "LegTimeout": "Leg Timeout",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewExternalUser": "Yeni External Name Ekle"
+        },
+        "labelMsg": {
+            "ExternalName": "External Name",
+            "ExternalNumber": "External Number",
+            "IgnoreEarlyMedia": "Ignore Early Media",
+            "RingOrder": "Ring Order",
+            "LegTimeout": "Leg Timeout",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı ExternalName silmek istiyor musunuz?",
+            "add": {
+                "Error": "ExternalName eklenemedi.",
+                "OK": "Yeni ExternalName eklendi."
+            },
+            "save": {
+                "Error": "ExternalName güncellenemedi.",
+                "OK": "ExternalName güncellendi."
+            },
+            "remove": {
+                "Error": "ExternalName silinemedi.",
+                "OK": "ExternalName silindi."
+            }
+        },
+        "search": {
+            "Search": "ExternalName Ara"
+        },
+        "switch": {
+            "IgnoreEarlyMedia": {
+                "true": "True",
+                "false": "False"
+            },
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "features": {
+        "button": {
+            "AddNewFeature": "Yeni Feature Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Features",
+            "GROUP1": "Hedef"
+        },
+        "label": {
+            "FeatureName": "Feature Name",
+            "FeatureCode": "Feature Code",
+            "FeatureDesc": "Feature Desc",
+            "FeatureUsage": "Feature Usage",
+            "FeatureType": "Feature Type",
+            "FeatureCheck": "Feature Check",
+            "ScenarioUUID": "Scenario",
+            "AddNewFeature": "Yeni Feature Name Ekle"
+        },
+        "labelMsg": {
+            "FeatureName": "Feature Name",
+            "FeatureCode": "Feature Code",
+            "FeatureDesc": "Feature Desc",
+            "FeatureUsage": "Feature Usage",
+            "FeatureType": "Feature Type",
+            "FeatureCheck": "Feature Check",
+            "ScenarioUUID": "Scenario"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı FeatureName silmek istiyor musunuz?",
+            "add": {
+                "Error": "FeatureName eklenemedi.",
+                "OK": "Yeni FeatureName eklendi."
+            },
+            "save": {
+                "Error": "FeatureName güncellenemedi.",
+                "OK": "FeatureName güncellendi."
+            },
+            "remove": {
+                "Error": "FeatureName silinemedi.",
+                "OK": "FeatureName silindi."
+            }
+        },
+        "search": {
+            "Search": "FeatureName Ara"
+        },
+        "selectBox": {
+            "FeatureType": {
+                "CALL": "CALL",
+                "SYSTEM": "SYSTEM",
+                "FIXED": "FIXED",
+                "TEMP": "TEMP"
+            },
+            "DestinationType": {
+                "select": "Hedef Seç",
+                "scenario_uuid": "Senaryo",
+                "extension_uuid": "Dahili Hat",
+                "external_number": "External",
+                "did_uuid": "Dids"
+            },
+            "Scenarios": {
+                "select": "Senaryo Seç",
+                "version": "Versiyon"
+            },
+            "Extensions": {
+                "select": "Dahili Hat Seç"
+            }
+        }
+    },
+    "fsList": {
+        "button": {
+            "AddNewFList": "Yeni Fs Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Freeswitch",
+            "GROUP1": "Event Socket",
+            "GROUP2": "Tarih"
+        },
+        "label": {
+            "FsName": "Fs Name",
+            "FsCode": "Fs Code",
+            "FsIpAddress": "Fs Ip Address",
+            "FsPort": "Fs Port",
+            "FsEnabled": "Fs Enabled",
+            "FsEventSocketPassword": "Fs Event Socket Password",
+            "FsEventSocketPort": "Fs Event Socket Port",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewFList": "Yeni Fs Name Ekle"
+        },
+        "labelMsg": {
+            "FsName": "Fs Name",
+            "FsCode": "Fs Code",
+            "FsIpAddress": "Fs Ip Address",
+            "FsPort": "Fs Port",
+            "FsEnabled": "Fs Enabled",
+            "FsEventSocketPassword": "Fs Event Socket Password",
+            "FsEventSocketPort": "Fs Event Socket Port",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı FsName silmek istiyor musunuz?",
+            "add": {
+                "Error": "FsName eklenemedi.",
+                "OK": "Yeni FsName eklendi."
+            },
+            "save": {
+                "Error": "FsName güncellenemedi.",
+                "OK": "FsName güncellendi."
+            },
+            "remove": {
+                "Error": "FsName silinemedi.",
+                "OK": "FsName silindi."
+            }
+        },
+        "search": {
+            "Search": "FsName Ara"
+        },
+        "switch": {
+            "FsEnabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "gateways": {
+        "button": {
+            "AddNewGateway": "Yeni Gateway Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Gateways",
+            "GROUP1": "Add Prefix",
+            "GROUP2": "Group2",
+            "GROUP5": "Tarih"
+        },
+        "label": {
+            "Gateway": "Gateway",
+            "Description": "Description",
+            "Username": "Username",
+            "Password": "Password",
+            "FromDomain": "From Domain",
+            "FromUser": "From User",
+            "Proxy": "Proxy",
+            "Realm": "Realm",
+            "ExpireSeconds": "Expire Seconds",
+            "RetrySeconds": "Retry Seconds",
+            "VendorUUID": "Vendor UUID",
+            "CleanPrefix": "Clean Prefix",
+            "AddPrefix": "Add Prefix",
+            "Register": "Register",
+            "Enabled": "Enabled",
+            "DistinctTo": "Distinct To",
+            "AuthUsername": "Auth Username",
+            "RegisterProxy": "Register Proxy",
+            "OutboundProxy": "Outbound Proxy",
+            "RegisterTransport": "Register Transport",
+            "TranslationRule": "Translation Rule",
+            "CliTranslationRule": "Cli Translation Rule",
+            "Extension": "Extension",
+            "Ping": "Ping",
+            "PingMin": "Ping Min",
+            "PingMax": "Ping Max",
+            "CallerIDInFrom": "Caller ID In From",
+            "SupressCng": "Supress Cng",
+            "SipCidType": "Sip Cid Type",
+            "CodecPrefs": "Codec Prefs",
+            "Channels": "Channels",
+            "ExtensionInContact": "Extension In Contact",
+            "Hostname": "Hostname",
+            "SendSilenceWhenIDle": "Send Silence When IDle",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "DateSync": "Date Sync",
+            "AddNewGateway": "Yeni Gateway Ekle"
+        },
+        "labelMsg": {
+            "Gateway": "Gateway",
+            "Description": "Description",
+            "Username": "Account username *required*",
+            "Password": "Account password *required*",
+            "FromDomain": "Domain to use in from: *optional* same as  realm, if blank",
+            "FromUser": "Username to use in from: *optional* same as  username, if blank",
+            "Proxy": "Proxy host: *optional* same as realm, if blank",
+            "Realm": "Auth realm: *optional* same as gateway name, if blank",
+            "ExpireSeconds": "Expire in seconds: *optional* 3600, if blank",
+            "RetrySeconds": "How many seconds before a retry when a failure or timeout occurs",
+            "VendorUUID": "Vendor UUID",
+            "CleanPrefix": "Aktif olursa Prefix eklemez.",
+            "AddPrefix": "Öncelik: Gateway.Prefix > Did.Prefix > Tenant.Prefix",
+            "Register": "Do not register",
+            "Enabled": "Enabled",
+            "DistinctTo": "Distinct To",
+            "AuthUsername": "Auth Username",
+            "RegisterProxy": "Send register to this proxy: *optional* same as proxy, if blank",
+            "OutboundProxy": "Outbound Proxy",
+            "RegisterTransport": "Which transport to use for register",
+            "TranslationRule": "Translation Rule",
+            "CliTranslationRule": "Cli Translation Rule",
+            "Extension": "Extension for inbound calls: *optional* same as username, if blank",
+            "Ping": "Send an options ping every x seconds, failure will unregister and\/or mark it down",
+            "PingMin": "Ping Min",
+            "PingMax": "Ping Max",
+            "CallerIDInFrom": "Use the callerid of an inbound call in the from field on outbound calls via this gateway",
+            "SupressCng": "Supress Cng",
+            "SipCidType": "Sip Cid Type",
+            "CodecPrefs": "Codec Prefs",
+            "Channels": "Channels",
+            "ExtensionInContact": "Extension In Contact",
+            "Hostname": "Hostname",
+            "SendSilenceWhenIDle": "Send Silence When IDle",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "DateSync": "Date Sync"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Gateway silmek istiyor musunuz?",
+            "add": {
+                "Error": "Gateway eklenemedi.",
+                "OK": "Yeni Gateway eklendi."
+            },
+            "save": {
+                "Error": "Gateway güncellenemedi.",
+                "OK": "Gateway güncellendi."
+            },
+            "remove": {
+                "Error": "Gateway silinemedi.",
+                "OK": "Gateway silindi.",
+                "ErrorRGE": "'{{Gateway}}' Gateway '{{RoutingGroupEntiresName}}' R.G.E. üzerinde kullanıldığından silinemedi."
+            }
+        },
+        "search": {
+            "Search": "Gateway Ara"
+        },
+        "switch": {
+            "CleanPrefix": {
+                "true": "Temizle",
+                "false": "Hayır"
+            },
+            "Register": {
+                "true": "True",
+                "false": "False"
+            },
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            },
+            "CallerIDInFrom": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "global": {
+        "Customer": "Domain",
+        "CustomerName": "Domain",
+        "Customers": "Domainler",
+        "Domain": "Domain",
+        "DomainName": "Domain Adı",
+        "Domains": "Domainler",
+        "Edit": "Düzenle",
+        "Email": "E-posta",
+        "Enabled": "Durum",
+        "Extension": "Dahili Hat",
+        "Extensions": "Dahili Hatlar",
+        "Gateway": "Gateway",
+        "Gateways": "Gateways",
+        "Name": "Ad",
+        "Password": "Şifre",
+        "Process": "İşlemler",
+        "RoutingGroups": "Routing Groups",
+        "Scenario": "Senaryo",
+        "Scenarios": "Senaryolar",
+        "Search": "Arama",
+        "SipUser": "Sip Kullanıcı",
+        "SipUsers": "Sip Kullanıcılar",
+        "Status": "Durum",
+        "Tenant": "Santral",
+        "TenantName": "Santral Adı",
+        "Tenants": "Telefon Santralleri",
+        "USer": "Kullanıcı",
+        "UserName": "Kullanıcı",
+        "UserToDomain": "Domain Kullanıcıları",
+        "UserToExtension": "Dahilihat Kullanıcıları",
+        "UserToTenant": "Santral Kullanıcıları",
+        "Users": "Kullanıcılar",
+        "DateCreate": "Ekleme Tarihi",
+        "DateUpdate": "Güncelleme Tarihi",
+        "DepartmentName": "Departman",
+        "CategoryName": "Kategori",
+        "FsList": "Freeswitch Listesi",
+        "btn": {
+            "Add": "Ekle",
+            "Cancel": "İptal",
+            "Close": "Kapat",
+            "Continue": "Devam",
+            "Delete": "Sil",
+            "DeleteAll": "Tümünü Sil",
+            "DeleteSelect": "Seçilenleri Sil",
+            "Edit": "Düzenle",
+            "Next": "İleri",
+            "Back": "Geri",
+            "No": "Hayır",
+            "Ok": "Tamam",
+            "Remove": "Kaldır",
+            "Save": "Kaydet",
+            "Search": "Arama Yap",
+            "Yes": "Evet",
+            "All": "Tümü",
+            "Copy": "Kopyala",
+            "Paste": "Yapıştır"
+        },
+        "confirm": {
+            "btn": {
+                "Cancel": "Hayır",
+                "Confirm": "Evet"
+            },
+            "title": "Onayla"
+        },
+        "kullaniciEkle": "Kullanıcı Ekle",
+        "switch": {
+            "off": "Off",
+            "on": "On"
+        },
+        "userToDomain": "Domain Kullanıcıları",
+        "userToExtension": "Dahilihat Kullanıcıları",
+        "userToTenant": "Santral Kullanıcıları",
+        "yetkiyok": "Yetkiniz yok",
+        "ErrorCode": {
+            "post": {
+                "hata": "Post Hata Status Code: {{status}}"
+            }
+        },
+        "selectBox": {
+            "Scenario": {
+                "select": "Senarya Seç",
+                "version": "Versiyon"
+            }
+        }
+    },
+    "lang": {
+        "Languages": "Diller Ctrl+Sağ",
+        "locale": {
+            "de": "Almanca",
+            "en": "İngilizce",
+            "tr": "Türkçe"
+        }
+    },
+    "languages": {
+        "button": {
+            "AddNewLanguage": "Yeni Language Desc Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Languages"
+        },
+        "label": {
+            "LanguageLocale": "Language Locale",
+            "LanguageDesc": "Language Desc",
+            "LanguageTranslate": "Language Translate",
+            "AddNewLanguage": "Yeni Language Desc Ekle"
+        },
+        "labelMsg": {
+            "LanguageLocale": "Language Locale",
+            "LanguageDesc": "Language Desc",
+            "LanguageTranslate": "Language Translate"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı LanguageDesc silmek istiyor musunuz?",
+            "add": {
+                "Error": "LanguageDesc eklenemedi.",
+                "OK": "Yeni LanguageDesc eklendi."
+            },
+            "save": {
+                "Error": "LanguageDesc güncellenemedi.",
+                "OK": "LanguageDesc güncellendi."
+            },
+            "remove": {
+                "Error": "LanguageDesc silinemedi.",
+                "OK": "LanguageDesc silindi."
+            }
+        },
+        "search": {
+            "Search": "LanguageDesc Ara"
+        }
+    },
+    "login": {
+        "btn": {
+            "cancel": "İptal",
+            "login": "Giriş Yap",
+            "next": "Devam Et",
+            "signup": "Kayıt Ol"
+        },
+        "email": "E-posta Adresi",
+        "giris": {
+            "yapiniz": "Lütfen Giriş Yapınız"
+        },
+        "kayitol": "Kayıt Ol",
+        "msg": {
+            "confirmprivacy": "Gizlilik politikasına kabul edilmedi.",
+            "confirmterms": "Kullanım şartlarını kabul edilmedi.",
+            "email": "Lütfen geçerli eposta adresini giriniz.",
+            "emailwrong": "Eposta adresi yanlış",
+            "password": "Lütfen geçerli bir şifre giriniz.",
+            "passwordwrong": "Şifre yanlış",
+            "session": "Session hatası",
+            "thereisanemail": "Lütfen başka bir eposta adresi yazınız",
+            "resetPasswordSend": "Şifre değiştirme linki eposta adresiniz gönderilmiştir."
+        },
+        "password": "Şifre",
+        "passwordNew": "Yeni Şifre",
+        "passwordNewAgain": "Yeni Şifre Tekrar",
+        "title": "Giriş",
+        "username": "Ad Soyad"
+    },
+    "musicOnHold": {
+        "button": {
+            "AddNewMusicOnHold": "Yeni Music On Hold Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Music On Hold"
+        },
+        "label": {
+            "MusicOnHoldName": "Music On Hold Name",
+            "MusicOnHoldPath": "Music On Hold Path",
+            "MusicOnHoldRate": "Music On Hold Rate",
+            "MusicOnHoldShuffle": "Music On Hold Shuffle",
+            "MusicOnHoldChannels": "Music On Hold Channels",
+            "MusicOnHoldInterval": "Music On Hold Interval",
+            "MusicOnHoldTimerName": "Music On Hold Timer Name",
+            "MusicOnHoldChimeList": "Music On Hold Chime List",
+            "MusicOnHoldChimeFreq": "Music On Hold Chime Freq",
+            "MusicOnHoldChimeMax": "Music On Hold Chime Max",
+            "AddNewMusicOnHold": "Yeni Music On Hold Name Ekle"
+        },
+        "labelMsg": {
+            "MusicOnHoldName": "Music On Hold Name",
+            "MusicOnHoldPath": "Music On Hold Path",
+            "MusicOnHoldRate": "Music On Hold Rate",
+            "MusicOnHoldShuffle": "Music On Hold Shuffle",
+            "MusicOnHoldChannels": "Music On Hold Channels",
+            "MusicOnHoldInterval": "Music On Hold Interval",
+            "MusicOnHoldTimerName": "Music On Hold Timer Name",
+            "MusicOnHoldChimeList": "Music On Hold Chime List",
+            "MusicOnHoldChimeFreq": "Music On Hold Chime Freq",
+            "MusicOnHoldChimeMax": "Music On Hold Chime Max"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı MusicOnHoldName silmek istiyor musunuz?",
+            "add": {
+                "Error": "MusicOnHoldName eklenemedi.",
+                "OK": "Yeni MusicOnHoldName eklendi."
+            },
+            "save": {
+                "Error": "MusicOnHoldName güncellenemedi.",
+                "OK": "MusicOnHoldName güncellendi."
+            },
+            "remove": {
+                "Error": "MusicOnHoldName silinemedi.",
+                "OK": "MusicOnHoldName silindi."
+            }
+        },
+        "search": {
+            "Search": "MusicOnHoldName Ara"
+        }
+    },
+    "pagination": {
+        "SayfaLinkBilgi": "{{toplam}} sonuçtan {{ilk}} ile {{son}} arası gösteriliyor."
+    },
+    "roleEditor": {
+        "item": {
+            "Add": "Ekleme",
+            "Delete": "Silme",
+            "Download": "Download",
+            "Edit": "Düzenleme",
+            "Email": "E-posta",
+            "Last1Day": "Son 1 Gün",
+            "Last1Hour": "Son 1 Saat",
+            "Last1month": "Son 1 Ay",
+            "List": "Liste",
+            "UnlimitedTime": "Sınırsız Zaman",
+            "Upload": "Upload",
+            "View": "İzleme"
+        },
+        "itemInfo": {
+            "false": {
+                "Add": "Ekleme yapamaz",
+                "Delete": "Silme yapamaz",
+                "Download": "Download yapamaz",
+                "Edit": "Düzenleme yapamaz",
+                "Email": "E-posta gönderemez",
+                "Last1Day": "Son 1 Günlük rapor alamaz",
+                "Last1Hour": "Son 1 Saatlik rapor alamaz",
+                "Last1month": "Son 1 Aylık rapor alamaz",
+                "List": "Listeleme yapamaz",
+                "UnlimitedTime": "Sınırsız rapor alamaz",
+                "Upload": "Upload yapamaz",
+                "View": "İzleme yapamaz"
+            },
+            "true": {
+                "Add": "Ekleme yapabilir",
+                "Delete": "Silme yapabilir",
+                "Download": "Download edebilir",
+                "Edit": "Düzenleme yapabilir",
+                "Email": "E-posta gönderebilir",
+                "Last1Day": "Son 1 Günlük rapor Alabilir",
+                "Last1Hour": "Son 1 Saatlik rapor Alabilir",
+                "Last1month": "Son 1 Aylık rapor Alabilir",
+                "List": "Listeleme yapabilir",
+                "UnlimitedTime": "Sınırsız rapor Alabilir",
+                "Upload": "Upload Yapabilir",
+                "View": "İzleme yapabilir"
+            }
+        },
+        "rolers": {
+            "label": {
+                "ModalTitle": "{{name}} yetkileri devralındı",
+                "RegisteredRoles": "Kayıtlı Roller",
+                "RoleFull": "Tam Yetki",
+                "RoleName": "Rol Adı"
+            },
+            "switch": {
+                "RoleFull": {
+                    "false": "Pasif",
+                    "true": "Aktif"
+                }
+            }
+        },
+        "rollers": {
+            "Domain": "Domainler",
+            "DomainRole": "Domain Rolleri",
+            "ExtensionRole": "Dahili Hat Rolleri",
+            "Extensions": "Dahili Hatlar",
+            "Files": "Dosyalar",
+            "ReportCalc": "Arama Raporları",
+            "ReportDomain": "Domain Raporları",
+            "ReportExtension": "Dahili Hat Raporları",
+            "ReportTenant": "Santral Raporları",
+            "Scenarios": "Senaryolar",
+            "TenantRole": "Santral Rolleri",
+            "Tenants": "Santraller",
+            "UserToDomain": "Domain Kullanıcısı",
+            "UserToExtension": "Dahili Hat Kullanıcısı",
+            "UserToTenant": "Santal Kullanıcısı"
+        },
+        "step": {
+            "label": {
+                "giris": "Giriş",
+                "kullanici": "Kullanıcı Seç",
+                "onay": "Onayla",
+                "yetki": "Yetki Seç"
+            }
+        },
+        "table": {
+            "Bolum": "Bölüm",
+            "Full": "Full",
+            "Yetkiler": "Yetkiler"
+        },
+        "title": {
+            "onay_user": "E-Posta adresi \"<b>{{email}}<\/b>\" ve adı soyadı \"<b>{{name}}<\/b>\" olan yeni bir kullanıcı oluşturulacak.",
+            "userToDomain": {
+                "giris": "<b>{{name}}<\/b> adlı domaine kullanıcı ve yetki atamak için lütfen devam ediniz.",
+                "onay": "<b>{{name}}<\/b> adlı domaine eposta adresi <b>{{user}}<\/b> olan kullanıcı <b>{{yetki}}<\/b> yetkisiyle eklenecek.",
+                "yetki": "<b>{{name}}<\/b> adlı domaine adı \"<b>{{yetki}}<\/b>\" olan yeni bir yetki eklencek."
+            },
+            "userToExtension": {
+                "giris": "<b>{{name}}<\/b> adlı dahili hatta kullanıcı ve yetki atamak için lütfen devam ediniz.",
+                "onay": "<b>{{name}}<\/b> adlı dahili hatta eposta adresi <b>{{user}}<\/b> olan kullanıcı <b>{{yetki}}<\/b> yetkisiyle eklenecek.",
+                "yetki": "<b>{{name}}<\/b> adlı dahili hatta adı \"<b>{{yetki}}<\/b>\" olan yeni bir yetki eklencek."
+            },
+            "userToTenant": {
+                "giris": "<b>{{name}}<\/b> adlı santrale kullanıcı ve yetki atamak için lütfen devam ediniz.",
+                "onay": "<b>{{name}}<\/b> adlı santrale eposta adresi <b>{{user}}<\/b> olan kullanıcı <b>{{yetki}}<\/b> yetkisiyle eklenecek.",
+                "yetki": "<b>{{name}}<\/b> adlı santrale adı \"<b>{{yetki}}<\/b>\" olan yeni bir yetki eklencek."
+            }
+        },
+        "users": {
+            "label": {
+                "MailSend": "E-posta Bildirimi",
+                "UserEmail": "E-posta Adresi",
+                "UserName": "Adı Soyadı",
+                "UserPassword": "Şifre"
+            },
+            "labelMsg": {
+                "MailSend": "Kullanıcı bilgilerini e-posta olarak gönder.",
+                "UserEmail": "E-posta adresinin domain adı {{name}} olmak zorunda.",
+                "UserName": "Min 8 ve Max 32 karakter.",
+                "UserPassword": "Min 5 ve Max 32 karakter."
+            },
+            "switch": {
+                "MailSend": {
+                    "false": "Gönderme",
+                    "true": "Gönder"
+                }
+            }
+        }
+    },
+    "routingGroupEntires": {
+        "button": {
+            "AddNewRoutingGroupEntire": "Yeni Routing  Entires  Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Routing Entires",
+            "GROUP2": "Gateway & Destination Set",
+            "GROUP3": "Ayarlar",
+            "GROUP4": "Tarih"
+        },
+        "label": {
+            "RoutingGroupEntiresName": "Routing  Entires  Name",
+            "RoutingGroupUUID": "Routing Group",
+            "GatewayUUID": "Gateway",
+            "DestinationSetUUID": "Destination Set",
+            "RoutingGroupEntiresDateActivation": "Activation Date",
+            "RoutingGroupEntiresDateExpiration": "Expiration Date",
+            "RoutingGroupEntiresOrder": "Order",
+            "RoutingGroupEntiresWeight": "Weigh",
+            "RoutingGroupEntiresDateCreate": "Ekleme Tarihi",
+            "RoutingGroupEntiresDateUpdate": "Güncelleme Tarihi",
+            "AddNewRoutingGroupEntire": "Yeni Routing  Entires  Name Ekle",
+            "RoutingGroupName": "Routing Entires Name"
+        },
+        "labelMsg": {
+            "RoutingGroupEntiresName": "Routing Group Entires Name",
+            "RoutingGroupUUID": "Routing Group UUID",
+            "GatewayUUID": "Gateway UUID",
+            "DestinationSetUUID": "Destination Set UUID",
+            "RoutingGroupEntiresDateActivation": "Routing Group Entires Date Activation",
+            "RoutingGroupEntiresDateExpiration": "Routing Group Entires Date Expiration",
+            "RoutingGroupEntiresOrder": "Routing Group Entires Order",
+            "RoutingGroupEntiresWeight": "Routing Group Entires Weight",
+            "RoutingGroupEntiresDateCreate": "Routing Group Entires Date Create",
+            "RoutingGroupEntiresDateUpdate": "Routing Group Entires Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Routing Entires Name silmek istiyor musunuz?",
+            "add": {
+                "Error": "Routing Entires Name eklenemedi.",
+                "OK": "Yeni Routing Entires Name eklendi."
+            },
+            "save": {
+                "Error": "Routing Entires Name güncellenemedi.",
+                "OK": "Routing Entires Name güncellendi."
+            },
+            "remove": {
+                "Error": "Routing Entires Name silinemedi.",
+                "OK": "Routing Entires Name silindi."
+            }
+        },
+        "search": {
+            "Search": "Routing Entires Name Ara"
+        }
+    },
+    "routingGroups": {
+        "button": {
+            "AddNewRoutingGroup": "Yeni Routing Group Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Basic Parameters",
+            "GROUP1": "Advanced Parameters",
+            "GROUP2": "Routing Policy",
+            "GROUP4": "Tarih",
+            "GROUP3": "On-Net Routing"
+        },
+        "label": {
+            "RoutingGroupName": "Group Name",
+            "Description": "Description",
+            "MediaRelay": "Media Relay",
+            "Final2xx": "Final 2xx Timeout, sec",
+            "EnableLRN": "Enable LRN",
+            "TranslationLRNRule": "Translation LRN Rule",
+            "RoutingPolicy": "Routing Policy",
+            "RoutingPolicyTest": "Routing Policy Test",
+            "RoutingGroupDateCreate": "Ekleme Tarihi",
+            "RoutingGroupDateUpdate": "Güncelleme Tarihi",
+            "AddNewRoutingGroup": "Yeni Routing Group Name Ekle"
+        },
+        "labelMsg": {
+            "RoutingGroupName": "Routing Group Name",
+            "Description": "Description",
+            "MediaRelay": "Media Relay",
+            "Final2xx": "Final2xx",
+            "EnableLRN": "Enable L R N",
+            "TranslationLRNRule": "Translation L R N Rule",
+            "RoutingPolicy": "Routing Policy",
+            "RoutingPolicyTest": "Routing Policy Test",
+            "RoutingGroupDateCreate": "Routing Group Date Create",
+            "RoutingGroupDateUpdate": "Routing Group Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı RoutingGroupName silmek istiyor musunuz?",
+            "add": {
+                "Error": "RoutingGroupName eklenemedi.",
+                "OK": "Yeni RoutingGroupName eklendi."
+            },
+            "save": {
+                "Error": "RoutingGroupName güncellenemedi.",
+                "OK": "RoutingGroupName güncellendi."
+            },
+            "remove": {
+                "Error": "RoutingGroupName silinemedi.",
+                "OK": "RoutingGroupName silindi.",
+                "ErrorDid": "'{{RoutingGroup}}' Routing Groups '{{DidNumber}}' DID üzerinde kullanıldığından silinemedi."
+            }
+        },
+        "search": {
+            "Search": "RoutingGroupName Ara"
+        },
+        "selectBox": {
+            "MediaRelay": {
+                "Built-in RTPproxy": "Built-in RTPproxy",
+                "Bilinmiyor": "Bilinmiyor"
+            }
+        },
+        "switch": {
+            "EnableLRN": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "saat": {
+        "bugun": "Bugün saat {{saat}}",
+        "dun": "Dün saat {{saat}}",
+        "format": {
+            "gun": "{{gun}}.{{ay}}.{{yil}}",
+            "gunsaat": "{{gun}}.{{ay}}.{{yil}} {{saat}}"
+        },
+        "gecenhafta": "Geçen {{gun}} saat {{saat}}",
+        "gelecekhafta": "Gelecek {{gun}} saat {{saat}}",
+        "gunler": [
+            "Pazar",
+            "Pazartesi",
+            "Salı",
+            "Çarşamba",
+            "Perşembe",
+            "Cuma",
+            "Cumartesi"
+        ],
+        "gunlerkisa": [
+            "Paz",
+            "Pts",
+            "Sal",
+            "Çar",
+            "Per",
+            "Cum",
+            "Cts"
+        ],
+        "takvim": {
+            "zaman": "{{zaman}}"
+        },
+        "yarin": "Yarın saat {{saat}}",
+        "basit": {
+            "year": "yıl",
+            "years": "yıl",
+            "day": "gün",
+            "days": "gün",
+            "hour": "saat",
+            "hours": "saat",
+            "minute": "dakika",
+            "minutes": "dakika",
+            "second": "saniye",
+            "seconds": "saniye",
+            "and": "ve",
+            "zeroSeconds": "0 saniye"
+        }
+    },
+    "scenarios": {
+        "button": {
+            "AddNewScenario": "Yeni Senaryo Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Scenarios"
+        },
+        "label": {
+            "ScenarioName": "Senaryo",
+            "ScenarioComment": "Açıklama",
+            "Version": "Version",
+            "ScenarioType": "Scenario Type",
+            "ReadOnly": "Read Only",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewScenario": "Yeni Senaryo Ekle"
+        },
+        "labelMsg": {
+            "ScenarioName": "Scenario Name",
+            "ScenarioComment": "Scenario Comment",
+            "Version": "Version",
+            "ScenarioType": "Scenario Type",
+            "ReadOnly": "Read Only",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Senaryo silmek istiyor musunuz?",
+            "add": {
+                "Error": "Senaryo eklenemedi.",
+                "OK": "Yeni Senaryo eklendi."
+            },
+            "save": {
+                "Error": "Senaryo güncellenemedi.",
+                "OK": "Senaryo güncellendi."
+            },
+            "remove": {
+                "Error": "Senaryo silinemedi.",
+                "OK": "Senaryo silindi."
+            },
+            "removeActive": {
+                "Error": "<b>{{name}}<\/b> DID'lerde kullanıldığından silinemedi.",
+                "OK": "Senaryo silindi."
+            }
+        },
+        "search": {
+            "Search": "Senaryo Ara"
+        },
+        "selectBox": {
+            "ScenarioType": {
+                "normal": "Normal",
+                "feature": "Feature",
+                "system": "System"
+            }
+        },
+        "switch": {
+            "ReadOnly": {
+                "true": "True",
+                "false": "False"
+            },
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "scenariosVersion": {
+        "button": {
+            "AddNewScenarioVersion": "Yeni Senaryo Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Scenarios Version"
+        },
+        "label": {
+            "ScenarioName": "Senaryo",
+            "ScenarioComment": "Açıklama",
+            "Version": "Version",
+            "ScenarioType": "Scenario Type",
+            "ReadOnly": "Read Only",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewScenarioVersion": "Yeni Senaryo Ekle"
+        },
+        "labelMsg": {
+            "ScenarioName": "Scenario Name",
+            "ScenarioComment": "Scenario Comment",
+            "Version": "Version",
+            "ScenarioType": "Scenario Type",
+            "ReadOnly": "Read Only",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Senaryo silmek istiyor musunuz?",
+            "add": {
+                "Error": "Senaryo eklenemedi.",
+                "OK": "Yeni Senaryo eklendi."
+            },
+            "save": {
+                "Error": "Senaryo güncellenemedi.",
+                "OK": "Senaryo güncellendi."
+            },
+            "remove": {
+                "Error": "Senaryo silinemedi.",
+                "OK": "Senaryo silindi."
+            }
+        },
+        "search": {
+            "Search": "Senaryo Ara"
+        },
+        "switch": {
+            "ReadOnly": {
+                "true": "True",
+                "false": "False"
+            },
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "schedule": {
+        "label": {
+            "ScheduleEdit": "Zamanlama Düzenleyici",
+            "ScheduleName": "Zamanlama adı",
+            "CurrentTime": "Geçerli saat",
+            "Comment": "Çalışma saatlerine karşılık gelen alanları vurgulayın. Lütfen, çalışma dışı saatleri boş bırakın."
+        }
+    },
+    "search": {
+        "active": "Aktif",
+        "all": "Tümü",
+        "passive": "Pasif"
+    },
+    "sessions": {
+        "button": {
+            "AddNewSession": "Yeni User UUID Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Sessions"
+        },
+        "label": {
+            "UserUUID": "User UUID",
+            "SessionDate": "Session Date",
+            "IpAddress": "Ip Address",
+            "AddNewSession": "Yeni User UUID Ekle"
+        },
+        "labelMsg": {
+            "UserUUID": "User UUID",
+            "SessionDate": "Session Date",
+            "IpAddress": "Ip Address"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı UserUUID silmek istiyor musunuz?",
+            "add": {
+                "Error": "UserUUID eklenemedi.",
+                "OK": "Yeni UserUUID eklendi."
+            },
+            "save": {
+                "Error": "UserUUID güncellenemedi.",
+                "OK": "UserUUID güncellendi."
+            },
+            "remove": {
+                "Error": "UserUUID silinemedi.",
+                "OK": "UserUUID silindi."
+            }
+        },
+        "search": {
+            "Search": "UserUUID Ara"
+        }
+    },
+    "sipProfileSettings": {
+        "button": {
+            "AddNewSipProfileSetting": "Yeni Sip Profile Setting Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Sip Profile Settings"
+        },
+        "label": {
+            "SipProfileUUID": "Sip Profile UUID",
+            "SipProfileSettingName": "Sip Profile Setting Name",
+            "SipProfileSettingValue": "Sip Profile Setting Value",
+            "SipProfileSettingEnabled": "Sip Profile Setting Enabled",
+            "SipProfileSettingDescription": "Sip Profile Setting Description",
+            "AddNewSipProfileSetting": "Yeni Sip Profile Setting Name Ekle"
+        },
+        "labelMsg": {
+            "SipProfileUUID": "Sip Profile UUID",
+            "SipProfileSettingName": "Sip Profile Setting Name",
+            "SipProfileSettingValue": "Sip Profile Setting Value",
+            "SipProfileSettingEnabled": "Sip Profile Setting Enabled",
+            "SipProfileSettingDescription": "Sip Profile Setting Description"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı SipProfileSettingName silmek istiyor musunuz?",
+            "add": {
+                "Error": "SipProfileSettingName eklenemedi.",
+                "OK": "Yeni SipProfileSettingName eklendi."
+            },
+            "save": {
+                "Error": "SipProfileSettingName güncellenemedi.",
+                "OK": "SipProfileSettingName güncellendi."
+            },
+            "remove": {
+                "Error": "SipProfileSettingName silinemedi.",
+                "OK": "SipProfileSettingName silindi."
+            }
+        },
+        "search": {
+            "Search": "SipProfileSettingName Ara"
+        },
+        "switch": {
+            "SipProfileSettingEnabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "sipProfileSettingsTemplate": {
+        "button": {
+            "AddNewSipProfileSettingsTemplate": "Yeni Sip Profile Setting Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Sip Profile Settings Template"
+        },
+        "label": {
+            "SipProfileType": "Sip Profile Type",
+            "SipProfileSettingName": "Sip Profile Setting Name",
+            "SipProfileSettingDefault": "Sip Profile Setting Default",
+            "SipProfileSettingValues": "Sip Profile Setting Values",
+            "SipProfileSettingView": "Sip Profile Setting View",
+            "SipProfileSettingReadonly": "Sip Profile Setting Readonly",
+            "SipProfileSettingDescription": "Sip Profile Setting Description",
+            "SipProfileSettingEnabled": "Sip Profile Setting Enabled",
+            "AddNewSipProfileSettingsTemplate": "Yeni Sip Profile Setting Name Ekle"
+        },
+        "labelMsg": {
+            "SipProfileType": "Sip Profile Type",
+            "SipProfileSettingName": "Sip Profile Setting Name",
+            "SipProfileSettingDefault": "Sip Profile Setting Default",
+            "SipProfileSettingValues": "Sip Profile Setting Values",
+            "SipProfileSettingView": "Sip Profile Setting View",
+            "SipProfileSettingReadonly": "Sip Profile Setting Readonly",
+            "SipProfileSettingDescription": "Sip Profile Setting Description",
+            "SipProfileSettingEnabled": "Sip Profile Setting Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı SipProfileSettingName silmek istiyor musunuz?",
+            "add": {
+                "Error": "SipProfileSettingName eklenemedi.",
+                "OK": "Yeni SipProfileSettingName eklendi."
+            },
+            "save": {
+                "Error": "SipProfileSettingName güncellenemedi.",
+                "OK": "SipProfileSettingName güncellendi."
+            },
+            "remove": {
+                "Error": "SipProfileSettingName silinemedi.",
+                "OK": "SipProfileSettingName silindi."
+            }
+        },
+        "search": {
+            "Search": "SipProfileSettingName Ara"
+        },
+        "switch": {
+            "SipProfileSettingEnabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "sipProfileSettingsTemplate1": {
+        "button": {
+            "AddNewSipProfileSettingsTemplate1": "Yeni Sip Profile Setting Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Sip Profile Settings Template1"
+        },
+        "label": {
+            "SipProfileType": "Sip Profile Type",
+            "SipProfileSettingName": "Sip Profile Setting Name",
+            "SipProfileSettingDefault": "Sip Profile Setting Default",
+            "SipProfileSettingValues": "Sip Profile Setting Values",
+            "SipProfileSettingView": "Sip Profile Setting View",
+            "SipProfileSettingReadonly": "Sip Profile Setting Readonly",
+            "SipProfileSettingEnabled": "Sip Profile Setting Enabled",
+            "SipProfileSettingDescription": "Sip Profile Setting Description",
+            "AddNewSipProfileSettingsTemplate1": "Yeni Sip Profile Setting Name Ekle"
+        },
+        "labelMsg": {
+            "SipProfileType": "Sip Profile Type",
+            "SipProfileSettingName": "Sip Profile Setting Name",
+            "SipProfileSettingDefault": "Sip Profile Setting Default",
+            "SipProfileSettingValues": "Sip Profile Setting Values",
+            "SipProfileSettingView": "Sip Profile Setting View",
+            "SipProfileSettingReadonly": "Sip Profile Setting Readonly",
+            "SipProfileSettingEnabled": "Sip Profile Setting Enabled",
+            "SipProfileSettingDescription": "Sip Profile Setting Description"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı SipProfileSettingName silmek istiyor musunuz?",
+            "add": {
+                "Error": "SipProfileSettingName eklenemedi.",
+                "OK": "Yeni SipProfileSettingName eklendi."
+            },
+            "save": {
+                "Error": "SipProfileSettingName güncellenemedi.",
+                "OK": "SipProfileSettingName güncellendi."
+            },
+            "remove": {
+                "Error": "SipProfileSettingName silinemedi.",
+                "OK": "SipProfileSettingName silindi."
+            }
+        },
+        "search": {
+            "Search": "SipProfileSettingName Ara"
+        },
+        "switch": {
+            "SipProfileSettingEnabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "sipProfiles": {
+        "button": {
+            "AddNewSipProfile": "Yeni Sip Profile Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Domain",
+            "GROUP2": "Tarih",
+            "GROUP1": "Domainler"
+        },
+        "label": {
+            "SipProfileName": "Sip Profile Name",
+            "SipProfileHostname": "Sip Profile Hostname",
+            "SipProfileDescription": "Sip Profile Description",
+            "SipProfileEnabled": "Sip Profile Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewSipProfile": "Yeni Sip Profile Name Ekle"
+        },
+        "labelMsg": {
+            "SipProfileName": "Sip Profile Name",
+            "SipProfileHostname": "Sip Profile Hostname",
+            "SipProfileDescription": "Sip Profile Description",
+            "SipProfileEnabled": "Sip Profile Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı SipProfileName silmek istiyor musunuz?",
+            "add": {
+                "Error": "SipProfileName eklenemedi.",
+                "OK": "Yeni SipProfileName eklendi."
+            },
+            "save": {
+                "Error": "SipProfileName güncellenemedi.",
+                "OK": "SipProfileName güncellendi."
+            },
+            "remove": {
+                "Error": "SipProfileName silinemedi.",
+                "OK": "SipProfileName silindi."
+            }
+        },
+        "search": {
+            "Search": "SipProfileName Ara"
+        },
+        "switch": {
+            "SipProfileEnabled": {
+                "true": "True",
+                "false": "False"
+            },
+            "DomainUser": {
+                "true": "Evet",
+                "false": "Hayır"
+            }
+        }
+    },
+    "sipUsers": {
+        "button": {
+            "AddNewSipUser": "Yeni Sip  Kullanıcı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Sip Kullanıcı",
+            "GROUP1": "Çaldırma Sırası",
+            "GROUP2": "Effective Caller ",
+            "GROUP3": "Advanced Parameters",
+            "GROUP4": "Kuyruk Ayarları",
+            "GROUP6": "Tarih"
+        },
+        "label": {
+            "NumberAlias": "Sip  Kullanıcı",
+            "Password": "Password",
+            "AgentExpiresTtl": "Agent Expires Ttl",
+            "RingOrder": "Ring Order",
+            "LegTimeout": "Leg Timeout",
+            "EffectiveCallerIDName": "Effective Caller ID Name",
+            "EffectiveCallerIDNumber": "Effective Caller ID Number",
+            "UserContext": "User Context",
+            "Accountcode": "Accountcode",
+            "LimitMax": "Limit Max",
+            "LimitDestination": "Limit Destination",
+            "AbsoluteCodecString": "Absolute Codec String",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "OutboundCallerIDName": "Outbound Caller ID Name",
+            "OutboundCallerIDNumber": "Outbound Caller ID Number",
+            "EmergencyCallerIDName": "Emergency Caller ID Name",
+            "EmergencyCallerIDNumber": "Emergency Caller ID Number",
+            "DirectoryFirstName": "Directory First Name",
+            "DirectoryLastName": "Directory Last Name",
+            "DirectoryVisible": "Directory Visible",
+            "DirectoryExtenVisible": "Directory Exten Visible",
+            "AuthAcl": "Auth Acl",
+            "Cidr": "Cidr",
+            "SipBypassMedia": "Sip Bypass Media",
+            "HoldMusic": "Hold Music",
+            "QueueNoAnswerTime": "Yanıt Yok Gecikme Süresi",
+            "QueueNoAnswerMax": "Maksimum Cevap Yok",
+            "QueueWrapUpTime": "Kapanış Zamanı",
+            "QueueRejectTime": "Gecikme Süresini Reddet",
+            "QueueBusyDelayTime": "Meşgul Gecikme Süresi",
+            "AddNewSipUser": "Yeni Sip  Kullanıcı Ekle"
+        },
+        "labelMsg": {
+            "NumberAlias": "Number Alias",
+            "Password": "Password",
+            "AgentExpiresTtl": "Agent Expires Ttl",
+            "RingOrder": "Ring Order",
+            "LegTimeout": "Leg Timeout",
+            "EffectiveCallerIDName": "Enter the internal caller ID name here. ",
+            "EffectiveCallerIDNumber": "Enter the internal caller ID number here. ",
+            "UserContext": "User Context",
+            "Accountcode": "Accountcode",
+            "LimitMax": "Enter the max number of outgoing calls for this user. ",
+            "LimitDestination": "Enter the destination to send the calls when the max number of outgoing calls has been reached.",
+            "AbsoluteCodecString": "Absolute Codec String",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "OutboundCallerIDName": "Enter the external (public) caller ID name here. ",
+            "OutboundCallerIDNumber": "Enter the external (public) caller ID number here.",
+            "EmergencyCallerIDName": "Enter the emergency caller ID name here. ",
+            "EmergencyCallerIDNumber": "Enter the emergency caller ID number here. ",
+            "DirectoryFirstName": "Directory First Name",
+            "DirectoryLastName": "Directory Last Name",
+            "DirectoryVisible": "Select whether to hide the name from the directory.",
+            "DirectoryExtenVisible": "Select whether announce the extension when calling the directory.",
+            "AuthAcl": "Enter the Auth ACL here.",
+            "Cidr": "Enter allowed address\/ranges in CIDR notation (comma separated).",
+            "SipBypassMedia": "Choose whether to send the media stream point to point or in transparent proxy mode.",
+            "HoldMusic": "Hold Music",
+            "QueueNoAnswerTime": "Enter the agent no answer delay time in seconds.",
+            "QueueNoAnswerMax": "Enter max no answer.",
+            "QueueWrapUpTime": "Enter the wrap up time.",
+            "QueueRejectTime": "Enter the reject delay time.",
+            "QueueBusyDelayTime": "Enter the agent busy delay time."
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Sip Kullanıcı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Sip Kullanıcı eklenemedi.",
+                "OK": "Yeni Sip Kullanıcı eklendi."
+            },
+            "save": {
+                "Error": "Sip Kullanıcı güncellenemedi.",
+                "OK": "Sip Kullanıcı güncellendi."
+            },
+            "remove": {
+                "Error": "Sip Kullanıcı silinemedi.",
+                "OK": "Sip Kullanıcı silindi."
+            },
+            "pinRefresh": {
+                "OK": "Temsilci pini değişti.",
+                "Error": "Temsilci pini değişitirelemedi."
+            }
+        },
+        "search": {
+            "Search": "Sip Kullanıcı Ara"
+        },
+        "selectBox": {
+            "SipBypassMedia": {
+                "": "",
+                "bypass-media": "Bypass-media",
+                "bypass-media-after-bridge": "Bypass-media-after-bridge",
+                "proxy-media": "Proxy-media"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            },
+            "DirectoryVisible": {
+                "true": "True",
+                "false": "False"
+            },
+            "DirectoryExtenVisible": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "sipUsersAliases": {
+        "button": {
+            "AddNewSipUsersAliase": "Yeni Agent  Kullanıcısı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Agent Kullanıcısı",
+            "GROUP1": "Tarih"
+        },
+        "label": {
+            "Password": "Password",
+            "Enabled": "Enabled",
+            "DateCreate": "Ekleme Tarihi",
+            "DateUpdate": "Güncelleme Tarihi",
+            "AddNewSipUsersAliase": "Yeni Agent  Kullanıcısı Ekle"
+        },
+        "labelMsg": {
+            "Password": "Password",
+            "Enabled": "Enabled",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Agent Kullanıcısı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Agent Kullanıcısı eklenemedi.",
+                "OK": "Yeni Agent Kullanıcısı eklendi."
+            },
+            "save": {
+                "Error": "Agent Kullanıcısı güncellenemedi.",
+                "OK": "Agent Kullanıcısı güncellendi."
+            },
+            "remove": {
+                "Error": "Agent Kullanıcısı silinemedi.",
+                "OK": "Agent Kullanıcısı silindi."
+            }
+        },
+        "search": {
+            "Search": "Agent Kullanıcısı Ara"
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "sipUsersExtensionSettings": {
+        "button": {
+            "AddNewSipUsersExtensionSetting": "Yeni Extension Setting Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Sip Users Extension Settings"
+        },
+        "label": {
+            "SipUserUUID": "Sip User UUID",
+            "ExtensionSettingType": "Extension Setting Type",
+            "ExtensionSettingName": "Extension Setting Name",
+            "ExtensionSettingValue": "Extension Setting Value",
+            "ExtensionSettingEnabled": "Extension Setting Enabled",
+            "ExtensionSettingDescription": "Extension Setting Description",
+            "AddNewSipUsersExtensionSetting": "Yeni Extension Setting Name Ekle"
+        },
+        "labelMsg": {
+            "SipUserUUID": "Sip User UUID",
+            "ExtensionSettingType": "Extension Setting Type",
+            "ExtensionSettingName": "Extension Setting Name",
+            "ExtensionSettingValue": "Extension Setting Value",
+            "ExtensionSettingEnabled": "Extension Setting Enabled",
+            "ExtensionSettingDescription": "Extension Setting Description"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı ExtensionSettingName silmek istiyor musunuz?",
+            "add": {
+                "Error": "ExtensionSettingName eklenemedi.",
+                "OK": "Yeni ExtensionSettingName eklendi."
+            },
+            "save": {
+                "Error": "ExtensionSettingName güncellenemedi.",
+                "OK": "ExtensionSettingName güncellendi."
+            },
+            "remove": {
+                "Error": "ExtensionSettingName silinemedi.",
+                "OK": "ExtensionSettingName silindi."
+            }
+        },
+        "search": {
+            "Search": "ExtensionSettingName Ara"
+        },
+        "selectBox": {
+            "ExtensionSettingType": {
+                "variable": "Variable",
+                "param": "Param"
+            }
+        },
+        "switch": {
+            "ExtensionSettingEnabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "supports": {
+        "Categorys": {
+            "category-1": "Hata",
+            "category-2": "Güncelleme",
+            "category-3": "Yenilik",
+            "category-4": "İlave",
+            "category-5": "İstek",
+            "category-6": "Yapılacak"
+        },
+        "Departments": {
+            "department-1": "Teknik",
+            "department-2": "Yazılım"
+        },
+        "button": {
+            "AddNewSupport": "Yeni Topic Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Destek",
+            "GROUP2": "Tarih",
+            "GROUP1": "Mesaj"
+        },
+        "label": {
+            "SupportDepartmentUUID": "Departman",
+            "SupportCategoryUUID": "Kategori",
+            "SupportStatus": "Support Status",
+            "Topic": "Topic",
+            "SuppotUserAlert": "Suppot User Alert",
+            "SuppotDepartmentAlert": "Suppot Department Alert",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "DateEnd": "Tarih",
+            "AddNewSupport": "Yeni Topic Ekle",
+            "DepartmentName": "Departman",
+            "CategoryName": "Kategori"
+        },
+        "labelMsg": {
+            "SupportDepartmentUUID": "Support Department UUID",
+            "SupportCategoryUUID": "Support Category UUID",
+            "SupportStatus": "Support Status",
+            "Topic": "Topic",
+            "SuppotUserAlert": "Suppot User Alert",
+            "SuppotDepartmentAlert": "Suppot Department Alert",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "DateEnd": "Date End"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Topic silmek istiyor musunuz?",
+            "add": {
+                "Error": "Topic eklenemedi.",
+                "OK": "Yeni Topic eklendi."
+            },
+            "save": {
+                "Error": "Topic güncellenemedi.",
+                "OK": "Topic güncellendi."
+            },
+            "remove": {
+                "Error": "Topic silinemedi.",
+                "OK": "Topic silindi."
+            }
+        },
+        "search": {
+            "Search": "Topic Ara"
+        },
+        "selectBox": {
+            "SupportStatus": {
+                "BEKLIYOR": "Bekleyen",
+                "ANLASILMADI": "Anlaşılmayan",
+                "YAPILACAK": "Yapılacak",
+                "YAPILIYOR": "Yapılıyor",
+                "ONAYLA": "Onay Bekleyen",
+                "YAPILDI": "Yapıldı",
+                "KAPALI": "Kapalı",
+                "CEVAP": "Mesaj Yaz",
+                "FROM": {
+                    "BEKLIYOR": "Bekliyor",
+                    "ANLASILMADI": "Anlaşılmadı",
+                    "YAPILACAK": "Yapılacak",
+                    "YAPILIYOR": "Yapılıyor",
+                    "ONAYLA": "Onay Ver",
+                    "YAPILDI": "Yapıldı",
+                    "KAPALI": "Kapat",
+                    "CEVAP": "Mesaj Yaz"
+                },
+                "TO": {
+                    "BEKLIYOR": "Bekliyor",
+                    "ANLASILMADI": "Anlaşılmadı",
+                    "YAPILACAK": "Yapılacak",
+                    "YAPILIYOR": "Yapılıyor",
+                    "ONAYLA": "Onay İste",
+                    "YAPILDI": "Yapıldı",
+                    "KAPALI": "Kapalı",
+                    "CEVAP": "Mesaj Yaz"
+                },
+                "LIST": {
+                    "FROM": {
+                        "BEKLIYOR": "Bekliyor",
+                        "ANLASILMADI": "Anlaşılmadı",
+                        "YAPILACAK": "Yapılacak",
+                        "YAPILIYOR": "Yapılıyor",
+                        "ONAYLA": "Onay İsteniyor",
+                        "YAPILDI": "Yapıldı",
+                        "KAPALI": "Kapalı",
+                        "CEVAP": "Mesaj Yaz"
+                    },
+                    "TO": {
+                        "BEKLIYOR": "Bekliyor",
+                        "ANLASILMADI": "Anlaşılmadı",
+                        "YAPILACAK": "Yapılacak",
+                        "YAPILIYOR": "Yapılıyor",
+                        "ONAYLA": "Onay İstendi",
+                        "YAPILDI": "Yapıldı",
+                        "KAPALI": "Kapalı",
+                        "CEVAP": "Mesaj Yaz"
+                    }
+                }
+            },
+            "MessageTpye": {
+                "Topic": "Başlık",
+                "Message": "Mesaj",
+                "Tag": "Etiket",
+                "All": "Tümü"
+            }
+        }
+    },
+    "tenantRole": {
+        "button": {
+            "AddNewTenantRole": "Yeni Tenant  Role Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Tenant Role",
+            "GROUP1": "Roller",
+            "GROUP2": "Tarih"
+        },
+        "label": {
+            "TenantRoleName": "Rol Adı",
+            "RoleFull": "Full Yetki",
+            "TenantRoleDateCreate": "Ekleme Tarihi",
+            "TenantRoleDateUpdate": "Güncelleme Tarihi",
+            "AddNewTenantRole": "Yeni Tenant  Role Ekle"
+        },
+        "labelMsg": {
+            "TenantRoleName": "Tenant Role Name",
+            "RoleFull": "Role Full",
+            "TenantRoleDateCreate": "Tenant Role Date Create",
+            "TenantRoleDateUpdate": "Tenant Role Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Tenant Role silmek istiyor musunuz?",
+            "add": {
+                "Error": "Tenant Role eklenemedi.",
+                "OK": "Yeni Tenant Role eklendi."
+            },
+            "save": {
+                "Error": "Tenant Role güncellenemedi.",
+                "OK": "Tenant Role güncellendi."
+            },
+            "remove": {
+                "Error": "Tenant Role silinemedi.",
+                "OK": "Tenant Role silindi."
+            }
+        },
+        "search": {
+            "Search": "Tenant Role Ara"
+        },
+        "switch": {
+            "RoleFull": {
+                "true": "Var",
+                "false": "Yok"
+            }
+        }
+    },
+    "tenants": {
+        "button": {
+            "AddNewTenant": "Yeni Santral Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Tenants",
+            "GROUP1": "Output And Input Scenario",
+            "GROUP2": "Tarih"
+        },
+        "label": {
+            "TenantName": "Santral",
+            "TenantPrivateRoutingGroups": "Tenant Private Routing Groups",
+            "TenantCountry": "Tenant Country",
+            "AddPrefix": "Add Prefix",
+            "TenantStatus": "Tenant Status",
+            "TenantDateCreate": "Tenant Date Create",
+            "TenantDateUpdate": "Tenant Date Update",
+            "CallOutputScenarioUUID": "Call Output Scenario",
+            "CallInputScenarioUUID": "Call Input Scenario",
+            "AddNewTenant": "Yeni Santral Ekle"
+        },
+        "labelMsg": {
+            "TenantName": "Tenant Name",
+            "TenantPrivateRoutingGroups": "Tenant Private Routing Groups",
+            "TenantCountry": "Tenant Country",
+            "AddPrefix": "Öncelik: Gateway.Prefix > Did.Prefix > Tenant.Prefix",
+            "TenantStatus": "Tenant Status",
+            "TenantDateCreate": "Tenant Date Create",
+            "TenantDateUpdate": "Tenant Date Update",
+            "CallOutputScenarioUUID": "Call Output Scenario",
+            "CallInputScenarioUUID": "Call Input Scenario"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Santral silmek istiyor musunuz?",
+            "add": {
+                "Error": "Santral eklenemedi.",
+                "OK": "Yeni Santral eklendi."
+            },
+            "save": {
+                "Error": "Santral güncellenemedi.",
+                "OK": "Santral güncellendi."
+            },
+            "remove": {
+                "Error": "Santral silinemedi.",
+                "OK": "Santral silindi."
+            }
+        },
+        "search": {
+            "Search": "Santral Ara"
+        },
+        "selectBox": {
+            "Scenario1": {
+                "select": "Senarya Seç",
+                "version": "Versiyon"
+            },
+            "Scenario2": {
+                "select": "Senarya Seç",
+                "version": "Versiyon"
+            }
+        },
+        "switch": {
+            "TenantPrivateRoutingGroups": {
+                "true": "True",
+                "false": "False"
+            },
+            "TenantStatus": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "userCallHistorys": {
+        "button": {
+            "AddNewUserCallHistory": "Yeni Call Number Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "User Call Historys"
+        },
+        "label": {
+            "CallNumber": "Call Number",
+            "CallName": "Call Name",
+            "SipUserName": "Sip User Name",
+            "SipUserNumber": "Sip User Number",
+            "FromName": "From Name",
+            "FromUser": "From User",
+            "FromHost": "From Host",
+            "FromSchame": "From Schame",
+            "CallStatus": "Call Status",
+            "CallDirection": "Call Direction",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "AddNewUserCallHistory": "Yeni Call Number Ekle"
+        },
+        "labelMsg": {
+            "CallNumber": "Call Number",
+            "CallName": "Call Name",
+            "SipUserName": "Sip User Name",
+            "SipUserNumber": "Sip User Number",
+            "FromName": "From Name",
+            "FromUser": "From User",
+            "FromHost": "From Host",
+            "FromSchame": "From Schame",
+            "CallStatus": "Call Status",
+            "CallDirection": "Call Direction",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı CallNumber silmek istiyor musunuz?",
+            "add": {
+                "Error": "CallNumber eklenemedi.",
+                "OK": "Yeni CallNumber eklendi."
+            },
+            "save": {
+                "Error": "CallNumber güncellenemedi.",
+                "OK": "CallNumber güncellendi."
+            },
+            "remove": {
+                "Error": "CallNumber silinemedi.",
+                "OK": "CallNumber silindi."
+            }
+        },
+        "search": {
+            "Search": "CallNumber Ara"
+        }
+    },
+    "userPackage": {
+        "button": {
+            "AddNewUserPackage": "Yeni User Package Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "User Package"
+        },
+        "label": {
+            "UserPackageName": "User Package Name",
+            "UserPackageOrder": "User Package Order",
+            "TenantLimit": "Tenant Limit",
+            "ExtensionLimit": "Extension Limit",
+            "ScenarioLimit": "Scenario Limit",
+            "DiskLimit": "Disk Limit",
+            "DomainUser": "Domain User",
+            "MonthPrice": "Month Price",
+            "YearPrice": "Year Price",
+            "UserPackagePrivate": "User Package Private",
+            "UserPackageStatus": "User Package Status",
+            "UserPackageDateCreate": "User Package Date Create",
+            "UserPackageDateUpdate": "User Package Date Update",
+            "AddNewUserPackage": "Yeni User Package Name Ekle"
+        },
+        "labelMsg": {
+            "UserPackageName": "User Package Name",
+            "UserPackageOrder": "User Package Order",
+            "TenantLimit": "Tenant Limit",
+            "ExtensionLimit": "Extension Limit",
+            "ScenarioLimit": "Scenario Limit",
+            "DiskLimit": "Disk Limit",
+            "DomainUser": "Domain User",
+            "MonthPrice": "Month Price",
+            "YearPrice": "Year Price",
+            "UserPackagePrivate": "User Package Private",
+            "UserPackageStatus": "User Package Status",
+            "UserPackageDateCreate": "User Package Date Create",
+            "UserPackageDateUpdate": "User Package Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı UserPackageName silmek istiyor musunuz?",
+            "add": {
+                "Error": "UserPackageName eklenemedi.",
+                "OK": "Yeni UserPackageName eklendi."
+            },
+            "save": {
+                "Error": "UserPackageName güncellenemedi.",
+                "OK": "UserPackageName güncellendi."
+            },
+            "remove": {
+                "Error": "UserPackageName silinemedi.",
+                "OK": "UserPackageName silindi."
+            }
+        },
+        "search": {
+            "Search": "UserPackageName Ara"
+        },
+        "switch": {
+            "UserPackageStatus": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "userPackageSold": {
+        "button": {
+            "AddNewUserPackageSold": "Yeni User Package Sold Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "User Package Sold"
+        },
+        "label": {
+            "UserPackageUUID": "User Package UUID",
+            "DomainUUID": "Domain UUID",
+            "UserPackageSoldName": "User Package Sold Name",
+            "UserPackageSoldStatus": "User Package Sold Status",
+            "UserPackageSoldDateCreate": "User Package Sold Date Create",
+            "UserPackageSoldDateUpdate": "User Package Sold Date Update",
+            "AddNewUserPackageSold": "Yeni User Package Sold Name Ekle"
+        },
+        "labelMsg": {
+            "UserPackageUUID": "User Package UUID",
+            "DomainUUID": "Domain UUID",
+            "UserPackageSoldName": "User Package Sold Name",
+            "UserPackageSoldStatus": "User Package Sold Status",
+            "UserPackageSoldDateCreate": "User Package Sold Date Create",
+            "UserPackageSoldDateUpdate": "User Package Sold Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı UserPackageSoldName silmek istiyor musunuz?",
+            "add": {
+                "Error": "UserPackageSoldName eklenemedi.",
+                "OK": "Yeni UserPackageSoldName eklendi."
+            },
+            "save": {
+                "Error": "UserPackageSoldName güncellenemedi.",
+                "OK": "UserPackageSoldName güncellendi."
+            },
+            "remove": {
+                "Error": "UserPackageSoldName silinemedi.",
+                "OK": "UserPackageSoldName silindi."
+            }
+        },
+        "search": {
+            "Search": "UserPackageSoldName Ara"
+        },
+        "switch": {
+            "UserPackageSoldStatus": {
+                "waiting": "Waiting",
+                "ok": "Ok"
+            }
+        }
+    },
+    "userToDomain": {
+        "button": {
+            "AddNewUserToDomain": "Yeni Kullanıcı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Domain Kullanıcısı"
+        },
+        "label": {
+            "DomainOwner": "Domain Owner",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewUserToDomain": "Yeni Kullanıcı Ekle"
+        },
+        "labelMsg": {
+            "DomainOwner": "Domain Owner",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Kullanıcı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Kullanıcı eklenemedi.",
+                "OK": "Yeni Kullanıcı eklendi."
+            },
+            "save": {
+                "Error": "Kullanıcı güncellenemedi.",
+                "OK": "Kullanıcı güncellendi."
+            },
+            "remove": {
+                "Error": "Kullanıcı silinemedi.",
+                "OK": "Kullanıcı silindi."
+            },
+            "ws": {
+                "add": "{{name}} adlı domain hesabınıza eklenmiştir.",
+                "update": "{{name}} adlı domain güncellenmiştir.",
+                "remove": "{{name}} adlı domain hesabınızdan kaldırılmıştır."
+            }
+        },
+        "search": {
+            "Search": "Kullanıcı Ara"
+        },
+        "switch": {
+            "DomainOwner": {
+                "true": "True",
+                "false": "False"
+            },
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "userToExtension": {
+        "button": {
+            "AddNewUserToExtension": "Yeni Kullanıcı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Dahili Hat Kullanıcısı"
+        },
+        "label": {
+            "SipUserRingOrder": "Çaldırma Sırası",
+            "ExitCodeNumber": "Çıkış  Numarası",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewUserToExtension": "Yeni Kullanıcı Ekle"
+        },
+        "labelMsg": {
+            "SipUserRingOrder": "Dahili hatta çağrı geldiğinde kullanıcının çaldırma sırası",
+            "ExitCodeNumber": "Exit Code Number",
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "ExitCodeNumberReadOnly": "Kullanıcı kendi değiştirebilir (READONLY)"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Kullanıcı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Kullanıcı eklenemedi.",
+                "OK": "Yeni Kullanıcı eklendi."
+            },
+            "save": {
+                "Error": "Kullanıcı güncellenemedi.",
+                "OK": "Kullanıcı güncellendi."
+            },
+            "remove": {
+                "Error": "Kullanıcı silinemedi.",
+                "OK": "Kullanıcı silindi."
+            },
+            "ws": {
+                "add": "{{name}} numaralı dahili hat hesabınıza eklenmiştir.",
+                "update": "{{name}} numaralı dahili hat güncellenmiştir.",
+                "remove": "{{name}} numaralı dahili hat hesabınızdan kaldırılmıştır."
+            }
+        },
+        "search": {
+            "Search": "Kullanıcı Ara"
+        },
+        "selectBox": {
+            "ExitCodeNumber": {
+                "Default": "Default",
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "4": "4",
+                "5": "5",
+                "6": "6",
+                "7": "7",
+                "8": "8",
+                "9": "9",
+                "10": "10",
+                "11": "11",
+                "12": "12",
+                "13": "13",
+                "14": "14",
+                "15": "15",
+                "16": "16"
+            }
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "userToTenant": {
+        "button": {
+            "AddNewUserToTenant": "Yeni Kullanıcı Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Santral Kullanıcısı"
+        },
+        "label": {
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled",
+            "AddNewUserToTenant": "Yeni Kullanıcı Ekle"
+        },
+        "labelMsg": {
+            "DateCreate": "Date Create",
+            "DateUpdate": "Date Update",
+            "Enabled": "Enabled"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı Kullanıcı silmek istiyor musunuz?",
+            "add": {
+                "Error": "Kullanıcı eklenemedi.",
+                "OK": "Yeni Kullanıcı eklendi."
+            },
+            "save": {
+                "Error": "Kullanıcı güncellenemedi.",
+                "OK": "Kullanıcı güncellendi."
+            },
+            "remove": {
+                "Error": "Kullanıcı silinemedi.",
+                "OK": "Kullanıcı silindi."
+            },
+            "ws": {
+                "add": "{{name}} adlı santral hesabınıza eklenmiştir.",
+                "update": "{{name}} adlı santral güncellenmiştir.",
+                "remove": "{{name}} adlı santral hesabınızdan kaldırılmıştır."
+            }
+        },
+        "search": {
+            "Search": "Kullanıcı Ara"
+        },
+        "switch": {
+            "Enabled": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "users": {
+        "button": {
+            "AddNewUser": "Yeni User Name Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Users"
+        },
+        "label": {
+            "UserAdmin": "User Admin",
+            "UserName": "User Name",
+            "UserEmail": "User Email",
+            "UserPassword": "User Password",
+            "UserStatus": "User Status",
+            "SipUserRingType": "Sip User Ring Type",
+            "AlertSupport": "Alert Support",
+            "UserDateCreate": "User Date Create",
+            "UserDateUpdate": "User Date Update",
+            "AddNewUser": "Yeni User Name Ekle"
+        },
+        "labelMsg": {
+            "UserAdmin": "User Admin",
+            "UserName": "User Name",
+            "UserEmail": "User Email",
+            "UserPassword": "User Password",
+            "UserStatus": "User Status",
+            "SipUserRingType": "Sip User Ring Type",
+            "AlertSupport": "Alert Support",
+            "UserDateCreate": "User Date Create",
+            "UserDateUpdate": "User Date Update"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı UserName silmek istiyor musunuz?",
+            "add": {
+                "Error": "UserName eklenemedi.",
+                "OK": "Yeni UserName eklendi."
+            },
+            "save": {
+                "Error": "UserName güncellenemedi.",
+                "OK": "UserName güncellendi."
+            },
+            "remove": {
+                "Error": "UserName silinemedi.",
+                "OK": "UserName silindi."
+            },
+            "UserMailCheck": {
+                "Error": "E-posta adresi mevcut lütfen başka bir e-posta adresi giriniz."
+            }
+        },
+        "search": {
+            "Search": "UserName Ara"
+        },
+        "selectBox": {
+            "SipUserRingType": {
+                "all": "All",
+                "order": "Order",
+                "scenarios": "Scenarios"
+            }
+        },
+        "switch": {
+            "UserAdmin": {
+                "admin": "Admin",
+                "user": "User"
+            },
+            "UserStatus": {
+                "true": "True",
+                "false": "False"
+            }
+        }
+    },
+    "vendors": {
+        "button": {
+            "AddNewVendor": "Yeni Vendor Description Ekle",
+            "UpdateAll": "Update All"
+        },
+        "group": {
+            "ANA": "Vendors"
+        },
+        "label": {
+            "VendorPrefix": "Vendor Prefix",
+            "VendorDescription": "Vendor Description",
+            "AddNewVendor": "Yeni Vendor Description Ekle"
+        },
+        "labelMsg": {
+            "VendorPrefix": "Vendor Prefix",
+            "VendorDescription": "Vendor Description"
+        },
+        "msg": {
+            "deleteOnay": "<b>{{name}}<\/b> adlı VendorDescription silmek istiyor musunuz?",
+            "add": {
+                "Error": "VendorDescription eklenemedi.",
+                "OK": "Yeni VendorDescription eklendi."
+            },
+            "save": {
+                "Error": "VendorDescription güncellenemedi.",
+                "OK": "VendorDescription güncellendi."
+            },
+            "remove": {
+                "Error": "VendorDescription silinemedi.",
+                "OK": "VendorDescription silindi."
+            }
+        },
+        "search": {
+            "Search": "VendorDescription Ara"
+        }
+    }
+}

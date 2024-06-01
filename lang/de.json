@@ -1,0 +1,375 @@
+{
+  "diagram": {
+    "file": {
+      "msg": {
+        "add": {
+          "Error": "Der Ton konnte nicht aufgenommen werden.",
+          "Ok": "Der Ton wurde aufgenommen."
+        },
+        "remove": {
+          "Error": "Audiodatei konnte nicht gelöscht werden.",
+          "Ok": "Die Sounddatei <b>{{name}}</b> wurde gelöscht.",
+          "Used": "Die Audiodatei kann nicht gelöscht werden, da <b>{{count}} Stücke</b> im Menü verwendet werden."
+        },
+        "upload": {
+          "Error": "Datei konnte nicht angehängt werden.",
+          "Ok": "<b>{{add}}</b> neue Datei wurde hinzugefügt und <b>{{update}}</b> Datei wurde aktualisiert."
+        }
+      }
+    },
+    "msg": {
+      "save": {
+        "Error": "Das Diagramm konnte nicht gespeichert werden.",
+        "Ok": "Das Diagramm wurde gespeichert."
+      }
+    },
+    "pano": {
+      "anons": {
+        "select": {
+          "sesdosyalari": "Audiodateien",
+          "tts": "TTS"
+        },
+        "type": {
+          "hata": "Fehlermeldung",
+          "karsilama": "Begrüßungsansage",
+          "kisaon": "Kurze Vorankündigung",
+          "tuslamasonrasi": "Ansage nach Wahl",
+          "zamanasimi": "Timeout-Ankündigung"
+        }
+      },
+      "name": {
+        "Api": "API",
+        "CloseCall": "Schließen anrufen",
+        "ConnectCall": "Anruf verbinden",
+        "IVRMenu": "IVR-Menü",
+        "Login": "Eingang",
+        "OpenCall": "Aufruf öffnen",
+        "PlayAnnouncement": "Ankündigung spielen",
+        "Scenario": "Szenario"
+      },
+      "type": {
+        "ivr": {
+          "ayarlar": "die Einstellungen"
+        }
+      }
+    },
+    "ses": {
+      "form": {
+        "SesFile": "{{lang}} Audiodatei",
+        "SesLang": "Audiosprache",
+        "SesName": "Sprachname",
+        "SesTts": "{{lang}} TTS-Text",
+        "SesTtsType": "Textleser",
+        "SesTtsTypeSelect": {
+          "FAMALE": "Frau",
+          "MALE": "Junge"
+        },
+        "SesType": "Audiotyp",
+        "SesTypeSelect": {
+          "FILE": "Audiodatei",
+          "TTS": "Textleser (Tts)"
+        },
+        "btn": {
+          "Add": "Hinzufügen",
+          "Cancel": "Stornieren",
+          "Save": "Speichern"
+        },
+        "title": {
+          "Add": "Neue Audiodatei hinzufügen",
+          "Edit": "Audiodatei bearbeiten"
+        }
+      },
+      "kaydet": {
+        "Tamam": "OK"
+      },
+      "msg": {
+        "save": {
+          "Error": "Der Ton konnte nicht aufgenommen werden.",
+          "Ok": "Der Ton wurde aufgenommen."
+        }
+      }
+    }
+  },
+  "global": {
+    "Customer": "Kunde",
+    "CustomerName": "Kunde",
+    "Customers": "Kunden",
+    "Domain": "Domain",
+    "DomainName": "Domänenname",
+    "Domains": "Domänen",
+    "Edit": "Bearbeiten",
+    "Email": "Email",
+    "Enabled": "Lage",
+    "Extension": "Verlängerungslinie",
+    "Extensions": "Erweiterungen",
+    "Gateway": "Tor",
+    "Gateways": "Gateways",
+    "Name": "Name",
+    "Password": "Passwort",
+    "Process": "Processes",
+    "RoutingGroups": "Routinggruppen",
+    "Scenario": "Szenario",
+    "Scenarios": "Szenarien",
+    "Search": "Anruf",
+    "SipUser": "SIP-Benutzer",
+    "SipUsers": "SIP-Benutzer",
+    "Status": "Lage",
+    "Tenant": "Zentral",
+    "TenantName": "Pflanzenname",
+    "Tenants": "Kraftwerke",
+    "USer": "Nutzer",
+    "UserToDomain": "Domänenbenutzer",
+    "UserToExtension": "Erweiterungsbenutzer",
+    "UserToTenant": "Benutzer der Telefonzentrale",
+    "Users": "Benutzer",
+    "btn": {
+      "Add": "Hinzufügen",
+      "Cancel": "Absagen",
+      "Close": "Nah dran",
+      "Continue": "Fortsetzen",
+      "Delete": "löschen",
+      "Edit": "Bearbeiten",
+      "Next": "Nach vorne",
+      "No": "Nein",
+      "Ok": "OK",
+      "Remove": "Löschen",
+      "Save": "Speichern",
+      "Search": "Anruf",
+      "Yes": "Ja"
+    },
+    "confirm": {
+      "btn": {
+        "Cancel": "Nein",
+        "Confirm": "Ja"
+      },
+      "title": "Genehmigen"
+    },
+    "kullaniciEkle": "Nutzer hinzufügen",
+    "switch": {
+      "off": "aus",
+      "on": "Vorderseite"
+    },
+    "userToDomain": "Domänenbenutzer",
+    "userToExtension": "Erweiterungsbenutzer",
+    "userToTenant": "Benutzer der Telefonzentrale",
+    "yetkiyok": "Sie sind nicht berechtigt"
+  },
+  "lang": {
+    "Languages": "Sprachen Ctrl+Rechts",
+    "locale": {
+      "de": "Deutsch",
+      "en": "Englisch",
+      "tr": "Türkisch"
+    }
+  },
+  "login": {
+    "btn": {
+      "cancel": "Absagen",
+      "login": "Anmeldung",
+      "next": "Mach weiter",
+      "signup": "Registrieren"
+    },
+    "email": "E-Mail-Addresse",
+    "giris": {
+      "yapiniz": "Bitte loggen Sie sich ein"
+    },
+    "giris1": {
+    },
+    "kayitol": "Registrieren",
+    "msg": {
+      "confirmprivacy": "Der Datenschutzerklärung nicht zugestimmt.",
+      "confirmterms": "Nutzungsbedingungen nicht akzeptiert.",
+      "email": "Bitte geben Sie eine gültige Email Adresse an.",
+      "emailwrong": "E-Mail-Adresse ist falsch",
+      "password": "Bitte geben Sie ein gültiges Passwort ein.",
+      "passwordwrong": "Falsches Passwort",
+      "session": "Sitzungsfehler",
+      "thereisanemail": "Bitte geben Sie eine andere E-Mail-Adresse an"
+    },
+    "password": "Passwort",
+    "title": "Anmeldung",
+    "username": "Vorname Nachname"
+  },
+  "pagination": {
+    "SayfaLinkBilgi": "Es werden {{ilk}}-{{son}} von {{toplam}} Ergebnissen angezeigt "
+  },
+  "roleEditor": {
+    "item": {
+      "Add": "Hinzufügen",
+      "Delete": "Streichung",
+      "Download": "Download",
+      "Edit": "Anordnung",
+      "Email": "Email",
+      "Last1Day": "Letzter 1 Tag",
+      "Last1Hour": "Letzte 1 Stunde",
+      "Last1month": "Letzter 1 Monat",
+      "List": "Aufführen",
+      "UnlimitedTime": "Unbegrenzte Zeit",
+      "Upload": "Hochladen",
+      "View": "Verfolgung"
+    },
+    "itemInfo": {
+      "false": {
+        "Add": "Kann nicht hinzugefügt werden",
+        "Delete": "Kann nicht löschen",
+        "Download": "Download nicht möglich",
+        "Edit": "Kann nicht bearbeiten",
+        "Email": "E-Mail kann nicht gesendet werden",
+        "Last1Day": "Letzter 1-Tagesbericht kann nicht abgerufen werden",
+        "Last1Hour": "Bericht der letzten 1 Stunde kann nicht abgerufen werden",
+        "Last1month": "Der Bericht für den letzten 1 Monat kann nicht abgerufen werden",
+        "List": "Auflisten nicht möglich",
+        "UnlimitedTime": "Kann nicht unbegrenzt Berichte erhalten",
+        "Upload": "Hochladen nicht möglich",
+        "View": "Kann nicht überwachen"
+      },
+      "true": {
+        "Add": "Kann hinzufügen",
+        "Delete": "Kann löschen",
+        "Download": "Kann herunterladen",
+        "Edit": "Kann bearbeiten",
+        "Email": "E-Mail senden kann",
+        "Last1Day": "Letzter 1-Tagesbericht kann empfangen werden",
+        "Last1Hour": "Kann den letzten 1-Stunden-Bericht erhalten",
+        "Last1month": "Letzter 1-Monats-Bericht kann empfangen werden",
+        "List": "Kann eine Liste machen",
+        "UnlimitedTime": "Kann unbegrenzte Berichte erhalten",
+        "Upload": "Kann hochladen",
+        "View": "Kann überwachen"
+      }
+    },
+    "rolers": {
+      "label": {
+        "ModalTitle": "{{name}}-Berechtigungen geerbt",
+        "RegisteredRoles": "Gespeicherte Rollen",
+        "RoleFull": "Volle Autorität",
+        "RoleName": "Rollenname"
+      },
+      "switch": {
+        "RoleFull": {
+          "false": "Passiv",
+          "true": "Aktiv"
+        }
+      }
+    },
+    "rollers": {
+      "Domain": "Domänen",
+      "DomainRole": "Domänenrollen",
+      "ExtensionRole": "Erweiterungsrollen",
+      "Extensions": "Erweiterungen",
+      "Files": "Ordner",
+      "ReportCalc": "Suchberichte",
+      "ReportDomain": "Domänenberichte",
+      "ReportExtension": "Erweiterungsberichte",
+      "ReportTenant": "Kraftwerksberichte",
+      "Scenarios": "Szenarien",
+      "TenantRole": "Switchboard-Rollen",
+      "Tenants": "Kraftwerke",
+      "UserToDomain": "Domänenbenutzer",
+      "UserToExtension": "Benutzer der Erweiterung",
+      "UserToTenant": "Santal-Benutzer"
+    },
+    "step": {
+      "label": {
+        "giris": "Anmeldung",
+        "kullanici": "Nutzer wählen",
+        "onay": "Genehmigen",
+        "yetki": "Wählen Sie Autorität aus"
+      }
+    },
+    "table": {
+      "Bolum": "Abschnitt",
+      "Full": "voll",
+      "Yetkiler": "Kräfte"
+    },
+    "title": {
+      "onay_user": "Ein neuer Benutzer mit der E-Mail-Adresse „<b>{{email}}</b>“ und dem Vornamen „<b>{{name}}</b>“ wird erstellt.",
+      "userToDomain": {
+        "giris": "Weisen Sie der Domäne mit dem Namen <b>{{name}}</b> weiterhin einen Benutzer und eine Berechtigung zu.",
+        "onay": "Der Benutzer mit der E-Mail-Adresse <b>{{Benutzer}}</b> wird der Domäne <b>{{Name}}</b> mit der Berechtigung <b>{{Berechtigung}}< hinzugefügt /b>.",
+        "yetki": "Eine neue Behörde mit dem Namen „<b>{{Behörde}}</b>“ wird der Domäne <b>{{Name}}</b> hinzugefügt."
+      },
+      "userToExtension": {
+        "giris": "Weisen Sie der Erweiterung mit dem Namen <b>{{name}}</b> weiterhin einen Benutzer und eine Autorisierung zu.",
+        "onay": "Die Erweiterung <b>{{name}}</b> fügt den Benutzer mit der E-Mail-Adresse <b>{{user}}</b> mit der Berechtigung <b>{{Berechtigung}}</b> hinzu.",
+        "yetki": "Der Erweiterung <b>{{name}}</b> wird eine neue Autorisierung mit dem Namen \"<b>{{authority}}}\" hinzugefügt."
+      },
+      "userToTenant": {
+        "giris": "Weisen Sie der Börse mit dem Namen <b>{{name}}</b> weiterhin einen Benutzer und eine Autorisierung zu.",
+        "onay": "Der Benutzer mit der E-Mail-Adresse <b>{{Benutzer}}</b> wird mit der Berechtigung <b>{{Berechtigung}} zum Austausch namens <b>{{Name}}</b> hinzugefügt. </b>.",
+        "yetki": "Dem Austausch namens <b>{{name}}</b> wird eine neue Autorisierung mit dem Namen „<b>{{authority}}}</b>“ hinzugefügt."
+      }
+    },
+    "users": {
+      "label": {
+        "MailSend": "Email Benachrichtigung",
+        "UserEmail": "E-Mail-Addresse",
+        "UserName": "Name und Nachname",
+        "UserPassword": "Passwort"
+      },
+      "labelMsg": {
+        "MailSend": "Benutzerinformationen per E-Mail versenden.",
+        "UserEmail": "Der Domänenname der E-Mail-Adresse muss {{name}} sein.",
+        "UserName": "Mindestens 8 und maximal 32 Zeichen.",
+        "UserPassword": "Mindestens 5 und maximal 32 Zeichen."
+      },
+      "switch": {
+        "MailSend": {
+          "false": "Senden",
+          "true": "Senden"
+        }
+      }
+    }
+  },
+  "saat": {
+    "bugun": "Heute um {{saat}}",
+    "dun": "Gestern um {{saat}}",
+    "format": {
+      "gun": "{{gun}}.{{ay}}.{{yil}}",
+      "gunsaat": "{{gun}}.{{ay}}.{{yil}} {{saat}}"
+    },
+    "gecenhafta": "Letzten {{gun}} um {{saat}}",
+    "gelecekhafta": "Nächsten {{gun}} um {{saat}}",
+    "gunler": {
+      "0": "Sonntag",
+      "1": "Montag",
+      "2": "Dienstag",
+      "3": "Mittwoch",
+      "4": "Donnerstag",
+      "5": "Freitag",
+      "6": "Samstag"
+    },
+    "gunlerkisa": {
+      "0": "So",
+      "1": "Mo",
+      "2": "Di",
+      "3": "Mi",
+      "4": "Do",
+      "5": "Fr",
+      "6": "Sa"
+    },
+    "takvim": {
+      "zaman": "{{zaman}}"
+    },
+    "yarin": "Morgen um {{saat}}",
+		"basit": {
+			"year": "Jahr",
+			"years": "Jahre",
+			"day": "Tag",
+			"days": "Tage",
+			"hour": "Stunde",
+			"hours": "Stunden",
+			"minute": "Minute",
+			"minutes": "Minuten",
+			"second": "Sekunde",
+			"seconds": "Sekunden",
+			"and": "und",
+			"zeroSeconds": "0 Sekunden"
+		}
+  },
+  "search": {
+    "active": "Aktiv",
+    "all": "alle",
+    "passive": "Passiv"
+  }
+}

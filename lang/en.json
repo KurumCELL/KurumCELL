@@ -1,0 +1,375 @@
+{
+  "diagram": {
+    "file": {
+      "msg": {
+        "add": {
+          "Error": "The sound could not be recorded.",
+          "Ok": "The sound has been recorded."
+        },
+        "remove": {
+          "Error": "Failed to delete audio file.",
+          "Ok": "The sound file <b>{{name}}</b> has been deleted.",
+          "Used": "The audio file cannot be deleted because <b>{{count}} pieces</b> are used in the menu."
+        },
+        "upload": {
+          "Error": "File could not be attached.",
+          "Ok": "<b>{{add}}</b> new file has been added and <b>{{update}}</b> file has been updated."
+        }
+      }
+    },
+    "msg": {
+      "save": {
+        "Error": "The diagram could not be saved.",
+        "Ok": "The diagram has been saved."
+      }
+    },
+    "pano": {
+      "anons": {
+        "select": {
+          "sesdosyalari": "Audio Files",
+          "tts": "TTS"
+        },
+        "type": {
+          "hata": "Error Announcement",
+          "karsilama": "Welcome Announcement",
+          "kisaon": "Short Pre-Announcement",
+          "tuslamasonrasi": "Announcement After Dial",
+          "zamanasimi": "Timeout Announcement"
+        }
+      },
+      "name": {
+        "Api": "API",
+        "CloseCall": "Call Close",
+        "ConnectCall": "Connect Call",
+        "IVRMenu": "IVR Menu",
+        "Login": "Entrance",
+        "OpenCall": "Open Call",
+        "PlayAnnouncement": "Play Announcement",
+        "Scenario": "Scenario"
+      },
+      "type": {
+        "ivr": {
+          "ayarlar": "settings"
+        }
+      }
+    },
+    "ses": {
+      "form": {
+        "SesFile": "Audio File {{lang}}",
+        "SesLang": "Audio Language",
+        "SesName": "Voice Name",
+        "SesTts": "{{lang}} TTS Text",
+        "SesTtsType": "Text Reader",
+        "SesTtsTypeSelect": {
+          "FAMALE": "Woman",
+          "MALE": "Boy"
+        },
+        "SesType": "Audio Type",
+        "SesTypeSelect": {
+          "FILE": "Audio File",
+          "TTS": "Text Reader (Tts)"
+        },
+        "btn": {
+          "Add": "Add",
+          "Cancel": "Cancel",
+          "Save": "Save"
+        },
+        "title": {
+          "Add": "Add new audio file",
+          "Edit": "edit audio file"
+        }
+      },
+      "kaydet": {
+        "Tamam": "OK"
+      },
+      "msg": {
+        "save": {
+          "Error": "The sound could not be recorded.",
+          "Ok": "The sound has been recorded."
+        }
+      }
+    }
+  },
+  "global": {
+    "Customer": "Customer",
+    "CustomerName": "Customer",
+    "Customers": "Customers",
+    "Domain": "Domain",
+    "DomainName": "Domain Name",
+    "Domains": "Domains",
+    "Edit": "Edit",
+    "Email": "Email",
+    "Enabled": "Situation",
+    "Extension": "Extension Line",
+    "Extensions": "Extensions",
+    "Gateway": "gateway",
+    "Gateways": "Gateways",
+    "Name": "Name",
+    "Password": "Password",
+    "Process": "Transactions",
+    "RoutingGroups": "Routing Groups",
+    "Scenario": "Scenario",
+    "Scenarios": "scenarios",
+    "Search": "Call",
+    "SipUser": "Sip User",
+    "SipUsers": "Sip Users",
+    "Status": "Situation",
+    "Tenant": "Tenant",
+    "TenantName": "Tenant Name",
+    "Tenants": "Tenants",
+    "USer": "User",
+    "UserToDomain": "Domain Users",
+    "UserToExtension": "Extension Users",
+    "UserToTenant": "Switchboard Users",
+    "Users": "Users",
+    "btn": {
+      "Add": "Add",
+      "Cancel": "Cancel",
+      "Close": "Close",
+      "Continue": "Continue",
+      "Delete": "delete",
+      "Edit": "Edit",
+      "Next": "Forward",
+      "No": "No",
+      "Ok": "OK",
+      "Remove": "remove",
+      "Save": "Save",
+      "Search": "Call",
+      "Yes": "Yes"
+    },
+    "confirm": {
+      "btn": {
+        "Cancel": "No",
+        "Confirm": "Yes"
+      },
+      "title": "Approve"
+    },
+    "kullaniciEkle": "Add User",
+    "switch": {
+      "off": "off",
+      "on": "Front"
+    },
+    "userToDomain": "Domain Users",
+    "userToExtension": "Extension Users",
+    "userToTenant": "Switchboard Users",
+    "yetkiyok": "You are not authorized"
+  },
+  "lang": {
+    "Languages": "Languages ​​Ctrl+Right",
+    "locale": {
+      "de": "German",
+      "en": "English",
+      "tr": "Turkish"
+    }
+  },
+  "login": {
+    "btn": {
+      "cancel": "Cancel",
+      "login": "Login",
+      "next": "Go on",
+      "signup": "Register"
+    },
+    "email": "E-mail address",
+    "giris": {
+      "yapiniz": "Please Login"
+    },
+    "giris1": {
+    },
+    "kayitol": "Register",
+    "msg": {
+      "confirmprivacy": "Not accepted to the privacy policy.",
+      "confirmterms": "Terms of use not accepted.",
+      "email": "Please enter valid email address.",
+      "emailwrong": "Email address is wrong",
+      "password": "Please enter a valid password.",
+      "passwordwrong": "Wrong password",
+      "session": "Session error",
+      "thereisanemail": "Please write another email address"
+    },
+    "password": "Password",
+    "title": "Login",
+    "username": "Name surname"
+  },
+  "pagination": {
+    "SayfaLinkBilgi": "Displaying {{ilk}}-{{son}} of {{toplam}} results."
+  },
+  "roleEditor": {
+    "item": {
+      "Add": "Adding",
+      "Delete": "Deletion",
+      "Download": "Download",
+      "Edit": "Arrangement",
+      "Email": "Email",
+      "Last1Day": "Last 1 day",
+      "Last1Hour": "Last 1 Hour",
+      "Last1month": "Last 1 Month",
+      "List": "List",
+      "UnlimitedTime": "Unlimited Time",
+      "Upload": "Upload",
+      "View": "Tracing"
+    },
+    "itemInfo": {
+      "false": {
+        "Add": "Cannot add",
+        "Delete": "Can't delete",
+        "Download": "Can't download",
+        "Edit": "Can't edit",
+        "Email": "Can't send email",
+        "Last1Day": "Can't get last 1 Day report",
+        "Last1Hour": "Can't get last 1 hour report",
+        "Last1month": "Can't get last 1 month report",
+        "List": "Unable to list",
+        "UnlimitedTime": "Can't get unlimited reports",
+        "Upload": "Unable to upload",
+        "View": "Can't monitor"
+      },
+      "true": {
+        "Add": "Can add",
+        "Delete": "Can delete",
+        "Download": "Can download",
+        "Edit": "Can edit",
+        "Email": "Can send e-mail",
+        "Last1Day": "Can Get Last 1 Day Report",
+        "Last1Hour": "Can Get Last 1 Hour Report",
+        "Last1month": "Last 1 Month report can be received",
+        "List": "Can make a list",
+        "UnlimitedTime": "Can Get Unlimited Reports",
+        "Upload": "Can Upload",
+        "View": "Can monitor"
+      }
+    },
+    "rolers": {
+      "label": {
+        "ModalTitle": "{{name}} privileges inherited",
+        "RegisteredRoles": "Saved Roles",
+        "RoleFull": "Full Authority",
+        "RoleName": "Role Name"
+      },
+      "switch": {
+        "RoleFull": {
+          "false": "Passive",
+          "true": "Active"
+        }
+      }
+    },
+    "rollers": {
+      "Domain": "Domains",
+      "DomainRole": "Domain Roles",
+      "ExtensionRole": "Extension Roles",
+      "Extensions": "Extensions",
+      "Files": "Folders",
+      "ReportCalc": "Search Reports",
+      "ReportDomain": "Domain Reports",
+      "ReportExtension": "Extension Reports",
+      "ReportTenant": "Tenant Reports",
+      "Scenarios": "Scenarios",
+      "TenantRole": "Switchboard Roles",
+      "Tenants": "Tenants",
+      "UserToDomain": "Domain User",
+      "UserToExtension": "Extension User",
+      "UserToTenant": "Tenant User"
+    },
+    "step": {
+      "label": {
+        "giris": "Login",
+        "kullanici": "Select User",
+        "onay": "Approve",
+        "yetki": "Select Authority"
+      }
+    },
+    "table": {
+      "Bolum": "Section",
+      "Full": "full",
+      "Yetkiler": "powers"
+    },
+    "title": {
+      "onay_user": "A new user with e-mail address \"<b>{{email}}</b>\" and last name \"<b>{{name}}</b>\" will be created.",
+      "userToDomain": {
+        "giris": "Please continue to assign a user and authority to the domain named <b>{{name}}</b>.",
+        "onay": "The user with the email address <b>{{user}}</b> will be added to the domain <b>{{name}}</b> with the authority <b>{{authority}}</b>.",
+        "yetki": "A new authority with the name \"<b>{{authority}}</b>\" will be added to the domain <b>{{name}}</b>."
+      },
+      "userToExtension": {
+        "giris": "Please continue to assign a user and authorization to the extension named <b>{{name}}</b>.",
+        "onay": "The extension <b>{{name}}</b> will add the user with the email address <b>{{user}}</b> with the authority <b>{{authority}}</b>.",
+        "yetki": "A new authorization with the name \"<b>{{authority}}}\" will be added to the extension <b>{{name}}</b>."
+      },
+      "userToTenant": {
+        "giris": "Please continue to assign a user and authorization to the exchange named <b>{{name}}</b>.",
+        "onay": "The user with the e-mail address <b>{{user}}</b> will be added to the exchange named <b>{{name}}</b> with the authority <b>{{authority}}</b>.",
+        "yetki": "A new authorization with the name \"<b>{{authority}}}</b>\" will be added to the exchange named <b>{{name}}</b>."
+      }
+    },
+    "users": {
+      "label": {
+        "MailSend": "Email Notification",
+        "UserEmail": "E-mail address",
+        "UserName": "Name and surname",
+        "UserPassword": "Password"
+      },
+      "labelMsg": {
+        "MailSend": "Send user information by e-mail.",
+        "UserEmail": "The domain name of the e-mail address must be {{name}}.",
+        "UserName": "Min 8 and Max 32 characters.",
+        "UserPassword": "Min 5 and Max 32 characters."
+      },
+      "switch": {
+        "MailSend": {
+          "false": "Sending",
+          "true": "Send"
+        }
+      }
+    }
+  },
+  "saat": {
+    "bugun": "Today at {{saat}}",
+    "dun": "Yesterday at {{saat}}",
+    "format": {
+      "gun": "{{ay}}/{{gun}}/{{yil}}",
+      "gunsaat": "{{ay}}/{{gun}}/{{yil}} {{saat}}"
+    },
+    "gecenhafta": "Last {{gun}} at {{saat}}",
+    "gelecekhafta": "{{gun}} at {{saat}}",
+    "gunler": {
+      "0": "Sunday",
+      "1": "Monday",
+      "2": "Tuesday",
+      "3": "Wednesday",
+      "4": "Thursday",
+      "5": "Friday",
+      "6": "Saturday"
+    },
+    "gunlerkisa": {
+      "0": "Sun",
+      "1": "Mon",
+      "2": "Tue",
+      "3": "Wed",
+      "4": "Thu",
+      "5": "Fri",
+      "6": "Sat"
+    },
+    "takvim": {
+      "zaman": "{{zaman}}"
+    },
+    "yarin": "Tomorrow at {{saat}}",				
+		"basit":{
+			"year": "year",
+			"years": "years",
+			"day": "day",
+			"days": "days",
+			"hour": "hour",
+			"hours": "hours",
+			"minute": "minute",
+			"minutes": "minutes",
+			"second": "second",
+			"seconds": "seconds",
+			"and": "and",
+			"zeroSeconds": "0 seconds"
+		}
+  },
+  "search": {
+    "active": "Active",
+    "all": "all",
+    "passive": "Passive"
+  }
+}
