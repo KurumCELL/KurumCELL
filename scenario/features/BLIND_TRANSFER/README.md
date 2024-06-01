@@ -1,6 +1,8 @@
 # BLIND_TRANSFER
 
-*FEATURE_CODE <Dial transferee number when it is prompted>
+*1
+
+*FEATURE_CODE (Dial transferee number when it is prompted)
 
 ## Özellikler
 
