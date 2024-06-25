@@ -1,15 +1,18 @@
 [
   {
+    "uuid": "00000000-0000-4000-8000-100000000001",
     "name": "tenants",
     "title": "Tenants",
     "readme": "README for tenants",
     "scenarios": [
       {
+        "uuid": "00000000-0000-4000-8000-100000000002",
         "name": "CALL_INPUT",
         "title": "Call Input",
         "readme": "README for Call Input"
       },
       {
+        "uuid": "00000000-0000-4000-8000-100000000003",
         "name": "CALL_OUTPUT",
         "title": "Call Output",
         "readme": "README for Call Output"
@@ -17,16 +20,19 @@
     ]
   },
   {
+    "uuid": "00000000-0000-4000-8000-200000000001",
     "name": "features",
     "title": "Features",
     "readme": "README for features",
     "scenarios": [
       {
+        "uuid": "00000000-0000-4000-8000-200000000002",
         "name": "ATTENDED_TRANSFER",
         "title": "Attended Transfer",
         "readme": "README for Attended Transfer"
       },
       {
+        "uuid": "00000000-0000-4000-8000-200000000003",
         "name": "BLIND_TRANSFER",
         "title": "Blind Transfer",
         "readme": "README for Blind Transfer"
