@@ -1,0 +1,36 @@
+[
+  {
+    "name": "tenants",
+    "title": "Tenants",
+    "readme": "README for tenants",
+    "scenario": [
+      {
+        "name": "CALL_INPUT",
+        "title": "Call Input",
+        "readme": "README for Call Input"
+      },
+      {
+        "name": "CALL_OUTPUT",
+        "title": "Call Output",
+        "readme": "README for Call Output"
+      }
+    ]
+  },
+  {
+    "name": "features",
+    "title": "Features",
+    "readme": "README for features",
+    "scenario": [
+      {
+        "name": "ATTENDED_TRANSFER",
+        "title": "Attended Transfer",
+        "readme": "README for Attended Transfer"
+      },
+      {
+        "name": "BLIND_TRANSFER",
+        "title": "Blind Transfer",
+        "readme": "README for Blind Transfer"
+      }
+    ]
+  }
+]
