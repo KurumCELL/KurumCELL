@@ -3,7 +3,7 @@
     "name": "tenants",
     "title": "Tenants",
     "readme": "README for tenants",
-    "scenario": [
+    "scenarios": [
       {
         "name": "CALL_INPUT",
         "title": "Call Input",
@@ -20,7 +20,7 @@
     "name": "features",
     "title": "Features",
     "readme": "README for features",
-    "scenario": [
+    "scenarios": [
       {
         "name": "ATTENDED_TRANSFER",
         "title": "Attended Transfer",
