@@ -1013,7 +1013,6 @@
               "ExtensionControlNumber": 3,
               "ScenarioVersions": ""
             },
-            "Version": 1001,
             "main": {
               "ignore_early_media": true,
               "originate_timeout": 30,
