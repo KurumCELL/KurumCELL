@@ -1112,7 +1112,7 @@
               "dataType": "NAME"
             }
           },
-          "Version": "1002",
+          "Version": 1002,
           "noInput": 0,
           "noOutput": 0,
           "noTitle": 0,
@@ -1223,6 +1223,7 @@
           "Settings": {
             "main": {}
           },
+          "Version": 1001,
           "noInput": 0,
           "noOutput": 0,
           "noTitle": 1,
@@ -1485,8 +1486,8 @@
         "tr": {
           "data": [
             {
-              "type": "TEXT",
-              "text": "Dahili hat kayıtlı değil."
+              "text": "Dahili hat kayıtlı değil.",
+              "type": "TEXT"
             }
           ],
           "langName": "global",
