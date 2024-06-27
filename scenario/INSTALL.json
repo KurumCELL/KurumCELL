@@ -9,6 +9,7 @@
       {
         "uuid": "00000000-0000-4000-8000-100000000002",
         "type": "normal",
+        "required": true,
         "name": "CALL_INPUT",
         "title": "Call Input",
         "readme": "README for Call Input"
@@ -16,6 +17,7 @@
       {
         "uuid": "00000000-0000-4000-8000-100000000003",
         "type": "normal",
+        "required": true,
         "name": "CALL_OUTPUT",
         "title": "Call Output",
         "readme": "README for Call Output"
@@ -32,6 +34,7 @@
       {
         "uuid": "00000000-0000-4000-8000-200000000002",
         "type": "feature",
+        "required": true,
         "name": "ATTENDED_TRANSFER",
         "title": "Attended Transfer",
         "readme": "README for Attended Transfer"
@@ -39,6 +42,7 @@
       {
         "uuid": "00000000-0000-4000-8000-200000000003",
         "type": "feature",
+        "required": true,
         "name": "BLIND_TRANSFER",
         "title": "Blind Transfer",
         "readme": "README for Blind Transfer"
