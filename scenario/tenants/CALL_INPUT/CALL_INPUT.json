@@ -369,7 +369,6 @@
               "ExtensionControlNumber": 3,
               "ScenarioVersions": ""
             },
-            "Version": 1001,
             "main": {
               "ignore_early_media": true,
               "originate_timeout": 30,
@@ -495,8 +494,8 @@
                 "Show": 0,
                 "x1": 660,
                 "y1": 132,
-                "x2": 660,
-                "y2": 132,
+                "x2": 612,
+                "y2": 372,
                 "w": 240,
                 "h": 156,
                 "R": "#006064"
@@ -528,8 +527,8 @@
                 "Show": 0,
                 "x1": 660,
                 "y1": 132,
-                "x2": 660,
-                "y2": 132,
+                "x2": 612,
+                "y2": 372,
                 "w": 240,
                 "h": 156,
                 "R": "#006064"
@@ -865,6 +864,7 @@
             }
           },
           "Version": 1002,
+          "noDelete": 1,
           "noInput": 1,
           "noOutput": 0,
           "noTitle": 0,
@@ -873,8 +873,7 @@
           "x": 0,
           "y": 132,
           "w": 120,
-          "h": 108,
-          "noDelete": 1
+          "h": 108
         },
         "d28d7f83-d926-411b-949e-f53de5762408": {
           "Announcements": {
@@ -1106,8 +1105,8 @@
         "kabloHizala": 6,
         "panoHizala": false,
         "scale": 1,
-        "x": 63.52,
-        "y": 40.23
+        "x": 124.52,
+        "y": 55.23
       }
     }
   },
@@ -1148,7 +1147,7 @@
         "tr": {
           "data": [
             {
-              "text": "{VAR:Global:5f897d6b-3ce1-437b-8b7a-543fe5763256::}       numaralı dahili aranırken hata oluştu.<voice name='en-US-Wavenet-J'>{VAR:0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944:2809cffd-47ce-419a-918e-3dc1c2b94412::}</voice>",
+              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}        numaralı dahili aranırken hata oluştu.<voice name='en-US-Wavenet-J'>{VAR:0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944:2809cffd-47ce-419a-918e-3dc1c2b94412::}</voice> ",
               "type": "TEXT"
             }
           ],
@@ -1194,7 +1193,7 @@
         "tr": {
           "data": [
             {
-              "text": "{VAR:Global:5f897d6b-3ce1-437b-8b7a-543fe5763256::}     numaralı dahili cevap vermiyor.",
+              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}      numaralı dahili cevap vermiyor.",
               "type": "TEXT"
             }
           ],
@@ -1240,7 +1239,7 @@
         "tr": {
           "data": [
             {
-              "text": "{VAR:Global:5f897d6b-3ce1-437b-8b7a-543fe5763256::}   numaralı dahili müsait değil.",
+              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}    numaralı dahili müsait değil.",
               "type": "TEXT"
             }
           ],
