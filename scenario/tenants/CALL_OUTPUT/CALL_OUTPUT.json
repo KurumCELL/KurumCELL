@@ -2,7 +2,7 @@
   "ScenarioUUID": "{MAIN_UUID}",
   "ScenarioName": "CALL_OUTPUT",
   "ScenarioComment": "CALL_OUTPUT",
-  "Version": 1.02,
+  "Version": 1.01,
   "ScenarioType": "normal",
   "Data": {
     "{MAIN_UUID}": {
