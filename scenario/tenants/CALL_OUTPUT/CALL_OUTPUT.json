@@ -262,7 +262,7 @@
               "otomatikAc": true
             }
           },
-          "Version": "1002",
+          "Version": 1002,
           "noDelete": 1,
           "noInput": 1,
           "noOutput": 0,
@@ -1030,7 +1030,7 @@
               "dataType": "NAME"
             }
           },
-          "Version": "1002",
+          "Version": 1002,
           "noInput": 0,
           "noOutput": 0,
           "noTitle": 0,
@@ -1049,9 +1049,9 @@
       "Settings": {
         "kabloHizala": 6,
         "panoHizala": false,
-        "scale": 1,
-        "x": 68.95,
-        "y": 16.87
+        "scale": 0.9,
+        "x": 107.15,
+        "y": 27.38
       }
     }
   },
@@ -1069,8 +1069,8 @@
         "tr": {
           "data": [
             {
-              "type": "TEXT",
-              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}         numaralı dahili aranırken hata oluştu.<voice name='en-US-Wavenet-J'>{VAR:c7770648-2a11-42fb-8054-7c97c137d8fc:2809cffd-47ce-419a-918e-3dc1c2b94412::}.</voice>"
+              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}         numaralı dahili aranırken hata oluştu.<voice name='en-US-Wavenet-J'>{VAR:c7770648-2a11-42fb-8054-7c97c137d8fc:2809cffd-47ce-419a-918e-3dc1c2b94412::}.</voice>",
+              "type": "TEXT"
             }
           ],
           "langName": "global",
@@ -1092,8 +1092,8 @@
         "tr": {
           "data": [
             {
-              "type": "TEXT",
-              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}   müsait değil."
+              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}   müsait değil.",
+              "type": "TEXT"
             }
           ],
           "langName": "global",
@@ -1138,8 +1138,8 @@
         "tr": {
           "data": [
             {
-              "type": "TEXT",
-              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}  aranıyor lütfen bekleyiniz."
+              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}  aranıyor lütfen bekleyiniz.",
+              "type": "TEXT"
             }
           ],
           "langName": "global",
@@ -1161,8 +1161,8 @@
         "tr": {
           "data": [
             {
-              "type": "TEXT",
-              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}   cevap vermiyor."
+              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}   cevap vermiyor.",
+              "type": "TEXT"
             }
           ],
           "langName": "global",
