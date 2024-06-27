@@ -1,8 +1,8 @@
 {
   "ScenarioUUID": "{MAIN_UUID}",
   "ScenarioName": "CALL_INPUT",
-  "ScenarioComment": "CALL_INPUT2",
-  "Version": 1.02,
+  "ScenarioComment": "CALL_INPUT",
+  "Version": 1.01,
   "ScenarioType": "normal",
   "Data": {
     "{MAIN_UUID}": {
@@ -44,8 +44,8 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 396,
-                "y1": 132,
+                "x1": 348,
+                "y1": 144,
                 "x2": 660,
                 "y2": 132,
                 "w": 147,
@@ -77,8 +77,8 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 396,
-                "y1": 132,
+                "x1": 348,
+                "y1": 144,
                 "x2": 660,
                 "y2": 132,
                 "w": 147,
@@ -111,8 +111,8 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 396,
-                "y1": 132,
+                "x1": 348,
+                "y1": 144,
                 "x2": 660,
                 "y2": 132,
                 "w": 147,
@@ -145,8 +145,8 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 396,
-                "y1": 132,
+                "x1": 348,
+                "y1": 144,
                 "x2": 660,
                 "y2": 132,
                 "w": 147,
@@ -179,10 +179,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 396,
-                "y1": 132,
-                "x2": 672,
-                "y2": 336,
+                "x1": 348,
+                "y1": 144,
+                "x2": 612,
+                "y2": 324,
                 "w": 147,
                 "h": 252,
                 "R": "#01579B"
@@ -213,10 +213,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 396,
-                "y1": 132,
-                "x2": 672,
-                "y2": 360,
+                "x1": 348,
+                "y1": 144,
+                "x2": 612,
+                "y2": 348,
                 "w": 147,
                 "h": 252,
                 "R": "#01579B"
@@ -247,10 +247,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 396,
-                "y1": 132,
-                "x2": 672,
-                "y2": 360,
+                "x1": 348,
+                "y1": 144,
+                "x2": 612,
+                "y2": 348,
                 "w": 147,
                 "h": 252,
                 "R": "#01579B"
@@ -281,10 +281,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 396,
-                "y1": 132,
-                "x2": 672,
-                "y2": 360,
+                "x1": 348,
+                "y1": 144,
+                "x2": 612,
+                "y2": 348,
                 "w": 147,
                 "h": 252,
                 "R": "#01579B"
@@ -315,10 +315,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 396,
-                "y1": 132,
-                "x2": 672,
-                "y2": 360,
+                "x1": 348,
+                "y1": 144,
+                "x2": 612,
+                "y2": 348,
                 "w": 147,
                 "h": 252,
                 "R": "#01579B"
@@ -349,10 +349,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 396,
-                "y1": 132,
-                "x2": 672,
-                "y2": 384,
+                "x1": 348,
+                "y1": 144,
+                "x2": 612,
+                "y2": 372,
                 "w": 147,
                 "h": 252,
                 "R": "#01579B"
@@ -386,14 +386,14 @@
               "dataType": "NAME"
             }
           },
-          "Version": "1002",
+          "Version": 1002,
           "noInput": 0,
           "noOutput": 0,
           "noTitle": 0,
           "r": "varsayilan",
           "selfConnectable": 0,
-          "x": 396,
-          "y": 132,
+          "x": 348,
+          "y": 144,
           "w": 147,
           "h": 252
         },
@@ -426,10 +426,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 936,
-                "y1": 360,
-                "x2": 672,
-                "y2": 384,
+                "x1": 1272,
+                "y1": 348,
+                "x2": 612,
+                "y2": 372,
                 "w": 106,
                 "h": 22,
                 "R": "#BF360C"
@@ -445,8 +445,8 @@
           "noTitle": 1,
           "r": "turuncu",
           "selfConnectable": 0,
-          "x": 936,
-          "y": 360,
+          "x": 1272,
+          "y": 348,
           "w": 106,
           "h": 22
         },
@@ -466,7 +466,7 @@
             "R": "settings_phone",
             "T": "S"
           },
-          "Name": "Call Management",
+          "Name": "Call Management - CALL_INPUT",
           "PanoType": "call_management",
           "Ports": [
             {
@@ -495,9 +495,9 @@
                 "Show": 0,
                 "x1": 660,
                 "y1": 132,
-                "x2": 672,
-                "y2": 384,
-                "w": 161,
+                "x2": 660,
+                "y2": 132,
+                "w": 240,
                 "h": 156,
                 "R": "#006064"
               }
@@ -528,9 +528,9 @@
                 "Show": 0,
                 "x1": 660,
                 "y1": 132,
-                "x2": 672,
-                "y2": 384,
-                "w": 161,
+                "x2": 660,
+                "y2": 132,
+                "w": 240,
                 "h": 156,
                 "R": "#006064"
               }
@@ -538,7 +538,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "8e224774-0d70-4780-b807-110dcbe52f27",
+              "Go": "f562a129-66b2-4ba8-82a8-742612ded3f6",
               "Location": [
                 0,
                 0,
@@ -561,9 +561,9 @@
                 "Show": 1,
                 "x1": 660,
                 "y1": 132,
-                "x2": 954,
-                "y2": 198,
-                "w": 161,
+                "x2": 1056,
+                "y2": 228,
+                "w": 240,
                 "h": 156,
                 "R": "#006064"
               }
@@ -594,9 +594,9 @@
                 "Show": 1,
                 "x1": 660,
                 "y1": 132,
-                "x2": 954,
-                "y2": 198,
-                "w": 161,
+                "x2": 1056,
+                "y2": 252,
+                "w": 240,
                 "h": 156,
                 "R": "#006064"
               }
@@ -628,9 +628,9 @@
                 "Show": 0,
                 "x1": 660,
                 "y1": 132,
-                "x2": 954,
-                "y2": 198,
-                "w": 161,
+                "x2": 1056,
+                "y2": 252,
+                "w": 240,
                 "h": 156,
                 "R": "#006064"
               }
@@ -658,7 +658,7 @@
           "selfConnectable": 0,
           "x": 660,
           "y": 132,
-          "w": 161,
+          "w": 240,
           "h": 156
         },
         "8e224774-0d70-4780-b807-110dcbe52f27": {
@@ -683,20 +683,20 @@
               "Location": [
                 0,
                 0,
-                0,
+                1,
                 0
               ],
-              "Name": "Hoşçakalın",
+              "Name": "Hoşçakalın Arayan",
               "UUID": "2247740d-7067-4078-8711-0dcbe52f27ff",
               "Value": "undefined",
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 954,
-                "y1": 198,
-                "x2": 936,
-                "y2": 360,
-                "w": 93,
+                "x1": 1056,
+                "y1": 252,
+                "x2": 1272,
+                "y2": 348,
+                "w": 134,
                 "h": 22,
                 "R": "#827717"
               }
@@ -711,9 +711,9 @@
           "noTitle": 1,
           "r": "zeytinyesili",
           "selfConnectable": 0,
-          "x": 954,
-          "y": 198,
-          "w": 93,
+          "x": 1056,
+          "y": 252,
+          "w": 134,
           "h": 22
         },
         "9ef53de5-7624-4857-bea8-5dac1aec1a87": {
@@ -728,7 +728,7 @@
             "R": "perm_phone_msg",
             "T": "S"
           },
-          "Name": "Anons Dinlet - 3",
+          "Name": "Anons Dinlet - Hata Oluştu",
           "PanoType": "anons",
           "Ports": [
             {
@@ -747,10 +747,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 672,
-                "y1": 384,
-                "x2": 936,
-                "y2": 360,
+                "x1": 612,
+                "y1": 372,
+                "x2": 1272,
+                "y2": 348,
                 "w": 101,
                 "h": 22,
                 "R": "#827717"
@@ -766,64 +766,9 @@
           "noTitle": 1,
           "r": "zeytinyesili",
           "selfConnectable": 0,
-          "x": 672,
-          "y": 384,
+          "x": 612,
+          "y": 372,
           "w": 101,
-          "h": 22
-        },
-        "c1c2b944-124d-4c3a-96f9-bff2a2ae2a9d": {
-          "Announcements": {
-            "anons": "b944124d-cc3a-46f9-bff2-a2ae2a9d6f92"
-          },
-          "Channels": [
-            ""
-          ],
-          "ID": "c1c2b944-124d-4c3a-96f9-bff2a2ae2a9d",
-          "IMG": {
-            "R": "perm_phone_msg",
-            "T": "S"
-          },
-          "Name": "Anons Dinlet",
-          "PanoType": "anons",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944",
-              "Location": [
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Lütfen Bekleyiniz",
-              "UUID": "c2b94412-4dcc-4a56-b9bf-f2a2ae2a9d6f",
-              "Value": "undefined",
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 180,
-                "y1": 180,
-                "x2": 396,
-                "y2": 132,
-                "w": 125,
-                "h": 22,
-                "R": "#827717"
-              }
-            }
-          ],
-          "Settings": {
-            "main": {}
-          },
-          "Version": 1001,
-          "noInput": 0,
-          "noOutput": 0,
-          "noTitle": 1,
-          "r": "zeytinyesili",
-          "selfConnectable": 0,
-          "x": 180,
-          "y": 180,
-          "w": 125,
           "h": 22
         },
         "c9eaa438-bb38-461a-949d-fb1e589eef86": {
@@ -842,7 +787,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "c1c2b944-124d-4c3a-96f9-bff2a2ae2a9d",
+              "Go": "0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944",
               "If": null,
               "Location": [
                 0,
@@ -867,8 +812,8 @@
                 "Show": 1,
                 "x1": 0,
                 "y1": 132,
-                "x2": 180,
-                "y2": 180,
+                "x2": 348,
+                "y2": 144,
                 "w": 120,
                 "h": 108,
                 "R": "#33691E"
@@ -902,8 +847,8 @@
                 "Show": 0,
                 "x1": 0,
                 "y1": 132,
-                "x2": 180,
-                "y2": 180,
+                "x2": 348,
+                "y2": 144,
                 "w": 120,
                 "h": 108,
                 "R": "#33691E"
@@ -915,10 +860,11 @@
               "earlyMediaMaxSure": 30,
               "kayitSes": false,
               "kayitSesDisBaglanti": false,
-              "otomatikAc": true
+              "noanswer": false,
+              "otomatikAc": false
             }
           },
-          "Version": "1002",
+          "Version": 1002,
           "noInput": 1,
           "noOutput": 0,
           "noTitle": 0,
@@ -942,7 +888,7 @@
             "R": "perm_phone_msg",
             "T": "S"
           },
-          "Name": "Anons Dinlet - 1",
+          "Name": "Anons Dinlet - Cevap Vermiyor",
           "PanoType": "anons",
           "Ports": [
             {
@@ -961,10 +907,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 672,
-                "y1": 360,
-                "x2": 936,
-                "y2": 360,
+                "x1": 612,
+                "y1": 348,
+                "x2": 1272,
+                "y2": 348,
                 "w": 119,
                 "h": 22,
                 "R": "#827717"
@@ -980,8 +926,8 @@
           "noTitle": 1,
           "r": "zeytinyesili",
           "selfConnectable": 0,
-          "x": 672,
-          "y": 360,
+          "x": 612,
+          "y": 348,
           "w": 119,
           "h": 22
         },
@@ -997,7 +943,7 @@
             "R": "perm_phone_msg",
             "T": "S"
           },
-          "Name": "Anons Dinlet - 2",
+          "Name": "Anons Dinlet - Müsait Değil",
           "PanoType": "anons",
           "Ports": [
             {
@@ -1016,10 +962,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 672,
-                "y1": 336,
-                "x2": 936,
-                "y2": 360,
+                "x1": 612,
+                "y1": 324,
+                "x2": 1272,
+                "y2": 348,
                 "w": 100,
                 "h": 22,
                 "R": "#827717"
@@ -1035,8 +981,8 @@
           "noTitle": 1,
           "r": "zeytinyesili",
           "selfConnectable": 0,
-          "x": 672,
-          "y": 336,
+          "x": 612,
+          "y": 324,
           "w": 100,
           "h": 22
         },
@@ -1071,8 +1017,8 @@
                 "Show": 0,
                 "x1": -12,
                 "y1": 324,
-                "x2": 936,
-                "y2": 360,
+                "x2": 1272,
+                "y2": 348,
                 "w": 227,
                 "h": 84,
                 "R": "#FFF9C4"
@@ -1095,6 +1041,61 @@
           "y": 324,
           "w": 227,
           "h": 84
+        },
+        "f562a129-66b2-4ba8-82a8-742612ded3f6": {
+          "Announcements": {
+            "anons": "03a435ac-7c82-44f2-9363-7034b9914684"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "f562a129-66b2-4ba8-82a8-742612ded3f6",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet - 4 - 1",
+          "PanoType": "anons",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "1b949ef5-3de5-4624-8857-7ea85dac1aec",
+              "Location": [
+                0,
+                0,
+                1,
+                0
+              ],
+              "Name": "Hoşçakalın Aranan",
+              "UUID": "2247740d-7067-4078-8711-0dcbe52f27ff",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 1056,
+                "y1": 228,
+                "x2": 1272,
+                "y2": 348,
+                "w": 134,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {}
+          },
+          "Version": 1001,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "x": 1056,
+          "y": 228,
+          "w": 134,
+          "h": 22
         }
       },
       "Group": false,
@@ -1104,13 +1105,36 @@
       "Settings": {
         "kabloHizala": 6,
         "panoHizala": false,
-        "scale": 0.8,
-        "x": 100.57,
-        "y": 63.15
+        "scale": 1,
+        "x": 63.52,
+        "y": 40.23
       }
     }
   },
   "Sesler": {
+    "03a435ac-7c82-44f2-9363-7034b9914684": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Hoşçakalın Aranan",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " <break time='500ms' strength='medium'></break> Aranan Taraf Kapattı. Hoşçakalın.",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
     "3de57624-0857-4ea8-9dac-1aec1a871d5a": {
       "SesFile": {
         "tr": {
@@ -1142,12 +1166,12 @@
         }
       },
       "SesLang": "tr",
-      "SesName": "Hoşçakalın",
+      "SesName": "Hoşçakalın Arayan",
       "SesTts": {
         "tr": {
           "data": [
             {
-              "text": " Hoşçakalın.",
+              "text": " <break time='500ms' strength='medium'></break> Arayan Taraf Kapattı. Hoşçakalın.",
               "type": "TEXT"
             }
           ],
@@ -1242,7 +1266,7 @@
     },
     "46f89f54-98fc-429e-bf42-d28d7f83d926": {
       "UUID": "46f89f54-98fc-429e-bf42-d28d7f83d926",
-      "name": "Call Management",
+      "name": "Call Management - CALL_INPUT",
       "panoType": "call_management",
       "variables": [
         {
@@ -1291,6 +1315,12 @@
           "name": "Call Unix Time",
           "server": true,
           "uuid": "0cc8098e-63dd-d0f4-9bec-697e7e610f6b"
+        },
+        {
+          "global": false,
+          "key": "selam",
+          "name": "selam",
+          "uuid": "0a8eb1f0-43ff-4bd0-9d8d-71d1317f4c0b"
         }
       ]
     },
