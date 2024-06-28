@@ -8,7 +8,6 @@
 
 - Özellik 1
 - Özellik 2
-- Özellik 3
 
 ## Ekran Görüntüsü
 
