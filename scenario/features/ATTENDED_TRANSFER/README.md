@@ -12,4 +12,4 @@
 
 ## Ekran Görüntüsü
 
-![ATTENDED_TRANSFER](ATTENDED_TRANSFER.png)
+![ATTENDED_TRANSFER](https://raw.githubusercontent.com/KurumCELL/KurumCELL/main/scenario/features/ATTENDED_TRANSFER/ATTENDED_TRANSFER.png)
