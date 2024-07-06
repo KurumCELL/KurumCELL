@@ -563,17 +563,17 @@
                 0,
                 0
               ],
-              "Name": "İç aramalar için kullanılan seneryo.",
+              "Name": "Dış aramalar için kullanılan seneryo.",
               "UUID": "d24b63e1-cedb-4461-8bba-e6a49a86bd0c",
               "Value": "undefined",
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 12,
-                "y1": 348,
+                "x1": 0,
+                "y1": 324,
                 "x2": 972,
                 "y2": 288,
-                "w": 227,
+                "w": 235,
                 "h": 84,
                 "R": "#FFF9C4"
               }
@@ -591,9 +591,9 @@
           "noTitle": 0,
           "r": "aciksari",
           "selfConnectable": 0,
-          "x": 12,
-          "y": 348,
-          "w": 227,
+          "x": 0,
+          "y": 324,
+          "w": 235,
           "h": 84
         },
         "7ed571fa-5e96-4a5d-a84c-db71679018c3": {
