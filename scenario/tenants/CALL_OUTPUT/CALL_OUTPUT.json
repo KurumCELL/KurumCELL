@@ -1005,11 +1005,11 @@
           ],
           "Settings": {
             "Call": {
-              "CallIncomingDID": "NORMAL",
+              "CallIncomingDID": "VARIABLE",
               "CallIncomingDTMF": "NORMAL",
-              "CallNumber": "05416085316",
+              "CallNumber": "",
               "DestinationType": "did_uuid",
-              "DestinationUUID": "2ef2c921-e7e3-449c-88f6-69f5c9600bcd",
+              "DestinationUUID": "11e156e5-2ac6-100f-3a48-9bda18430dd5",
               "ExtensionControlNumber": 3,
               "ScenarioVersions": ""
             },
