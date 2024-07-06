@@ -362,10 +362,10 @@
           "Settings": {
             "Call": {
               "CallIncomingDID": "NORMAL",
-              "CallIncomingDTMF": "NORMAL",
+              "CallIncomingDTMF": "VARIABLE",
               "CallNumber": "",
               "DestinationType": "extension_uuid",
-              "DestinationUUID": "5f897d6b-3ce1-437b-8b7a-543fe5763256",
+              "DestinationUUID": "11e156e5-2ac6-100f-3a48-9bda18430dd5",
               "ExtensionControlNumber": 3,
               "ScenarioVersions": ""
             },
@@ -1105,8 +1105,8 @@
         "kabloHizala": 6,
         "panoHizala": false,
         "scale": 1,
-        "x": 124.52,
-        "y": 55.23
+        "x": 123.52,
+        "y": 67.23
       }
     }
   },
