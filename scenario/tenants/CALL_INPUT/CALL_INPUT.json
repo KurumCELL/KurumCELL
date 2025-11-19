@@ -7,9 +7,9 @@
   "Data": {
     "{MAIN_UUID}": {
       "Data": {
-        "277fd719-c01a-48c3-b0a3-bc31f4c4b471": {
+        "277fd719-c01a-48c3-b0a3-bc31f4c4b471-login": {
           "PanoType": "giris",
-          "ID": "277fd719-c01a-48c3-b0a3-bc31f4c4b471",
+          "ID": "277fd719-c01a-48c3-b0a3-bc31f4c4b471-login",
           "Version": 1002,
           "Announcements": {},
           "Name": "Login",
@@ -36,7 +36,7 @@
           },
           "Ports": [
             {
-              "Go": "8504c02c-73c9-45c3-a498-421e1e96601e",
+              "Go": "8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call",
               "Channel": "",
               "readOnly": true,
               "Name": "Output",
@@ -108,13 +108,13 @@
           "w": 142,
           "h": 108
         },
-        "15ccdb85-04c0-4c73-89c5-c36498421e1e": {
+        "15ccdb85-04c0-4c73-89c5-c36498421e1e-anons": {
           "Version": 1002,
           "PanoType": "anons",
           "Announcements": {
             "anons": "db8504c0-2c73-49c5-8364-98421e1e9660"
           },
-          "ID": "15ccdb85-04c0-4c73-89c5-c36498421e1e",
+          "ID": "15ccdb85-04c0-4c73-89c5-c36498421e1e-anons",
           "Name": "Anons Dinlet",
           "noDelete": 0,
           "noInput": 0,
@@ -147,7 +147,7 @@
                 0
               ],
               "Name": "Müsait değil",
-              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -163,15 +163,15 @@
               }
             }
           ],
-          "PanoUUID": "15ccdb85-04c0-4c73-89c5-c36498421e1e",
+          "PanoUUID": "15ccdb85-04c0-4c73-89c5-c36498421e1e-anons",
           "w": 138,
           "h": 22
         },
-        "8504c02c-73c9-45c3-a498-421e1e96601e": {
+        "8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call": {
           "Version": 1002,
           "PanoType": "redirect_call",
           "Announcements": {},
-          "ID": "8504c02c-73c9-45c3-a498-421e1e96601e",
+          "ID": "8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call",
           "Name": "Redirect Call",
           "noDelete": 0,
           "noInput": 0,
@@ -233,7 +233,7 @@
                 0,
                 0
               ],
-              "Go": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+              "Go": "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management",
               "Channel": "A",
               "ISLEM": {},
               "Path": {
@@ -266,7 +266,7 @@
                 0,
                 0
               ],
-              "Go": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+              "Go": "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management",
               "Channel": "B",
               "ISLEM": {},
               "Path": {
@@ -360,7 +360,7 @@
                 0,
                 0
               ],
-              "Go": "15ccdb85-04c0-4c73-89c5-c36498421e1e",
+              "Go": "15ccdb85-04c0-4c73-89c5-c36498421e1e-anons",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -394,7 +394,7 @@
                 0,
                 0
               ],
-              "Go": "1e1e9660-1e8a-494a-b751-714d38ca555d",
+              "Go": "1e1e9660-1e8a-494a-b751-714d38ca555d-anons",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -521,7 +521,7 @@
                 0,
                 0
               ],
-              "Go": "8a594a77-5171-4d38-8a55-5ded6afafedb",
+              "Go": "8a594a77-5171-4d38-8a55-5ded6afafedb-anons",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -537,17 +537,17 @@
               }
             }
           ],
-          "PanoUUID": "8504c02c-73c9-45c3-a498-421e1e96601e",
+          "PanoUUID": "8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call",
           "w": 142,
           "h": 228
         },
-        "1e1e9660-1e8a-494a-b751-714d38ca555d": {
+        "1e1e9660-1e8a-494a-b751-714d38ca555d-anons": {
           "Version": 1002,
           "PanoType": "anons",
           "Announcements": {
             "anons": "96601e8a-594a-4751-b14d-38ca555ded6a"
           },
-          "ID": "1e1e9660-1e8a-494a-b751-714d38ca555d",
+          "ID": "1e1e9660-1e8a-494a-b751-714d38ca555d-anons",
           "Name": "Anons Dinlet - 1",
           "noDelete": 0,
           "noInput": 0,
@@ -580,7 +580,7 @@
                 0
               ],
               "Name": "Cevap vermiyor",
-              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -596,15 +596,15 @@
               }
             }
           ],
-          "PanoUUID": "1e1e9660-1e8a-494a-b751-714d38ca555d",
+          "PanoUUID": "1e1e9660-1e8a-494a-b751-714d38ca555d-anons",
           "w": 138,
           "h": 22
         },
-        "601e8a59-4a77-4171-8d38-ca555ded6afa": {
+        "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call": {
           "Version": 1001,
           "PanoType": "hang_up_call",
           "Announcements": {},
-          "ID": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+          "ID": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
           "Name": "Hang Up Call",
           "noDelete": 0,
           "noInput": 0,
@@ -648,17 +648,17 @@
               }
             }
           ],
-          "PanoUUID": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+          "PanoUUID": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
           "w": 138,
           "h": 22
         },
-        "8a594a77-5171-4d38-8a55-5ded6afafedb": {
+        "8a594a77-5171-4d38-8a55-5ded6afafedb-anons": {
           "Version": 1002,
           "PanoType": "anons",
           "Announcements": {
             "anons": "4a775171-4d38-4a55-9ded-6afafedb6dfd"
           },
-          "ID": "8a594a77-5171-4d38-8a55-5ded6afafedb",
+          "ID": "8a594a77-5171-4d38-8a55-5ded6afafedb-anons",
           "Name": "Anons Dinlet - 2",
           "noDelete": 0,
           "noInput": 0,
@@ -691,7 +691,7 @@
                 0
               ],
               "Name": "Hata Oluştu",
-              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -707,11 +707,11 @@
               }
             }
           ],
-          "PanoUUID": "8a594a77-5171-4d38-8a55-5ded6afafedb",
+          "PanoUUID": "8a594a77-5171-4d38-8a55-5ded6afafedb-anons",
           "w": 138,
           "h": 22
         },
-        "64a5aece-d88f-4059-bb91-7e9d6c4096e1": {
+        "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management": {
           "Version": 1002,
           "PanoType": "call_management",
           "Announcements": {
@@ -720,7 +720,7 @@
             "waitingMusicA": "",
             "waitingMusicB": ""
           },
-          "ID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+          "ID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management",
           "Name": "Call Management",
           "noDelete": 0,
           "noInput": 0,
@@ -836,7 +836,7 @@
                 0,
                 0
               ],
-              "Go": "6c4096e1-390c-4e01-b03c-906b20ea5b5d",
+              "Go": "6c4096e1-390c-4e01-b03c-906b20ea5b5d-call_channel_status",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -870,7 +870,7 @@
                 0,
                 0
               ],
-              "Go": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da",
+              "Go": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da-call_channel_status",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -918,17 +918,17 @@
               }
             }
           ],
-          "PanoUUID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+          "PanoUUID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management",
           "w": 161,
           "h": 109
         },
-        "2059bb91-7e9d-4c40-96e1-390cde01b03c": {
+        "2059bb91-7e9d-4c40-96e1-390cde01b03c-anons": {
           "Version": 1002,
           "PanoType": "anons",
           "Announcements": {
             "anons": "bb917e9d-6c40-46e1-b90c-de01b03c906b"
           },
-          "ID": "2059bb91-7e9d-4c40-96e1-390cde01b03c",
+          "ID": "2059bb91-7e9d-4c40-96e1-390cde01b03c-anons",
           "Name": "Anons Dinlet - 3",
           "noDelete": 0,
           "noInput": 0,
@@ -961,7 +961,7 @@
                 0
               ],
               "Name": "Hoşçakalın Aranan",
-              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -977,17 +977,17 @@
               }
             }
           ],
-          "PanoUUID": "2059bb91-7e9d-4c40-96e1-390cde01b03c",
+          "PanoUUID": "2059bb91-7e9d-4c40-96e1-390cde01b03c-anons",
           "w": 138,
           "h": 22
         },
-        "917e9d6c-4096-4139-8cde-01b03c906b20": {
+        "917e9d6c-4096-4139-8cde-01b03c906b20-anons": {
           "Version": 1002,
           "PanoType": "anons",
           "Announcements": {
             "anons": "9d6c4096-e139-4cde-81b0-3c906b20ea5b"
           },
-          "ID": "917e9d6c-4096-4139-8cde-01b03c906b20",
+          "ID": "917e9d6c-4096-4139-8cde-01b03c906b20-anons",
           "Name": "Anons Dinlet - 4",
           "noDelete": 0,
           "noInput": 0,
@@ -1020,7 +1020,7 @@
                 0
               ],
               "Name": "Hoşçakalın Arayan",
-              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -1036,15 +1036,15 @@
               }
             }
           ],
-          "PanoUUID": "917e9d6c-4096-4139-8cde-01b03c906b20",
+          "PanoUUID": "917e9d6c-4096-4139-8cde-01b03c906b20-anons",
           "w": 138,
           "h": 22
         },
-        "6c4096e1-390c-4e01-b03c-906b20ea5b5d": {
+        "6c4096e1-390c-4e01-b03c-906b20ea5b5d-call_channel_status": {
           "Version": 1001,
           "PanoType": "call_channel_status",
           "Announcements": {},
-          "ID": "6c4096e1-390c-4e01-b03c-906b20ea5b5d",
+          "ID": "6c4096e1-390c-4e01-b03c-906b20ea5b5d-call_channel_status",
           "Name": "Call Channel Status",
           "noDelete": 0,
           "noInput": 0,
@@ -1086,7 +1086,7 @@
                 0,
                 0
               ],
-              "Go": "2059bb91-7e9d-4c40-96e1-390cde01b03c",
+              "Go": "2059bb91-7e9d-4c40-96e1-390cde01b03c-anons",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -1119,7 +1119,7 @@
                 0,
                 0
               ],
-              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -1135,15 +1135,15 @@
               }
             }
           ],
-          "PanoUUID": "6c4096e1-390c-4e01-b03c-906b20ea5b5d",
+          "PanoUUID": "6c4096e1-390c-4e01-b03c-906b20ea5b5d-call_channel_status",
           "w": 174,
           "h": 108
         },
-        "e1390cde-01b0-4c90-ab20-ea5b5d88b3da": {
+        "e1390cde-01b0-4c90-ab20-ea5b5d88b3da-call_channel_status": {
           "Version": 1001,
           "PanoType": "call_channel_status",
           "Announcements": {},
-          "ID": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da",
+          "ID": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da-call_channel_status",
           "Name": "Call Channel Status",
           "noDelete": 0,
           "noInput": 0,
@@ -1185,7 +1185,7 @@
                 0,
                 0
               ],
-              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa-hang_up_call",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -1218,7 +1218,7 @@
                 0,
                 0
               ],
-              "Go": "917e9d6c-4096-4139-8cde-01b03c906b20",
+              "Go": "917e9d6c-4096-4139-8cde-01b03c906b20-anons",
               "Channel": "",
               "ISLEM": {},
               "Path": {
@@ -1234,15 +1234,15 @@
               }
             }
           ],
-          "PanoUUID": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da",
+          "PanoUUID": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da-call_channel_status",
           "w": 174,
           "h": 108
         },
-        "de01b03c-906b-40ea-9b5d-88b3dab23156": {
+        "de01b03c-906b-40ea-9b5d-88b3dab23156-comment": {
           "Version": 1001,
           "PanoType": "comment",
           "Announcements": {},
-          "ID": "de01b03c-906b-40ea-9b5d-88b3dab23156",
+          "ID": "de01b03c-906b-40ea-9b5d-88b3dab23156-comment",
           "Name": "Comment",
           "noDelete": 0,
           "noInput": 1,
@@ -1289,7 +1289,7 @@
               }
             }
           ],
-          "PanoUUID": "de01b03c-906b-40ea-9b5d-88b3dab23156",
+          "PanoUUID": "de01b03c-906b-40ea-9b5d-88b3dab23156-comment",
           "w": 227,
           "h": 84
         }
@@ -1360,7 +1360,7 @@
           "data": [
             {
               "type": "TEXT",
-              "text": " {VAR:Global:CallerDestinationNumber:####}    numaralı dahili aranırken hata oluştu.   {VAR:8504c02c-73c9-45c3-a498-421e1e96601e:OutputPort:} "
+              "text": " {VAR:Global:CallerDestinationNumber:####}    numaralı dahili aranırken hata oluştu.   {VAR:8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call:OutputPort:} "
             }
           ],
           "test": {},
@@ -1632,9 +1632,9 @@
         }
       }
     },
-    "8504c02c-73c9-45c3-a498-421e1e96601e": {
-      "UUID": "8504c02c-73c9-45c3-a498-421e1e96601e",
-      "key": "8504c02c-73c9-45c3-a498-421e1e96601e",
+    "8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call": {
+      "UUID": "8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call",
+      "key": "8504c02c-73c9-45c3-a498-421e1e96601e-redirect_call",
       "name": "Redirect Call",
       "panoType": "redirect_call",
       "variables": {
@@ -1644,9 +1644,9 @@
         }
       }
     },
-    "64a5aece-d88f-4059-bb91-7e9d6c4096e1": {
-      "UUID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
-      "key": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+    "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management": {
+      "UUID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management",
+      "key": "64a5aece-d88f-4059-bb91-7e9d6c4096e1-call_management",
       "name": "Call Management",
       "panoType": "call_management",
       "variables": {
