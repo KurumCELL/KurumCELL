@@ -7,948 +7,139 @@
   "Data": {
     "{MAIN_UUID}": {
       "Data": {
-        "0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944": {
-          "Announcements": {},
-          "Channels": [
-            ""
-          ],
-          "ID": "0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944",
-          "IMG": {
-            "R": "phone_forwarded",
-            "T": "S"
-          },
-          "Name": "Redirect Call",
-          "PanoType": "redirect_call",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "A",
-              "Go": "46f89f54-98fc-429e-bf42-d28d7f83d926",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Answer - A",
-              "UUID": "09cffd47-ce71-4ad1-8e3d-c1c2b944124d",
-              "Value": "answerA",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "portType": "answerA",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 348,
-                "y1": 144,
-                "x2": 660,
-                "y2": 132,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "B",
-              "Go": "46f89f54-98fc-429e-bf42-d28d7f83d926",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Answer - B",
-              "UUID": "cffd47ce-719a-418e-bdc1-c2b944124dcc",
-              "Value": "answerB",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "portType": "answerB",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 348,
-                "y1": 144,
-                "x2": 660,
-                "y2": 132,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "End Call - A",
-              "UUID": "fd47ce71-9ad1-4e3d-81c2-b944124dcc3a",
-              "Value": "ENDCALLA",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": true,
-              "portType": "endCallA",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 348,
-                "y1": 144,
-                "x2": 660,
-                "y2": 132,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "End Call - B",
-              "UUID": "47ce719a-d18e-4dc1-82b9-44124dcc3a56",
-              "Value": "ENDCALLB",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": true,
-              "portType": "endCallB",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 348,
-                "y1": 144,
-                "x2": 660,
-                "y2": 132,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "d926d11b-949e-453d-a576-2408577ea85d",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "User Busy",
-              "UUID": "ce719ad1-8e3d-41c2-b944-124dcc3a56f9",
-              "Value": "BUSY",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": false,
-              "portType": "BUSY",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 348,
-                "y1": 144,
-                "x2": 612,
-                "y2": 324,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "d28d7f83-d926-411b-949e-f53de5762408",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "No Answer",
-              "UUID": "719ad18e-3dc1-42b9-8412-4dcc3a56f9bf",
-              "Value": "NOANSWER",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": false,
-              "portType": "NOANSWER",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 348,
-                "y1": 144,
-                "x2": 612,
-                "y2": 348,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "User Not Registered",
-              "UUID": "9ad18e3d-c1c2-4944-924d-cc3a56f9bff2",
-              "Value": "USER_NOT_REGISTERED",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": false,
-              "portType": "USER_NOT_REGISTERED",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 348,
-                "y1": 144,
-                "x2": 612,
-                "y2": 348,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Origanator Cancel",
-              "UUID": "d18e3dc1-c2b9-4412-8dcc-3a56f9bff2a2",
-              "Value": "CANCEL",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": false,
-              "portType": "CANCEL",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 348,
-                "y1": 144,
-                "x2": 612,
-                "y2": 348,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Error Extension",
-              "UUID": "8e3dc1c2-b944-424d-8c3a-56f9bff2a2ae",
-              "Value": "errorExtension",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": false,
-              "portType": "errorExtension",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 348,
-                "y1": 144,
-                "x2": 612,
-                "y2": 348,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "9ef53de5-7624-4857-bea8-5dac1aec1a87",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Error All",
-              "UUID": "3dc1c2b9-4412-4dcc-ba56-f9bff2a2ae2a",
-              "Value": "errorAll",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": false,
-              "portType": "errorAll",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 348,
-                "y1": 144,
-                "x2": 612,
-                "y2": 372,
-                "w": 147,
-                "h": 252,
-                "R": "#01579B"
-              }
-            }
-          ],
-          "Settings": {
-            "Call": {
-              "CallIncomingDID": "NORMAL",
-              "CallIncomingDTMF": "VARIABLE",
-              "CallNumber": "",
-              "DestinationType": "extension_uuid",
-              "DestinationUUID": "11e156e5-2ac6-100f-3a48-9bda18430dd5",
-              "ExtensionControlNumber": 3,
-              "ScenarioVersions": ""
-            },
-            "main": {
-              "ignore_early_media": true,
-              "originate_timeout": 30,
-              "ringback": "%(2000,4000,440.0,480.0)"
-            },
-            "variablePartner": {
-              "Variables": [
-                {
-                  "key": "OutputPort",
-                  "name": "Output Port",
-                  "uuid": "2809cffd-47ce-419a-918e-3dc1c2b94412"
-                }
-              ],
-              "dataType": "NAME"
-            }
-          },
-          "Version": 1002,
-          "noInput": 0,
-          "noOutput": 0,
-          "noTitle": 0,
-          "r": "varsayilan",
-          "selfConnectable": 0,
-          "x": 348,
-          "y": 144,
-          "w": 147,
-          "h": 252
-        },
-        "1b949ef5-3de5-4624-8857-7ea85dac1aec": {
-          "Announcements": {},
-          "Channels": [
-            ""
-          ],
-          "ID": "1b949ef5-3de5-4624-8857-7ea85dac1aec",
-          "IMG": {
-            "R": "phone_callback",
-            "T": "S"
-          },
-          "Name": "Hang Up Call",
-          "PanoType": "hang_up_call",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Hang Up Call",
-              "UUID": "949ef53d-e576-4408-977e-a85dac1aec1a",
-              "Value": "undefined",
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 1272,
-                "y1": 348,
-                "x2": 612,
-                "y2": 372,
-                "w": 106,
-                "h": 22,
-                "R": "#BF360C"
-              }
-            }
-          ],
-          "Settings": {
-            "main": {}
-          },
-          "Version": 1001,
-          "noInput": 0,
-          "noOutput": 1,
-          "noTitle": 1,
-          "r": "turuncu",
-          "selfConnectable": 0,
-          "x": 1272,
-          "y": 348,
-          "w": 106,
-          "h": 22
-        },
-        "46f89f54-98fc-429e-bf42-d28d7f83d926": {
-          "Announcements": {
-            "waitingAnnouncementA": "",
-            "waitingAnnouncementB": "",
-            "waitingMusicA": "",
-            "waitingMusicB": ""
-          },
-          "Channels": [
-            "A",
-            "B"
-          ],
-          "ID": "46f89f54-98fc-429e-bf42-d28d7f83d926",
-          "IMG": {
-            "R": "settings_phone",
-            "T": "S"
-          },
-          "Name": "Call Management - CALL_INPUT",
-          "PanoType": "call_management",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Feature (DTMF) - A",
-              "UUID": "9f5498fc-c29e-4f42-928d-7f83d926d11b",
-              "Value": "featureA",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "portType": "featureA",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 660,
-                "y1": 132,
-                "x2": 612,
-                "y2": 372,
-                "w": 240,
-                "h": 156,
-                "R": "#006064"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Feature (DTMF) - B",
-              "UUID": "5498fcc2-9e3f-42d2-8d7f-83d926d11b94",
-              "Value": "featureB",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "portType": "featureB",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 660,
-                "y1": 132,
-                "x2": 612,
-                "y2": 372,
-                "w": 240,
-                "h": 156,
-                "R": "#006064"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "f562a129-66b2-4ba8-82a8-742612ded3f6",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "End Call - A",
-              "UUID": "98fcc29e-3f42-428d-bf83-d926d11b949e",
-              "Value": "ENDCALLA",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "portType": "endCallA",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 660,
-                "y1": 132,
-                "x2": 1056,
-                "y2": 228,
-                "w": 240,
-                "h": 156,
-                "R": "#006064"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "8e224774-0d70-4780-b807-110dcbe52f27",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "End Call - B",
-              "UUID": "fcc29e3f-42d2-4d7f-83d9-26d11b949ef5",
-              "Value": "ENDCALLB",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "portType": "endCallB",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 660,
-                "y1": 132,
-                "x2": 1056,
-                "y2": 252,
-                "w": 240,
-                "h": 156,
-                "R": "#006064"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Error",
-              "UUID": "c29e3f42-d28d-4f83-9926-d11b949ef53d",
-              "Value": "error",
-              "Variable": {
-                "Global": false,
-                "Key": ""
-              },
-              "hide": true,
-              "portType": "error",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 660,
-                "y1": 132,
-                "x2": 1056,
-                "y2": 252,
-                "w": 240,
-                "h": 156,
-                "R": "#006064"
-              }
-            }
-          ],
-          "Settings": {
-            "main": {},
-            "setting": {},
-            "variablePartner": {
-              "Variables": [
-                {
-                  "key": "OutputPort",
-                  "name": "Output Port",
-                  "uuid": "f89f5498-fcc2-4e3f-82d2-8d7f83d926d1"
-                }
-              ],
-              "dataType": "VALUE"
-            }
-          },
-          "Version": 1002,
-          "noInput": 0,
-          "noOutput": 0,
-          "noTitle": 0,
-          "r": "8",
-          "selfConnectable": 0,
-          "x": 660,
-          "y": 132,
-          "w": 240,
-          "h": 156
-        },
-        "8e224774-0d70-4780-b807-110dcbe52f27": {
-          "Announcements": {
-            "anons": "47740d70-6780-4807-910d-cbe52f27ffba"
-          },
-          "Channels": [
-            ""
-          ],
-          "ID": "8e224774-0d70-4780-b807-110dcbe52f27",
-          "IMG": {
-            "R": "perm_phone_msg",
-            "T": "S"
-          },
-          "Name": "Anons Dinlet - 4",
-          "PanoType": "anons",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "1b949ef5-3de5-4624-8857-7ea85dac1aec",
-              "Location": [
-                0,
-                0,
-                1,
-                0
-              ],
-              "Name": "Hoşçakalın Arayan",
-              "UUID": "2247740d-7067-4078-8711-0dcbe52f27ff",
-              "Value": "undefined",
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 1056,
-                "y1": 252,
-                "x2": 1272,
-                "y2": 348,
-                "w": 134,
-                "h": 22,
-                "R": "#827717"
-              }
-            }
-          ],
-          "Settings": {
-            "main": {}
-          },
-          "Version": 1001,
-          "noInput": 0,
-          "noOutput": 0,
-          "noTitle": 1,
-          "r": "zeytinyesili",
-          "selfConnectable": 0,
-          "x": 1056,
-          "y": 252,
-          "w": 134,
-          "h": 22
-        },
-        "9ef53de5-7624-4857-bea8-5dac1aec1a87": {
-          "Announcements": {
-            "anons": "3de57624-0857-4ea8-9dac-1aec1a871d5a"
-          },
-          "Channels": [
-            ""
-          ],
-          "ID": "9ef53de5-7624-4857-bea8-5dac1aec1a87",
-          "IMG": {
-            "R": "perm_phone_msg",
-            "T": "S"
-          },
-          "Name": "Anons Dinlet - Hata Oluştu",
-          "PanoType": "anons",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "1b949ef5-3de5-4624-8857-7ea85dac1aec",
-              "Location": [
-                0,
-                0,
-                -1,
-                0
-              ],
-              "Name": "Hata Oluştu.",
-              "UUID": "f53de576-2408-477e-a85d-ac1aec1a871d",
-              "Value": "undefined",
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 612,
-                "y1": 372,
-                "x2": 1272,
-                "y2": 348,
-                "w": 101,
-                "h": 22,
-                "R": "#827717"
-              }
-            }
-          ],
-          "Settings": {
-            "main": {}
-          },
-          "Version": 1001,
-          "noInput": 0,
-          "noOutput": 0,
-          "noTitle": 1,
-          "r": "zeytinyesili",
-          "selfConnectable": 0,
-          "x": 612,
-          "y": 372,
-          "w": 101,
-          "h": 22
-        },
-        "c9eaa438-bb38-461a-949d-fb1e589eef86": {
-          "Announcements": {},
-          "Channels": [
-            ""
-          ],
-          "ID": "c9eaa438-bb38-461a-949d-fb1e589eef86",
-          "IMG": {
-            "R": "login",
-            "T": "S"
-          },
-          "Name": "Login",
+        "277fd719-c01a-48c3-b0a3-bc31f4c4b471": {
           "PanoType": "giris",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944",
-              "If": null,
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Output",
-              "UUID": "b80c0b28-09cf-4d47-8e71-9ad18e3dc1c2",
-              "Value": "output",
-              "Variable": {
-                "Global": false,
-                "Key": "",
-                "UUID": ""
-              },
-              "portType": "output",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 0,
-                "y1": 132,
-                "x2": 348,
-                "y2": 144,
-                "w": 120,
-                "h": 108,
-                "R": "#33691E"
-              }
-            },
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "0",
-              "If": null,
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Name": "Error",
-              "UUID": "0c0b2809-cffd-47ce-b19a-d18e3dc1c2b9",
-              "Value": "error",
-              "Variable": {
-                "Global": false,
-                "Key": "",
-                "UUID": ""
-              },
-              "portType": "error",
-              "readOnly": true,
-              "Path": {
-                "Main": 0,
-                "Show": 0,
-                "x1": 0,
-                "y1": 132,
-                "x2": 348,
-                "y2": 144,
-                "w": 120,
-                "h": 108,
-                "R": "#33691E"
-              }
-            }
-          ],
+          "ID": "277fd719-c01a-48c3-b0a3-bc31f4c4b471",
+          "Version": 1002,
+          "Announcements": {},
+          "Name": "Login",
+          "noDelete": 1,
+          "noInput": 1,
+          "noOutput": 0,
+          "noTitle": 0,
+          "selfConnectable": 0,
+          "x": 48,
+          "y": 120,
+          "r": "yesil",
+          "IMG": {
+            "T": "S",
+            "R": "login"
+          },
           "Settings": {
             "main": {
               "earlyMediaMaxSure": 30,
               "kayitSes": false,
               "kayitSesDisBaglanti": false,
-              "noanswer": false,
-              "otomatikAc": false
+              "otomatikAc": false,
+              "noanswer": false
             }
           },
-          "Version": 1002,
-          "noDelete": 1,
-          "noInput": 1,
-          "noOutput": 0,
-          "noTitle": 0,
-          "r": "yesil",
-          "selfConnectable": 0,
-          "x": 0,
-          "y": 132,
-          "w": 120,
-          "h": 108
-        },
-        "d28d7f83-d926-411b-949e-f53de5762408": {
-          "Announcements": {
-            "anons": "83d926d1-1b94-4ef5-bde5-762408577ea8"
-          },
-          "Channels": [
-            ""
-          ],
-          "ID": "d28d7f83-d926-411b-949e-f53de5762408",
-          "IMG": {
-            "R": "perm_phone_msg",
-            "T": "S"
-          },
-          "Name": "Anons Dinlet - Cevap Vermiyor",
-          "PanoType": "anons",
           "Ports": [
             {
-              "AppUUID": "",
+              "Go": "8504c02c-73c9-45c3-a498-421e1e96601e",
               "Channel": "",
-              "Go": "1b949ef5-3de5-4624-8857-7ea85dac1aec",
+              "readOnly": true,
+              "Name": "Output",
+              "Value": "output",
+              "UUID": "8b8915cc-db85-44c0-ac73-c9c5c3649842",
+              "AppUUID": "",
+              "portType": "output",
+              "If": null,
               "Location": [
+                0,
+                0,
                 0,
                 0,
                 0,
                 0
               ],
-              "Name": "Cevap vermiyor",
-              "UUID": "8d7f83d9-26d1-4b94-9ef5-3de576240857",
-              "Value": "undefined",
+              "Variable": {
+                "Key": "",
+                "Global": false,
+                "UUID": ""
+              },
               "Path": {
                 "Main": 0,
-                "Show": 1,
-                "x1": 612,
-                "y1": 348,
-                "x2": 1272,
-                "y2": 348,
-                "w": 119,
-                "h": 22,
-                "R": "#827717"
+                "Show": "0",
+                "x1": 48,
+                "y1": 120,
+                "x2": 336,
+                "y2": 120,
+                "w": 142,
+                "h": 108,
+                "R": "#33691E"
+              }
+            },
+            {
+              "Go": "0",
+              "Channel": "",
+              "readOnly": true,
+              "Name": "Error",
+              "Value": "error",
+              "UUID": "8915ccdb-8504-402c-b3c9-c5c36498421e",
+              "AppUUID": "",
+              "portType": "error",
+              "If": null,
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Variable": {
+                "Key": "",
+                "Global": false,
+                "UUID": ""
+              },
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 48,
+                "y1": 120,
+                "y2": 0,
+                "w": 142,
+                "h": 108,
+                "R": "#33691E"
               }
             }
           ],
-          "Settings": {
-            "main": {}
+          "w": 142,
+          "h": 108
+        },
+        "15ccdb85-04c0-4c73-89c5-c36498421e1e": {
+          "Version": 1002,
+          "PanoType": "anons",
+          "Announcements": {
+            "anons": "db8504c0-2c73-49c5-8364-98421e1e9660"
           },
-          "Version": 1001,
+          "ID": "15ccdb85-04c0-4c73-89c5-c36498421e1e",
+          "Name": "Anons Dinlet",
+          "noDelete": 0,
           "noInput": 0,
           "noOutput": 0,
+          "visible": 0,
           "noTitle": 1,
-          "r": "zeytinyesili",
           "selfConnectable": 0,
-          "x": 612,
-          "y": 348,
-          "w": 119,
-          "h": 22
-        },
-        "d926d11b-949e-453d-a576-2408577ea85d": {
-          "Announcements": {
-            "anons": "d11b949e-f53d-4576-a408-577ea85dac1a"
+          "x": 624,
+          "y": 264,
+          "r": "zeytinyesili",
+          "IMG": {
+            "T": "S",
+            "R": "perm_phone_msg"
+          },
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
           },
           "Channels": [
             ""
           ],
-          "ID": "d926d11b-949e-453d-a576-2408577ea85d",
-          "IMG": {
-            "R": "perm_phone_msg",
-            "T": "S"
-          },
-          "Name": "Anons Dinlet - Müsait Değil",
-          "PanoType": "anons",
           "Ports": [
             {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "1b949ef5-3de5-4624-8857-7ea85dac1aec",
+              "UUID": "ccdb8504-c02c-43c9-85c3-6498421e1e96",
               "Location": [
                 0,
                 0,
@@ -956,52 +147,1128 @@
                 0
               ],
               "Name": "Müsait değil",
-              "UUID": "26d11b94-9ef5-4de5-b624-08577ea85dac",
-              "Value": "undefined",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Channel": "",
+              "ISLEM": {},
               "Path": {
                 "Main": 0,
-                "Show": 1,
-                "x1": 612,
-                "y1": 324,
-                "x2": 1272,
-                "y2": 348,
-                "w": 100,
+                "R": "#827717",
+                "x1": 624,
+                "y1": 264,
+                "w": 138,
                 "h": 22,
-                "R": "#827717"
+                "x2": 1464,
+                "y2": 264,
+                "Show": "0"
               }
             }
           ],
-          "Settings": {
-            "main": {}
-          },
-          "Version": 1001,
-          "noInput": 0,
-          "noOutput": 0,
-          "noTitle": 1,
-          "r": "zeytinyesili",
-          "selfConnectable": 0,
-          "x": 612,
-          "y": 324,
-          "w": 100,
+          "PanoUUID": "15ccdb85-04c0-4c73-89c5-c36498421e1e",
+          "w": 138,
           "h": 22
         },
-        "e5762408-577e-485d-ac1a-ec1a871d5abb": {
+        "8504c02c-73c9-45c3-a498-421e1e96601e": {
+          "Version": 1002,
+          "PanoType": "redirect_call",
           "Announcements": {},
+          "ID": "8504c02c-73c9-45c3-a498-421e1e96601e",
+          "Name": "Redirect Call",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 0,
+          "selfConnectable": 0,
+          "x": 336,
+          "y": 120,
+          "r": "varsayilan",
+          "IMG": {
+            "T": "S",
+            "R": "phone_forwarded"
+          },
+          "Settings": {
+            "main": {
+              "ignore_early_media": false,
+              "originate_timeout": 30,
+              "ringback": "%(2000,4000,440.0,480.0)"
+            },
+            "Call": {
+              "CallNumber": "",
+              "DestinationType": "extension_uuid",
+              "DestinationUUID": "Global:CallerDestinationNumber",
+              "ScenarioVersions": "",
+              "CallIncomingDTMF": "VARIABLE",
+              "CallIncomingDID": "NORMAL",
+              "ExtensionControlNumber": 3
+            },
+            "variablePartner": {
+              "Variables": {
+                "OutputPort": {
+                  "key": "OutputPort",
+                  "name": "Output Port"
+                }
+              },
+              "dataType": "NAME"
+            }
+          },
           "Channels": [
             ""
           ],
-          "ID": "e5762408-577e-485d-ac1a-ec1a871d5abb",
-          "IMG": {
-            "R": "comment",
-            "T": "S"
-          },
-          "Name": "Açıklama",
-          "PanoType": "comment",
           "Ports": [
             {
-              "AppUUID": "",
-              "Channel": "",
+              "Name": "Answer - A",
+              "Value": "answerA",
+              "portType": "answerA",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "04c02c73-c9c5-4364-9842-1e1e96601e8a",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+              "Channel": "A",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228,
+                "x2": 648,
+                "y2": 120,
+                "Show": "0"
+              }
+            },
+            {
+              "Name": "Answer - B",
+              "Value": "answerB",
+              "portType": "answerB",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "c02c73c9-c5c3-4498-821e-1e96601e8a59",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+              "Channel": "B",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228,
+                "x2": 648,
+                "y2": 120,
+                "Show": "0"
+              }
+            },
+            {
+              "Name": "End Call - A",
+              "Value": "ENDCALLA",
+              "portType": "endCallA",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "2c73c9c5-c364-4842-9e1e-96601e8a594a",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
               "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228
+              }
+            },
+            {
+              "Name": "End Call - B",
+              "Value": "ENDCALLB",
+              "portType": "endCallB",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "73c9c5c3-6498-421e-9e96-601e8a594a77",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228
+              }
+            },
+            {
+              "Name": "User Busy",
+              "Value": "BUSY",
+              "portType": "BUSY",
+              "readOnly": true,
+              "hide": false,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "c9c5c364-9842-4e1e-9660-1e8a594a7751",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "15ccdb85-04c0-4c73-89c5-c36498421e1e",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228,
+                "x2": 624,
+                "y2": 264,
+                "Show": "0"
+              }
+            },
+            {
+              "Name": "No Answer",
+              "Value": "NOANSWER",
+              "portType": "NOANSWER",
+              "readOnly": true,
+              "hide": false,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "c5c36498-421e-4e96-a01e-8a594a775171",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "1e1e9660-1e8a-494a-b751-714d38ca555d",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228,
+                "x2": 624,
+                "y2": 288,
+                "Show": "0"
+              }
+            },
+            {
+              "Name": "User Not Registered",
+              "Value": "USER_NOT_REGISTERED",
+              "portType": "USER_NOT_REGISTERED",
+              "readOnly": true,
+              "hide": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "c3649842-1e1e-4660-9e8a-594a7751714d",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228
+              }
+            },
+            {
+              "Name": "Origanator Cancel",
+              "Value": "CANCEL",
+              "portType": "CANCEL",
+              "readOnly": true,
+              "hide": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "6498421e-1e96-401e-8a59-4a7751714d38",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228
+              }
+            },
+            {
+              "Name": "Error Extension",
+              "Value": "errorExtension",
+              "portType": "errorExtension",
+              "readOnly": true,
+              "hide": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "98421e1e-9660-4e8a-994a-7751714d38ca",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228
+              }
+            },
+            {
+              "Name": "Error All",
+              "Value": "errorAll",
+              "portType": "errorAll",
+              "readOnly": true,
+              "hide": false,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "421e1e96-601e-4a59-8a77-51714d38ca55",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "8a594a77-5171-4d38-8a55-5ded6afafedb",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#01579B",
+                "x1": 336,
+                "y1": 120,
+                "w": 142,
+                "h": 228,
+                "x2": 624,
+                "y2": 312,
+                "Show": "0"
+              }
+            }
+          ],
+          "PanoUUID": "8504c02c-73c9-45c3-a498-421e1e96601e",
+          "w": 142,
+          "h": 228
+        },
+        "1e1e9660-1e8a-494a-b751-714d38ca555d": {
+          "Version": 1002,
+          "PanoType": "anons",
+          "Announcements": {
+            "anons": "96601e8a-594a-4751-b14d-38ca555ded6a"
+          },
+          "ID": "1e1e9660-1e8a-494a-b751-714d38ca555d",
+          "Name": "Anons Dinlet - 1",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 1,
+          "selfConnectable": 0,
+          "x": 624,
+          "y": 288,
+          "r": "zeytinyesili",
+          "IMG": {
+            "T": "S",
+            "R": "perm_phone_msg"
+          },
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "UUID": "1e96601e-8a59-4a77-9171-4d38ca555ded",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Cevap vermiyor",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#827717",
+                "x1": 624,
+                "y1": 288,
+                "w": 138,
+                "h": 22,
+                "x2": 1464,
+                "y2": 264,
+                "Show": "0"
+              }
+            }
+          ],
+          "PanoUUID": "1e1e9660-1e8a-494a-b751-714d38ca555d",
+          "w": 138,
+          "h": 22
+        },
+        "601e8a59-4a77-4171-8d38-ca555ded6afa": {
+          "Version": 1001,
+          "PanoType": "hang_up_call",
+          "Announcements": {},
+          "ID": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+          "Name": "Hang Up Call",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 1,
+          "visible": 0,
+          "noTitle": 1,
+          "selfConnectable": 0,
+          "x": 1464,
+          "y": 264,
+          "r": "turuncu",
+          "IMG": {
+            "T": "S",
+            "R": "phone_callback"
+          },
+          "Settings": {
+            "main": {}
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "UUID": "1e8a594a-7751-414d-b8ca-555ded6afafe",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hang Up Call",
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#BF360C",
+                "x1": 1464,
+                "y1": 264,
+                "w": 138,
+                "h": 22
+              }
+            }
+          ],
+          "PanoUUID": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+          "w": 138,
+          "h": 22
+        },
+        "8a594a77-5171-4d38-8a55-5ded6afafedb": {
+          "Version": 1002,
+          "PanoType": "anons",
+          "Announcements": {
+            "anons": "4a775171-4d38-4a55-9ded-6afafedb6dfd"
+          },
+          "ID": "8a594a77-5171-4d38-8a55-5ded6afafedb",
+          "Name": "Anons Dinlet - 2",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 1,
+          "selfConnectable": 0,
+          "x": 624,
+          "y": 312,
+          "r": "zeytinyesili",
+          "IMG": {
+            "T": "S",
+            "R": "perm_phone_msg"
+          },
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "UUID": "594a7751-714d-48ca-955d-ed6afafedb6d",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hata Oluştu",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#827717",
+                "x1": 624,
+                "y1": 312,
+                "w": 138,
+                "h": 22,
+                "x2": 1464,
+                "y2": 264,
+                "Show": "0"
+              }
+            }
+          ],
+          "PanoUUID": "8a594a77-5171-4d38-8a55-5ded6afafedb",
+          "w": 138,
+          "h": 22
+        },
+        "64a5aece-d88f-4059-bb91-7e9d6c4096e1": {
+          "Version": 1002,
+          "PanoType": "call_management",
+          "Announcements": {
+            "waitingAnnouncementA": "",
+            "waitingAnnouncementB": "",
+            "waitingMusicA": "",
+            "waitingMusicB": ""
+          },
+          "ID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+          "Name": "Call Management",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 0,
+          "selfConnectable": 0,
+          "x": 648,
+          "y": 120,
+          "r": "8",
+          "IMG": {
+            "T": "S",
+            "R": "settings_phone"
+          },
+          "Settings": {
+            "main": {},
+            "setting": {},
+            "variablePartner": {
+              "Variables": {
+                "OutputPort": {
+                  "key": "OutputPort",
+                  "name": "Output Port"
+                }
+              },
+              "dataType": "VALUE"
+            }
+          },
+          "Channels": [
+            "A",
+            "B"
+          ],
+          "Ports": [
+            {
+              "Name": "Feature (DTMF) - A",
+              "Value": "featureA",
+              "portType": "featureA",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "a5aeced8-8f20-49bb-917e-9d6c4096e139",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#006064",
+                "x1": 648,
+                "y1": 120,
+                "w": 161,
+                "h": 109,
+                "x2": 880,
+                "y2": 131.5,
+                "Show": "0"
+              },
+              "hide": true
+            },
+            {
+              "Name": "Feature (DTMF) - B",
+              "Value": "featureB",
+              "portType": "featureB",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "aeced88f-2059-4b91-be9d-6c4096e1390c",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#006064",
+                "x1": 648,
+                "y1": 120,
+                "w": 161,
+                "h": 109
+              },
+              "hide": true
+            },
+            {
+              "Name": "End Call - A",
+              "Value": "ENDCALLA",
+              "portType": "endCallA",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "ced88f20-59bb-417e-9d6c-4096e1390cde",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "6c4096e1-390c-4e01-b03c-906b20ea5b5d",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#006064",
+                "x1": 648,
+                "y1": 120,
+                "w": 161,
+                "h": 109,
+                "x2": 912,
+                "y2": 120,
+                "Show": "0"
+              },
+              "hide": false
+            },
+            {
+              "Name": "End Call - B",
+              "Value": "ENDCALLB",
+              "portType": "endCallB",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "d88f2059-bb91-4e9d-ac40-96e1390cde01",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#006064",
+                "x1": 648,
+                "y1": 120,
+                "w": 161,
+                "h": 109,
+                "x2": 912,
+                "y2": 312,
+                "Show": "0"
+              },
+              "hide": false
+            },
+            {
+              "Name": "Error",
+              "Value": "error",
+              "portType": "error",
+              "readOnly": true,
+              "hide": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "8f2059bb-917e-4d6c-8096-e1390cde01b0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#006064",
+                "x1": 648,
+                "y1": 120,
+                "w": 161,
+                "h": 109
+              }
+            }
+          ],
+          "PanoUUID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+          "w": 161,
+          "h": 109
+        },
+        "2059bb91-7e9d-4c40-96e1-390cde01b03c": {
+          "Version": 1002,
+          "PanoType": "anons",
+          "Announcements": {
+            "anons": "bb917e9d-6c40-46e1-b90c-de01b03c906b"
+          },
+          "ID": "2059bb91-7e9d-4c40-96e1-390cde01b03c",
+          "Name": "Anons Dinlet - 3",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 1,
+          "selfConnectable": 0,
+          "x": 1200,
+          "y": 168,
+          "r": "zeytinyesili",
+          "IMG": {
+            "T": "S",
+            "R": "perm_phone_msg"
+          },
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "UUID": "59bb917e-9d6c-4096-a139-0cde01b03c90",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hoşçakalın Aranan",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#827717",
+                "x1": 1200,
+                "y1": 168,
+                "w": 138,
+                "h": 22,
+                "x2": 1464,
+                "y2": 264,
+                "Show": "0"
+              }
+            }
+          ],
+          "PanoUUID": "2059bb91-7e9d-4c40-96e1-390cde01b03c",
+          "w": 138,
+          "h": 22
+        },
+        "917e9d6c-4096-4139-8cde-01b03c906b20": {
+          "Version": 1002,
+          "PanoType": "anons",
+          "Announcements": {
+            "anons": "9d6c4096-e139-4cde-81b0-3c906b20ea5b"
+          },
+          "ID": "917e9d6c-4096-4139-8cde-01b03c906b20",
+          "Name": "Anons Dinlet - 4",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 1,
+          "selfConnectable": 0,
+          "x": 1200,
+          "y": 384,
+          "r": "zeytinyesili",
+          "IMG": {
+            "T": "S",
+            "R": "perm_phone_msg"
+          },
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "UUID": "7e9d6c40-96e1-490c-9e01-b03c906b20ea",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hoşçakalın Arayan",
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#827717",
+                "x1": 1200,
+                "y1": 384,
+                "w": 138,
+                "h": 22,
+                "x2": 1464,
+                "y2": 264,
+                "Show": "0"
+              }
+            }
+          ],
+          "PanoUUID": "917e9d6c-4096-4139-8cde-01b03c906b20",
+          "w": 138,
+          "h": 22
+        },
+        "6c4096e1-390c-4e01-b03c-906b20ea5b5d": {
+          "Version": 1001,
+          "PanoType": "call_channel_status",
+          "Announcements": {},
+          "ID": "6c4096e1-390c-4e01-b03c-906b20ea5b5d",
+          "Name": "Call Channel Status",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 0,
+          "selfConnectable": 0,
+          "x": 912,
+          "y": 120,
+          "r": "turuncu",
+          "IMG": {
+            "T": "S",
+            "R": "call_split"
+          },
+          "Settings": {
+            "main": {
+              "channel": "A"
+            }
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "Name": "Call Active",
+              "Value": "callActive",
+              "portType": "callActive",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "96e1390c-de01-403c-906b-20ea5b5d88b3",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "2059bb91-7e9d-4c40-96e1-390cde01b03c",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#BF360C",
+                "x1": 912,
+                "y1": 120,
+                "w": 174,
+                "h": 108,
+                "x2": 1200,
+                "y2": 168,
+                "Show": "0"
+              }
+            },
+            {
+              "Name": "Call Closed",
+              "Value": "callClosed",
+              "portType": "callClosed",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "4096e139-0cde-41b0-bc90-6b20ea5b5d88",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#BF360C",
+                "x1": 912,
+                "y1": 120,
+                "w": 174,
+                "h": 108,
+                "x2": 1464,
+                "y2": 264,
+                "Show": "0"
+              }
+            }
+          ],
+          "PanoUUID": "6c4096e1-390c-4e01-b03c-906b20ea5b5d",
+          "w": 174,
+          "h": 108
+        },
+        "e1390cde-01b0-4c90-ab20-ea5b5d88b3da": {
+          "Version": 1001,
+          "PanoType": "call_channel_status",
+          "Announcements": {},
+          "ID": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da",
+          "Name": "Call Channel Status",
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "visible": 0,
+          "noTitle": 0,
+          "selfConnectable": 0,
+          "x": 912,
+          "y": 312,
+          "r": "turuncu",
+          "IMG": {
+            "T": "S",
+            "R": "call_split"
+          },
+          "Settings": {
+            "main": {
+              "channel": "A"
+            }
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "Name": "Call Closed",
+              "Value": "callClosed",
+              "portType": "callClosed",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "390cde01-b03c-406b-a0ea-5b5d88b3dab2",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "601e8a59-4a77-4171-8d38-ca555ded6afa",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#BF360C",
+                "x1": 912,
+                "y1": 312,
+                "w": 174,
+                "h": 108,
+                "x2": 1464,
+                "y2": 264,
+                "Show": "0"
+              }
+            },
+            {
+              "Name": "Call Active",
+              "Value": "callActive",
+              "portType": "callActive",
+              "readOnly": true,
+              "Variable": {
+                "Key": "",
+                "Global": false
+              },
+              "UUID": "0cde01b0-3c90-4b20-aa5b-5d88b3dab231",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Go": "917e9d6c-4096-4139-8cde-01b03c906b20",
+              "Channel": "",
+              "ISLEM": {},
+              "Path": {
+                "Main": 0,
+                "R": "#BF360C",
+                "x1": 912,
+                "y1": 312,
+                "w": 174,
+                "h": 108,
+                "x2": 1200,
+                "y2": 384,
+                "Show": "0"
+              }
+            }
+          ],
+          "PanoUUID": "e1390cde-01b0-4c90-ab20-ea5b5d88b3da",
+          "w": 174,
+          "h": 108
+        },
+        "de01b03c-906b-40ea-9b5d-88b3dab23156": {
+          "Version": 1001,
+          "PanoType": "comment",
+          "Announcements": {},
+          "ID": "de01b03c-906b-40ea-9b5d-88b3dab23156",
+          "Name": "Comment",
+          "noDelete": 0,
+          "noInput": 1,
+          "noOutput": 1,
+          "visible": 0,
+          "noTitle": 0,
+          "selfConnectable": 0,
+          "x": 48,
+          "y": 264,
+          "r": "aciksari",
+          "IMG": {
+            "T": "S",
+            "R": "comment"
+          },
+          "Settings": {
+            "main": {},
+            "setting": {
+              "featureCode": ""
+            }
+          },
+          "Channels": [
+            ""
+          ],
+          "Ports": [
+            {
+              "UUID": "01b03c90-6b20-4a5b-9d88-b3dab23156b5",
               "Location": [
                 0,
                 0,
@@ -1009,92 +1276,22 @@
                 0
               ],
               "Name": "İç aramalar için kullanılan seneryo.",
-              "UUID": "76240857-7ea8-4dac-9aec-1a871d5abb6c",
-              "Value": "undefined",
+              "Go": "0",
+              "Channel": "",
+              "ISLEM": {},
               "Path": {
                 "Main": 0,
-                "Show": 0,
-                "x1": -12,
-                "y1": 324,
-                "x2": 1272,
-                "y2": 348,
+                "R": "#FFF9C4",
+                "x1": 48,
+                "y1": 264,
                 "w": 227,
-                "h": 84,
-                "R": "#FFF9C4"
+                "h": 84
               }
             }
           ],
-          "Settings": {
-            "main": {},
-            "setting": {
-              "featureCode": ""
-            }
-          },
-          "Version": 1001,
-          "noInput": 1,
-          "noOutput": 1,
-          "noTitle": 0,
-          "r": "aciksari",
-          "selfConnectable": 0,
-          "x": -12,
-          "y": 324,
+          "PanoUUID": "de01b03c-906b-40ea-9b5d-88b3dab23156",
           "w": 227,
           "h": 84
-        },
-        "f562a129-66b2-4ba8-82a8-742612ded3f6": {
-          "Announcements": {
-            "anons": "03a435ac-7c82-44f2-9363-7034b9914684"
-          },
-          "Channels": [
-            ""
-          ],
-          "ID": "f562a129-66b2-4ba8-82a8-742612ded3f6",
-          "IMG": {
-            "R": "perm_phone_msg",
-            "T": "S"
-          },
-          "Name": "Anons Dinlet - 4 - 1",
-          "PanoType": "anons",
-          "Ports": [
-            {
-              "AppUUID": "",
-              "Channel": "",
-              "Go": "1b949ef5-3de5-4624-8857-7ea85dac1aec",
-              "Location": [
-                0,
-                0,
-                1,
-                0
-              ],
-              "Name": "Hoşçakalın Aranan",
-              "UUID": "2247740d-7067-4078-8711-0dcbe52f27ff",
-              "Value": "undefined",
-              "Path": {
-                "Main": 0,
-                "Show": 1,
-                "x1": 1056,
-                "y1": 228,
-                "x2": 1272,
-                "y2": 348,
-                "w": 134,
-                "h": 22,
-                "R": "#827717"
-              }
-            }
-          ],
-          "Settings": {
-            "main": {}
-          },
-          "Version": 1001,
-          "noInput": 0,
-          "noOutput": 0,
-          "noTitle": 1,
-          "r": "zeytinyesili",
-          "selfConnectable": 0,
-          "x": 1056,
-          "y": 228,
-          "w": 134,
-          "h": 22
         }
       },
       "Group": false,
@@ -1105,375 +1302,359 @@
         "kabloHizala": 6,
         "panoHizala": false,
         "scale": 1,
-        "x": 123.52,
-        "y": 67.23
+        "x": 10.85,
+        "y": 86.45
       }
     }
   },
   "Sesler": {
-    "03a435ac-7c82-44f2-9363-7034b9914684": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
-      "SesLang": "tr",
-      "SesName": "Hoşçakalın Aranan",
+    "db8504c0-2c73-49c5-8364-98421e1e9660": {
       "SesTts": {
         "tr": {
           "data": [
             {
-              "text": " <break time='500ms' strength='medium'></break> Aranan Taraf Kapattı. Hoşçakalın.",
-              "type": "TEXT"
+              "type": "TEXT",
+              "text": " {VAR:Global:CallerDestinationNumber:####}   numaralı dahili müsait değil."
             }
           ],
-          "langName": "global",
-          "test": {}
+          "test": {},
+          "langName": "global"
         }
       },
-      "SesType": "TTS"
-    },
-    "3de57624-0857-4ea8-9dac-1aec1a871d5a": {
       "SesFile": {
         "tr": {
-          "FileName": "",
-          "FileUUID": ""
+          "FileUUID": "",
+          "FileName": ""
         }
       },
-      "SesLang": "tr",
-      "SesName": "Hata Oluştu.",
-      "SesTts": {
-        "tr": {
-          "data": [
-            {
-              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}        numaralı dahili aranırken hata oluştu.<voice name='en-US-Wavenet-J'>{VAR:0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944:2809cffd-47ce-419a-918e-3dc1c2b94412::}</voice> ",
-              "type": "TEXT"
-            }
-          ],
-          "langName": "global",
-          "test": {}
-        }
-      },
-      "SesType": "TTS"
-    },
-    "47740d70-6780-4807-910d-cbe52f27ffba": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
-      "SesLang": "tr",
-      "SesName": "Hoşçakalın Arayan",
-      "SesTts": {
-        "tr": {
-          "data": [
-            {
-              "text": " <break time='500ms' strength='medium'></break> Arayan Taraf Kapattı. Hoşçakalın.",
-              "type": "TEXT"
-            }
-          ],
-          "langName": "global",
-          "test": {}
-        }
-      },
-      "SesType": "TTS"
-    },
-    "83d926d1-1b94-4ef5-bde5-762408577ea8": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
-      "SesLang": "tr",
-      "SesName": "Cevap vermiyor",
-      "SesTts": {
-        "tr": {
-          "data": [
-            {
-              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}      numaralı dahili cevap vermiyor.",
-              "type": "TEXT"
-            }
-          ],
-          "langName": "global",
-          "test": {}
-        }
-      },
-      "SesType": "TTS"
-    },
-    "b944124d-cc3a-46f9-bff2-a2ae2a9d6f92": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
-      "SesLang": "tr",
-      "SesName": "Lütfen Bekleyiniz",
-      "SesTts": {
-        "tr": {
-          "data": [
-            {
-              "text": "{VAR:Global:5f897d6b-3ce1-437b-8b7a-543fe5763256::}     numaralı dahili aranıyor, lütfen bekleyiniz.",
-              "type": "TEXT"
-            }
-          ],
-          "langName": "global",
-          "test": {}
-        }
-      },
-      "SesType": "TTS"
-    },
-    "d11b949e-f53d-4576-a408-577ea85dac1a": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
-      "SesLang": "tr",
       "SesName": "Müsait değil",
+      "SesType": "TTS",
+      "SesLang": "tr"
+    },
+    "96601e8a-594a-4751-b14d-38ca555ded6a": {
       "SesTts": {
         "tr": {
           "data": [
             {
-              "text": " {VAR:Global:11e156e5-2ac6-100f-3a48-9bda18430dd5::}    numaralı dahili müsait değil.",
-              "type": "TEXT"
+              "type": "TEXT",
+              "text": " {VAR:Global:CallerDestinationNumber:####}   numaralı dahili cevap vermiyor."
             }
           ],
-          "langName": "global",
-          "test": {}
+          "test": {},
+          "langName": "global"
         }
       },
-      "SesType": "TTS"
+      "SesFile": {
+        "tr": {
+          "FileUUID": "",
+          "FileName": ""
+        }
+      },
+      "SesName": "Cevap vermiyor",
+      "SesType": "TTS",
+      "SesLang": "tr"
+    },
+    "4a775171-4d38-4a55-9ded-6afafedb6dfd": {
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "type": "TEXT",
+              "text": " {VAR:Global:CallerDestinationNumber:####}    numaralı dahili aranırken hata oluştu.   {VAR:8504c02c-73c9-45c3-a498-421e1e96601e:OutputPort:} "
+            }
+          ],
+          "test": {},
+          "langName": "global"
+        }
+      },
+      "SesFile": {
+        "tr": {
+          "FileUUID": "",
+          "FileName": ""
+        }
+      },
+      "SesName": "Hata Oluştu",
+      "SesType": "TTS",
+      "SesLang": "tr"
+    },
+    "bb917e9d-6c40-46e1-b90c-de01b03c906b": {
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "type": "TEXT",
+              "text": " Aranan Taraf Kapattı. Hoşçakalın."
+            }
+          ],
+          "test": {},
+          "langName": "global"
+        }
+      },
+      "SesFile": {
+        "tr": {
+          "FileUUID": "",
+          "FileName": ""
+        }
+      },
+      "SesName": "Hoşçakalın Aranan",
+      "SesType": "TTS",
+      "SesLang": "tr"
+    },
+    "9d6c4096-e139-4cde-81b0-3c906b20ea5b": {
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "type": "TEXT",
+              "text": " Arayan Taraf Kapattı. Hoşçakalın."
+            }
+          ],
+          "test": {},
+          "langName": "global"
+        }
+      },
+      "SesFile": {
+        "tr": {
+          "FileUUID": "",
+          "FileName": ""
+        }
+      },
+      "SesName": "Hoşçakalın Arayan",
+      "SesType": "TTS",
+      "SesLang": "tr"
     }
   },
   "Variables": {
-    "0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944": {
-      "UUID": "0b2809cf-fd47-4e71-9ad1-8e3dc1c2b944",
-      "name": "Redirect Call",
-      "panoType": "redirect_call",
-      "variables": [
-        {
-          "key": "OutputPort",
-          "name": "Output Port",
-          "uuid": "2809cffd-47ce-419a-918e-3dc1c2b94412"
-        }
-      ]
-    },
-    "46f89f54-98fc-429e-bf42-d28d7f83d926": {
-      "UUID": "46f89f54-98fc-429e-bf42-d28d7f83d926",
-      "name": "Call Management - CALL_INPUT",
-      "panoType": "call_management",
-      "variables": [
-        {
-          "key": "OutputPort",
-          "name": "Output Port",
-          "uuid": "f89f5498-fcc2-4e3f-82d2-8d7f83d926d1"
-        }
-      ]
-    },
     "Global": {
       "UUID": "Global",
       "name": "Global",
-      "variables": [
-        {
-          "key": "Language",
-          "name": "Language",
-          "server": true,
-          "uuid": "f7520a10-910d-cabe-18e5-ad04e330077f"
-        },
-        {
-          "key": "CallerDestinationNumber",
-          "name": "Caller Destination Number",
-          "server": true,
-          "uuid": "11e156e5-2ac6-100f-3a48-9bda18430dd5"
-        },
-        {
-          "key": "ChannelCallerIdNumber",
-          "name": "Channel Caller Id Number",
-          "server": true,
-          "uuid": "340cacad-bfce-f17c-c2ba-dfcc333936f1"
-        },
-        {
+      "variables": {
+        "CallDirection": {
           "key": "CallDirection",
           "name": "Call Direction",
-          "server": true,
-          "uuid": "ede50323-d5e9-c9bf-526b-9b374bd971b8"
+          "server": true
         },
-        {
-          "key": "CallerUsername",
-          "name": "Caller Username",
-          "server": true,
-          "uuid": "3563610f-7145-030c-6b62-41a34be4eec8"
-        },
-        {
+        "CallUnixTime": {
           "key": "CallUnixTime",
           "name": "Call Unix Time",
-          "server": true,
-          "uuid": "0cc8098e-63dd-d0f4-9bec-697e7e610f6b"
+          "server": true
         },
-        {
-          "global": false,
-          "key": "selam",
-          "name": "selam",
-          "uuid": "0a8eb1f0-43ff-4bd0-9d8d-71d1317f4c0b"
+        "CallerDestinationNumber": {
+          "key": "CallerDestinationNumber",
+          "name": "Caller Destination Number",
+          "server": true
+        },
+        "CallerUsername": {
+          "key": "CallerUsername",
+          "name": "Caller Username",
+          "server": true
+        },
+        "ChannelCallerIdNumber": {
+          "key": "ChannelCallerIdNumber",
+          "name": "Channel Caller Id Number",
+          "server": true
+        },
+        "DomainName": {
+          "key": "DomainName",
+          "name": "Domain Name",
+          "server": true
+        },
+        "Headers": {
+          "expanded": true,
+          "key": "Headers",
+          "name": "Headers",
+          "server": true,
+          "variables": {
+            "Contact": {
+              "key": "Contact",
+              "name": "Contact",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "From": {
+              "key": "From",
+              "name": "From",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "Remote-Party-ID": {
+              "key": "Remote-Party-ID",
+              "name": "Remote-Party-ID",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "To": {
+              "key": "To",
+              "name": "To",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "User-Agent": {
+              "key": "User-Agent",
+              "name": "User-Agent",
+              "server": true
+            },
+            "Via": {
+              "key": "Via",
+              "name": "Via",
+              "server": true
+            }
+          }
+        },
+        "Language": {
+          "key": "Language",
+          "name": "Language",
+          "server": true
         }
-      ]
+      }
     },
-    "Headers": {
-      "UUID": "Headers",
-      "name": "Headers",
-      "variables": [
-        {
-          "header": true,
-          "key": "From",
-          "name": "From",
-          "server": true,
-          "uuid": "1888d539-5c33-799a-2664-e41175924317",
-          "variables": [
-            {
-              "key": "uri",
-              "name": "Uri"
-            },
-            {
-              "key": "name",
-              "name": "Name"
-            },
-            {
-              "key": "user",
-              "name": "User"
-            },
-            {
-              "key": "domain",
-              "name": "Domain"
-            },
-            {
-              "key": "port",
-              "name": "Port"
-            },
-            {
-              "key": "params",
-              "name": "Params"
-            }
-          ]
-        },
-        {
-          "header": true,
-          "key": "To",
-          "name": "To",
-          "server": true,
-          "uuid": "ca4e08fb-eb2b-38f6-aeed-711a2fc5a1e3",
-          "variables": [
-            {
-              "key": "uri",
-              "name": "Uri"
-            },
-            {
-              "key": "name",
-              "name": "Name"
-            },
-            {
-              "key": "user",
-              "name": "User"
-            },
-            {
-              "key": "domain",
-              "name": "Domain"
-            },
-            {
-              "key": "port",
-              "name": "Port"
-            },
-            {
-              "key": "params",
-              "name": "Params"
-            }
-          ]
-        },
-        {
-          "header": true,
-          "key": "Contact",
-          "name": "Contact",
-          "server": true,
-          "uuid": "182e35dd-c1e4-314b-385e-0af7291ef98e",
-          "variables": [
-            {
-              "key": "uri",
-              "name": "Uri"
-            },
-            {
-              "key": "name",
-              "name": "Name"
-            },
-            {
-              "key": "user",
-              "name": "User"
-            },
-            {
-              "key": "domain",
-              "name": "Domain"
-            },
-            {
-              "key": "port",
-              "name": "Port"
-            },
-            {
-              "key": "params",
-              "name": "Params"
-            }
-          ]
-        },
-        {
-          "header": true,
-          "key": "Remote-Party-ID",
-          "name": "Remote-Party-ID",
-          "server": true,
-          "uuid": "4b825522-08e5-5979-3486-2b63dd90fff9",
-          "variables": [
-            {
-              "key": "uri",
-              "name": "Uri"
-            },
-            {
-              "key": "name",
-              "name": "Name"
-            },
-            {
-              "key": "user",
-              "name": "User"
-            },
-            {
-              "key": "domain",
-              "name": "Domain"
-            },
-            {
-              "key": "port",
-              "name": "Port"
-            },
-            {
-              "key": "params",
-              "name": "Params"
-            }
-          ]
-        },
-        {
-          "header": true,
-          "key": "User-Agent",
-          "name": "User-Agent",
-          "server": true,
-          "uuid": "8cafa7a7-1a6e-3e7c-5ea6-b1e16fbeb7d2"
-        },
-        {
-          "header": true,
-          "key": "Via",
-          "name": "Via",
-          "server": true,
-          "uuid": "a92e79d1-28cd-7762-376d-bf1078e6680f"
+    "8504c02c-73c9-45c3-a498-421e1e96601e": {
+      "UUID": "8504c02c-73c9-45c3-a498-421e1e96601e",
+      "key": "8504c02c-73c9-45c3-a498-421e1e96601e",
+      "name": "Redirect Call",
+      "panoType": "redirect_call",
+      "variables": {
+        "OutputPort": {
+          "key": "OutputPort",
+          "name": "Output Port"
         }
-      ]
+      }
+    },
+    "64a5aece-d88f-4059-bb91-7e9d6c4096e1": {
+      "UUID": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+      "key": "64a5aece-d88f-4059-bb91-7e9d6c4096e1",
+      "name": "Call Management",
+      "panoType": "call_management",
+      "variables": {
+        "OutputPort": {
+          "key": "OutputPort",
+          "name": "Output Port"
+        }
+      }
     }
   },
   "Settings": {
@@ -1482,7 +1663,7 @@
     "LangNames": {
       "de": "de-DE-KurumCELL-A",
       "en": "en-US-KurumCELL-A",
-      "tr": "tr-TR-Wavenet-D"
+      "tr": "tr-TR-Wavenet-E"
     },
     "Language": "Language",
     "Schedules": {},
