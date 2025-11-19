@@ -1,0 +1,347 @@
+{
+  "ScenarioUUID": "{MAIN_UUID}",
+  "ScenarioName": "CALL_MASKING",
+  "ScenarioComment": "CALL_MASKING",
+  "Version": 1.01,
+  "ScenarioType": "normal",
+  "Data": {
+    "{MAIN_UUID}": {
+      "Data": {
+        "7d3ee7b9-4d13-4c54-ba44-2420751740d7-login": {
+          "PanoType": "giris",
+          "ID": "7d3ee7b9-4d13-4c54-ba44-2420751740d7-login",
+          "Version": 1002,
+          "Announcements": {},
+          "Name": "Login",
+          "noDelete": 1,
+          "noInput": 1,
+          "noOutput": 0,
+          "noTitle": 0,
+          "selfConnectable": 0,
+          "x": 48,
+          "y": 120,
+          "r": "yesil",
+          "IMG": {
+            "T": "S",
+            "R": "login"
+          },
+          "Settings": {
+            "main": {
+              "earlyMediaMaxSure": 30,
+              "kayitSes": false,
+              "kayitSesDisBaglanti": false,
+              "otomatikAc": true
+            }
+          },
+          "Ports": [
+            {
+              "Go": "0",
+              "Channel": "",
+              "readOnly": true,
+              "Name": "Output",
+              "Value": "output",
+              "UUID": "ffb15e04-c4ab-4ee2-b042-99f49e29251e",
+              "AppUUID": "",
+              "portType": "output",
+              "hide": false,
+              "If": null,
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Variable": {
+                "Key": "",
+                "Global": false,
+                "UUID": ""
+              },
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 48,
+                "y1": 120,
+                "y2": 0,
+                "w": 142,
+                "h": 108,
+                "R": "#33691E"
+              }
+            },
+            {
+              "Go": "0",
+              "Channel": "",
+              "readOnly": true,
+              "Name": "Error",
+              "Value": "error",
+              "UUID": "b15e04c4-ab9e-42b0-8299-f49e29251ebf",
+              "AppUUID": "",
+              "portType": "error",
+              "hide": false,
+              "If": null,
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Variable": {
+                "Key": "",
+                "Global": false,
+                "UUID": ""
+              },
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 48,
+                "y1": 120,
+                "y2": 0,
+                "w": 142,
+                "h": 108,
+                "R": "#33691E"
+              }
+            }
+          ],
+          "w": 142,
+          "h": 108
+        }
+      },
+      "Group": false,
+      "ID": "{MAIN_UUID}",
+      "Name": "CALL_MASKING",
+      "Order": 0,
+      "Settings": {
+        "kabloHizala": 6,
+        "panoHizala": false,
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "Sesler": {},
+  "Variables": {
+    "Global": {
+      "UUID": "Global",
+      "name": "Global",
+      "variables": {
+        "CallDirection": {
+          "key": "CallDirection",
+          "name": "Call Direction",
+          "server": true
+        },
+        "CallUnixTime": {
+          "key": "CallUnixTime",
+          "name": "Call Unix Time",
+          "server": true
+        },
+        "CallerDestinationNumber": {
+          "key": "CallerDestinationNumber",
+          "name": "Caller Destination Number",
+          "server": true
+        },
+        "CallerUsername": {
+          "key": "CallerUsername",
+          "name": "Caller Username",
+          "server": true
+        },
+        "ChannelCallerIdNumber": {
+          "key": "ChannelCallerIdNumber",
+          "name": "Channel Caller Id Number",
+          "server": true
+        },
+        "DomainName": {
+          "key": "DomainName",
+          "name": "Domain Name",
+          "server": true
+        },
+        "Headers": {
+          "expanded": true,
+          "key": "Headers",
+          "name": "Headers",
+          "server": true,
+          "variables": {
+            "Contact": {
+              "key": "Contact",
+              "name": "Contact",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "From": {
+              "key": "From",
+              "name": "From",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "Remote-Party-ID": {
+              "key": "Remote-Party-ID",
+              "name": "Remote-Party-ID",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "To": {
+              "key": "To",
+              "name": "To",
+              "server": true,
+              "variables": {
+                "domain": {
+                  "key": "domain",
+                  "name": "Domain",
+                  "server": true
+                },
+                "name": {
+                  "key": "name",
+                  "name": "Name",
+                  "server": true
+                },
+                "params": {
+                  "key": "params",
+                  "name": "Params",
+                  "server": true
+                },
+                "port": {
+                  "key": "port",
+                  "name": "Port",
+                  "server": true
+                },
+                "uri": {
+                  "key": "uri",
+                  "name": "Uri",
+                  "server": true
+                },
+                "user": {
+                  "key": "user",
+                  "name": "User",
+                  "server": true
+                }
+              }
+            },
+            "User-Agent": {
+              "key": "User-Agent",
+              "name": "User-Agent",
+              "server": true
+            },
+            "Via": {
+              "key": "Via",
+              "name": "Via",
+              "server": true
+            }
+          }
+        },
+        "Language": {
+          "key": "Language",
+          "name": "Language",
+          "server": true
+        }
+      }
+    }
+  },
+  "Settings": {
+    "Commands": {},
+    "Lang": "tr",
+    "LangNames": {
+      "de": "de-DE-KurumCELL-A",
+      "en": "en-US-KurumCELL-A",
+      "tr": "tr-TR-KurumCELL-B"
+    },
+    "Language": "Language",
+    "Schedules": {},
+    "SetGetVariables": {}
+  }
+}
