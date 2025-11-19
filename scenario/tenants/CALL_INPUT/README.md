@@ -9,3 +9,5 @@
 ## Ekran Görüntüsü
 
 ![CALL_INPUT](CALL_INPUT.png)
+
+Güncelleme: 2025-10-19
