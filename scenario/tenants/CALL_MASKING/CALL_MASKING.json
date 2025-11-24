@@ -1304,10 +1304,8 @@
           ],
           "Settings": {
             "CallMasking": {
-              "APIKey": "",
-              "ConnectionType": "production",
-              "ModuleUUID": "",
-              "ProjectCode": "",
+              "ConnectionStringType": "ProductionConnectionString",
+              "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca",
               "RedirectCallPanoUUID": "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call"
             },
             "main": {},
@@ -2713,10 +2711,8 @@
           ],
           "Settings": {
             "CallMasking": {
-              "APIKey": "",
-              "ConnectionType": "production",
-              "ModuleUUID": "",
-              "ProjectCode": ""
+              "ConnectionStringType": "DevelopmentConnectionString",
+              "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca"
             },
             "main": {},
             "setting": {
@@ -3039,8 +3035,8 @@
         "kabloHizala": 6,
         "panoHizala": false,
         "scale": 1,
-        "x": 27.77,
-        "y": 129.8
+        "x": -66.23,
+        "y": 65.8
       }
     }
   },
@@ -3058,8 +3054,8 @@
         "tr": {
           "data": [
             {
-              "type": "TEXT",
-              "text": "Devam etmek için lütfen 1 tuşuna basınız. Çıkış için 0 tuşuna basınız."
+              "text": "Devam etmek için lütfen 1 tuşuna basınız. Çıkış için 0 tuşuna basınız.",
+              "type": "TEXT"
             }
           ],
           "langName": "global",
@@ -3768,7 +3764,6 @@
     },
     "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr": {
       "UUID": "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr",
-      "key": "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr",
       "name": "IVR Menüsü",
       "panoType": "ivr",
       "variables": {
