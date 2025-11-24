@@ -7,43 +7,318 @@
   "Data": {
     "{MAIN_UUID}": {
       "Data": {
-        "7d3ee7b9-4d13-4c54-ba44-2420751740d7-login": {
-          "PanoType": "giris",
-          "ID": "7d3ee7b9-4d13-4c54-ba44-2420751740d7-login",
-          "Version": 1002,
-          "Announcements": {},
-          "Name": "Login",
-          "noDelete": 1,
-          "noInput": 1,
-          "noOutput": 0,
-          "noTitle": 0,
-          "selfConnectable": 0,
-          "x": 48,
-          "y": 120,
-          "r": "yesil",
+        "12c36f41-0554-4c17-b52a-50a52dfa0537-anons": {
+          "Announcements": {
+            "anons": "6f410554-ac17-452a-90a5-2dfa0537d2ca"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "12c36f41-0554-4c17-b52a-50a52dfa0537-anons",
           "IMG": {
-            "T": "S",
-            "R": "login"
+            "R": "perm_phone_msg",
+            "T": "S"
           },
-          "Settings": {
-            "main": {
-              "earlyMediaMaxSure": 30,
-              "kayitSes": false,
-              "kayitSesDisBaglanti": false,
-              "otomatikAc": true
-            }
-          },
+          "Name": "Anons Dinlet - 1",
+          "PanoType": "anons",
           "Ports": [
             {
-              "Go": "5e04c4ab-9ee2-4042-99f4-9e29251ebfe5-call_masking_incomingCall",
-              "Channel": "",
-              "readOnly": true,
-              "Name": "Output",
-              "Value": "output",
-              "UUID": "ffb15e04-c4ab-4ee2-b042-99f49e29251e",
               "AppUUID": "",
-              "portType": "output",
-              "hide": false,
+              "Channel": "",
+              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hata Oluştu",
+              "UUID": "c36f4105-54ac-47f5-aa50-a52dfa0537d2",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 516,
+                "x2": 900,
+                "y2": 540,
+                "w": 138,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 636,
+          "y": 516,
+          "w": 138,
+          "h": 22
+        },
+        "3e52e292-8e25-4c22-aae6-7ea2e0b7a308-anons": {
+          "Announcements": {
+            "anons": "3ff5e1d5-3e52-4292-8e25-fc22aae67ea2"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "3e52e292-8e25-4c22-aae6-7ea2e0b7a308-anons",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet",
+          "PanoType": "anons",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Lütfen Bekleyiniz.",
+              "UUID": "52e2928e-25fc-42aa-a67e-a2e0b7a308c0",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 948,
+                "y1": 108,
+                "x2": 636,
+                "y2": 216,
+                "w": 138,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 948,
+          "y": 108,
+          "w": 138,
+          "h": 22
+        },
+        "5f7bca49-2f5a-44f7-b1b6-173f5f28a0a8-anons": {
+          "Announcements": {
+            "anons": "ca492f5a-b4f7-41b6-973f-5f28a0a8659f"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "5f7bca49-2f5a-44f7-b1b6-173f5f28a0a8-anons",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet - 2",
+          "PanoType": "anons",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hata Oluştu Arama",
+              "UUID": "7bca492f-5ab4-47f1-b617-3f5f28a0a865",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 948,
+                "y1": 396,
+                "x2": 1188,
+                "y2": 396,
+                "w": 138,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": true,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 948,
+          "y": 396,
+          "w": 138,
+          "h": 22
+        },
+        "6499f9d9-7103-4007-bbaf-aa6b3ff5e1d5-anons": {
+          "Announcements": {
+            "anons": "f9d97103-8007-4baf-aa6b-3ff5e1d53e52"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "6499f9d9-7103-4007-bbaf-aa6b3ff5e1d5-anons",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet - 7",
+          "PanoType": "anons",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Süre Doldu",
+              "UUID": "99f9d971-0380-47fb-afaa-6b3ff5e1d53e",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 492,
+                "x2": 900,
+                "y2": 540,
+                "w": 138,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 636,
+          "y": 492,
+          "w": 138,
+          "h": 22
+        },
+        "68e3f3d2-bc3a-4852-b98b-dd0284d6d8c7-anons": {
+          "Announcements": {
+            "anons": "b07be289-6c71-4e8b-b7cf-b8e379c3b1ef"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "68e3f3d2-bc3a-4852-b98b-dd0284d6d8c7-anons",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet - 5",
+          "PanoType": "anons",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Cevap vermiyor",
+              "UUID": "e3f3d2bc-3ac8-4239-8bdd-0284d6d8c733",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 948,
+                "y1": 372,
+                "x2": 1188,
+                "y2": 396,
+                "w": 138,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 948,
+          "y": 372,
+          "w": 138,
+          "h": 22
+        },
+        "7d3ee7b9-4d13-4c54-ba44-2420751740d7-login": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "7d3ee7b9-4d13-4c54-ba44-2420751740d7-login",
+          "IMG": {
+            "R": "login",
+            "T": "S"
+          },
+          "Name": "Login",
+          "PanoType": "giris",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall",
               "If": null,
               "Location": [
                 0,
@@ -53,17 +328,23 @@
                 0,
                 0
               ],
+              "Name": "Output",
+              "UUID": "ffb15e04-c4ab-4ee2-b042-99f49e29251e",
+              "Value": "output",
               "Variable": {
-                "Key": "",
                 "Global": false,
+                "Key": "",
                 "UUID": ""
               },
+              "hide": false,
+              "portType": "output",
+              "readOnly": true,
               "Path": {
                 "Main": 0,
-                "Show": "0",
+                "Show": 1,
                 "x1": 48,
-                "y1": 120,
-                "x2": 336,
+                "y1": 252,
+                "x2": 312,
                 "y2": 120,
                 "w": 142,
                 "h": 108,
@@ -71,15 +352,9 @@
               }
             },
             {
-              "Go": "0",
-              "Channel": "",
-              "readOnly": true,
-              "Name": "Error",
-              "Value": "error",
-              "UUID": "b15e04c4-ab9e-42b0-8299-f49e29251ebf",
               "AppUUID": "",
-              "portType": "error",
-              "hide": false,
+              "Channel": "",
+              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
               "If": null,
               "Location": [
                 0,
@@ -89,175 +364,1103 @@
                 0,
                 0
               ],
+              "Name": "Error",
+              "UUID": "b15e04c4-ab9e-42b0-8299-f49e29251ebf",
+              "Value": "error",
               "Variable": {
-                "Key": "",
                 "Global": false,
+                "Key": "",
                 "UUID": ""
               },
+              "hide": false,
+              "portType": "error",
+              "readOnly": true,
               "Path": {
                 "Main": 0,
-                "Show": 0,
+                "Show": 1,
                 "x1": 48,
-                "y1": 120,
-                "y2": 0,
+                "y1": 252,
+                "x2": 900,
+                "y2": 540,
                 "w": 142,
                 "h": 108,
                 "R": "#33691E"
               }
             }
           ],
+          "Settings": {
+            "main": {
+              "earlyMediaMaxSure": 30,
+              "kayitSes": false,
+              "kayitSesDisBaglanti": false,
+              "noanswer": false,
+              "otomatikAc": true
+            }
+          },
+          "Version": 1002,
+          "noDelete": 1,
+          "noInput": 1,
+          "noOutput": 0,
+          "noTitle": 0,
+          "r": "yesil",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 48,
+          "y": 252,
           "w": 142,
           "h": 108
         },
-        "5e04c4ab-9ee2-4042-99f4-9e29251ebfe5-call_masking_incomingCall": {
-          "Version": 1001,
-          "PanoType": "call_masking_incomingCall",
+        "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call": {
           "Announcements": {},
-          "ID": "5e04c4ab-9ee2-4042-99f4-9e29251ebfe5-call_masking_incomingCall",
-          "Name": "CM  Incoming Call",
-          "noDelete": 0,
-          "noInput": 0,
-          "noOutput": 0,
-          "visible": 0,
-          "noTitle": 0,
-          "selfConnectable": 0,
-          "x": 336,
-          "y": 120,
-          "r": "10",
+          "Channels": [
+            ""
+          ],
+          "ID": "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call",
           "IMG": {
-            "T": "S",
-            "R": "phone_forwarded"
+            "R": "phone_forwarded",
+            "T": "S"
           },
-          "Settings": {
-            "main": {},
-            "CallMasking": {
-              "ModuleUUID": "",
-              "ConnectionType": "production",
-              "APIKey": "",
-              "ProjectCode": ""
+          "Name": "Redirect Call",
+          "PanoType": "redirect_call",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "A",
+              "Go": "f0840bb1-55a8-4bfd-8e76-11d9e0b131aa-call_management",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Answer - A",
+              "UUID": "363590ff-a08f-43d5-b07b-1468e3f3d2bc",
+              "Value": "answerA",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "answerA",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 216,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
             },
-            "setting": {
-              "call_id": "",
-              "from_number": "",
-              "to_number": "",
-              "call_time": "",
-              "ttl_bound": 604800
+            {
+              "AppUUID": "",
+              "Channel": "B",
+              "Go": "f0840bb1-55a8-4bfd-8e76-11d9e0b131aa-call_management",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Answer - B",
+              "UUID": "3590ffa0-8f33-45b0-bb14-68e3f3d2bc3a",
+              "Value": "answerB",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "answerB",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 216,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "End Call - A",
+              "UUID": "90ffa08f-33d5-407b-9468-e3f3d2bc3ac8",
+              "Value": "ENDCALLA",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "endCallA",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 216,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "End Call - B",
+              "UUID": "ffa08f33-d5b0-4b14-a8e3-f3d2bc3ac852",
+              "Value": "ENDCALLB",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "endCallB",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 216,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "d2bc3ac8-5239-4bdd-8284-d6d8c7330f39-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "User Busy",
+              "UUID": "a08f33d5-b07b-4468-a3f3-d2bc3ac85239",
+              "Value": "BUSY",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "BUSY",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 348,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "68e3f3d2-bc3a-4852-b98b-dd0284d6d8c7-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "No Answer",
+              "UUID": "8f33d5b0-7b14-48e3-b3d2-bc3ac852398b",
+              "Value": "NOANSWER",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "NOANSWER",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 372,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "User Not Registered",
+              "UUID": "33d5b07b-1468-43f3-92bc-3ac852398bdd",
+              "Value": "USER_NOT_REGISTERED",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "USER_NOT_REGISTERED",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 372,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error Extension",
+              "UUID": "b07b1468-e3f3-42bc-bac8-52398bdd0284",
+              "Value": "errorExtension",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "errorExtension",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 372,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "5f7bca49-2f5a-44f7-b1b6-173f5f28a0a8-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error All",
+              "UUID": "7b1468e3-f3d2-4c3a-8852-398bdd0284d6",
+              "Value": "errorAll",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "errorAll",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 216,
+                "x2": 948,
+                "y2": 396,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Origanator Cancel",
+              "UUID": "d5b07b14-68e3-43d2-bc3a-c852398bdd02",
+              "Value": "CANCEL",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "CANCEL",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": 216,
+                "x2": 1416,
+                "y2": 372,
+                "w": 142,
+                "h": 204,
+                "R": "#01579B"
+              }
+            }
+          ],
+          "Settings": {
+            "Call": {
+              "callerIdType": "variable",
+              "callerIdValue": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:caller_number",
+              "routeType": "external",
+              "sourceType": "variable",
+              "targetValue": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:destination_numbers:numbers"
+            },
+            "main": {
+              "ignore_early_media": true,
+              "originate_timeout": 30,
+              "ringback": "%(2000,4000,440.0,480.0)"
             },
             "variablePartner": {
               "Variables": {
-                "call_id": {
-                  "key": "call_id",
-                  "name": "Call ID"
-                },
-                "from_number": {
-                  "key": "from_number",
-                  "name": "From Number"
-                },
-                "to_number": {
-                  "key": "to_number",
-                  "name": "To Number"
-                },
-                "call_time": {
-                  "key": "call_time",
-                  "name": "Call Time"
-                },
-                "caller_number": {
-                  "key": "caller_number",
-                  "name": "Caller Number"
-                },
-                "masked_number": {
-                  "key": "masked_number",
-                  "name": "Masked Number"
-                },
-                "destination_numbers": {
-                  "key": "destination_numbers",
-                  "name": "Destination Numbers"
-                },
-                "visitor_id": {
-                  "key": "visitor_id",
-                  "name": "Visitor ID"
-                },
-                "started_at": {
-                  "key": "started_at",
-                  "name": "Started At"
-                },
-                "bound_until": {
-                  "key": "bound_until",
-                  "name": "Bound Until"
-                },
-                "project_stats": {
-                  "key": "project_stats",
-                  "name": "Project Stats",
+                "Call": {
+                  "key": "Call",
+                  "name": "Call",
                   "variables": {
-                    "last_monitoring": {
-                      "key": "last_monitoring",
-                      "name": "Last Monitoring"
+                    "AnswerTime": {
+                      "key": "AnswerTime",
+                      "name": "Answer Time"
                     },
-                    "pool_stats": {
-                      "key": "pool_stats",
-                      "name": "Pool Stats",
+                    "CallStartTime": {
+                      "key": "CallStartTime",
+                      "name": "Call Start Time"
+                    },
+                    "CallerNumber": {
+                      "key": "CallerNumber",
+                      "name": "Caller Number"
+                    },
+                    "DialedNumber": {
+                      "key": "DialedNumber",
+                      "name": "Dialed Number"
+                    },
+                    "EndTime": {
+                      "key": "EndTime",
+                      "name": "End Time"
+                    },
+                    "RingDuration": {
+                      "key": "RingDuration",
+                      "name": "Ring Duration"
+                    },
+                    "TalkDuration": {
+                      "key": "TalkDuration",
+                      "name": "Talk Duration"
+                    },
+                    "TotalCallDuration": {
+                      "key": "TotalCallDuration",
+                      "name": "Total Call Duration"
+                    }
+                  }
+                },
+                "OutputPort": {
+                  "key": "OutputPort",
+                  "name": "Output Port"
+                }
+              },
+              "dataType": "VALUE"
+            }
+          },
+          "Version": 1003,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 0,
+          "r": "varsayilan",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 636,
+          "y": 216,
+          "w": 142,
+          "h": 204
+        },
+        "875129a2-93e5-44e8-8685-6499f9d97103-anons": {
+          "Announcements": {
+            "anons": "a293e514-e846-4564-99f9-d971038007fb"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet - Hoşçakalın",
+          "PanoType": "anons",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hoşçakalın",
+              "UUID": "5129a293-e514-4846-8564-99f9d9710380",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 1188,
+                "y1": 396,
+                "x2": 1416,
+                "y2": 372,
+                "w": 138,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 1188,
+          "y": 396,
+          "w": 138,
+          "h": 22
+        },
+        "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call",
+          "IMG": {
+            "R": "phone_callback",
+            "T": "S"
+          },
+          "Name": "Hang Up Call",
+          "PanoType": "hang_up_call",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hang Up Call",
+              "UUID": "fdce7611-d9e0-4131-aa1f-44a2da447851",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1680,
+                "y1": 264,
+                "x2": 1416,
+                "y2": 372,
+                "w": 138,
+                "h": 22,
+                "R": "#BF360C"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {}
+          },
+          "Version": 1001,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 1,
+          "noTitle": 1,
+          "r": "turuncu",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 1680,
+          "y": 264,
+          "w": 138,
+          "h": 22
+        },
+        "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd",
+          "IMG": {
+            "R": "phone_callback",
+            "T": "S"
+          },
+          "Name": "CM  Call End",
+          "PanoType": "call_masking_callEnd",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Success",
+              "UUID": "83194b9e-44a2-4679-88d3-b4eee8f0840b",
+              "Value": "success",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "success",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Call Record Not Found",
+              "UUID": "194b9e44-a226-4908-93b4-eee8f0840bb1",
+              "Value": "callRecordNotFound",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "callRecordNotFound",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Validation Error",
+              "UUID": "4b9e44a2-2679-48d3-b4ee-e8f0840bb155",
+              "Value": "validationError",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "validationError",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Not Found",
+              "UUID": "9e44a226-7908-43b4-aee8-f0840bb155a8",
+              "Value": "notFound",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "notFound",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Unauthorized",
+              "UUID": "44a22679-08d3-44ee-a8f0-840bb155a88b",
+              "Value": "unauthorized",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "unauthorized",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Forbidden",
+              "UUID": "a2267908-d3b4-4ee8-b084-0bb155a88bfd",
+              "Value": "forbidden",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "forbidden",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Project Not Found",
+              "UUID": "267908d3-b4ee-48f0-840b-b155a88bfdce",
+              "Value": "projectNotFound",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "projectNotFound",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Timeout",
+              "UUID": "7908d3b4-eee8-4084-8bb1-55a88bfdce76",
+              "Value": "timeout",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "timeout",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error",
+              "UUID": "08d3b4ee-e8f0-440b-b155-a88bfdce7611",
+              "Value": "error",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "error",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error All",
+              "UUID": "d3b4eee8-f084-4bb1-95a8-8bfdce7611d9",
+              "Value": "errorAll",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "errorAll",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 1416,
+                "y1": 372,
+                "x2": 1680,
+                "y2": 264,
+                "w": 161,
+                "h": 156,
+                "R": "#004d40"
+              }
+            }
+          ],
+          "Settings": {
+            "CallMasking": {
+              "APIKey": "ak_root_1234567890abcdef1234567890abcdef",
+              "ConnectionType": "production",
+              "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca",
+              "ProjectCode": "kurumcell",
+              "RedirectCallPanoUUID": "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call"
+            },
+            "main": {},
+            "setting": {
+              "answered_at": "",
+              "call_id": "",
+              "cost": "",
+              "duration": 0,
+              "end_time": "",
+              "jitter": "",
+              "metadata": "{}",
+              "mos": "",
+              "packet_loss": "",
+              "quality_score": "",
+              "result": "completed"
+            },
+            "variablePartner": {
+              "Variables": {
+                "data": {
+                  "key": "data",
+                  "name": "Data",
+                  "variables": {
+                    "call_id": {
+                      "key": "call_id",
+                      "name": "Call ID"
+                    },
+                    "duration": {
+                      "key": "duration",
+                      "name": "Duration"
+                    },
+                    "end_time": {
+                      "key": "end_time",
+                      "name": "End Time"
+                    },
+                    "meta_data": {
+                      "key": "meta_data",
+                      "name": "Meta Data",
                       "variables": {
-                        "bound_numbers": {
-                          "key": "bound_numbers",
-                          "name": "Bound Numbers"
+                        "channel": {
+                          "key": "channel",
+                          "name": "Channel"
                         },
-                        "free_numbers": {
-                          "key": "free_numbers",
-                          "name": "Free Numbers"
+                        "listing_id": {
+                          "key": "listing_id",
+                          "name": "Listing ID"
                         },
-                        "is_critical": {
-                          "key": "is_critical",
-                          "name": "Is Critical"
-                        },
-                        "last_updated": {
-                          "key": "last_updated",
-                          "name": "Last Updated"
-                        },
-                        "percentage_free": {
-                          "key": "percentage_free",
-                          "name": "Percentage Free"
-                        },
-                        "total_numbers": {
-                          "key": "total_numbers",
-                          "name": "Total Numbers"
+                        "user_info": {
+                          "key": "user_info",
+                          "name": "User Info",
+                          "variables": {
+                            "address": {
+                              "key": "address",
+                              "name": "Address"
+                            },
+                            "city": {
+                              "key": "city",
+                              "name": "City"
+                            },
+                            "email": {
+                              "key": "email",
+                              "name": "Email"
+                            },
+                            "id": {
+                              "key": "id",
+                              "name": "ID"
+                            },
+                            "name": {
+                              "key": "name",
+                              "name": "Name"
+                            },
+                            "phone": {
+                              "key": "phone",
+                              "name": "Phone"
+                            }
+                          }
                         }
                       }
                     },
-                    "call_stats": {
-                      "key": "call_stats",
-                      "name": "Call Stats",
+                    "project_stats": {
+                      "key": "project_stats",
+                      "name": "Project Stats",
                       "variables": {
-                        "active_calls": {
-                          "key": "active_calls",
-                          "name": "Active Calls"
-                        },
-                        "is_critical": {
-                          "key": "is_critical",
-                          "name": "Is Critical"
+                        "call_stats": {
+                          "key": "call_stats",
+                          "name": "Call Stats",
+                          "variables": {
+                            "active_calls": {
+                              "key": "active_calls",
+                              "name": "Active Calls"
+                            },
+                            "is_critical": {
+                              "key": "is_critical",
+                              "name": "Is Critical"
+                            },
+                            "last_monitoring": {
+                              "key": "last_monitoring",
+                              "name": "Last Monitoring"
+                            },
+                            "max_calls": {
+                              "key": "max_calls",
+                              "name": "Max Calls"
+                            },
+                            "percentage_used": {
+                              "key": "percentage_used",
+                              "name": "Percentage Used"
+                            }
+                          }
                         },
                         "last_monitoring": {
                           "key": "last_monitoring",
                           "name": "Last Monitoring"
                         },
-                        "max_calls": {
-                          "key": "max_calls",
-                          "name": "Max Calls"
-                        },
-                        "percentage_used": {
-                          "key": "percentage_used",
-                          "name": "Percentage Used"
+                        "pool_stats": {
+                          "key": "pool_stats",
+                          "name": "Pool Stats",
+                          "variables": {
+                            "bound_numbers": {
+                              "key": "bound_numbers",
+                              "name": "Bound Numbers"
+                            },
+                            "free_numbers": {
+                              "key": "free_numbers",
+                              "name": "Free Numbers"
+                            },
+                            "is_critical": {
+                              "key": "is_critical",
+                              "name": "Is Critical"
+                            },
+                            "last_updated": {
+                              "key": "last_updated",
+                              "name": "Last Updated"
+                            },
+                            "percentage_free": {
+                              "key": "percentage_free",
+                              "name": "Percentage Free"
+                            },
+                            "total_numbers": {
+                              "key": "total_numbers",
+                              "name": "Total Numbers"
+                            }
+                          }
                         }
                       }
+                    },
+                    "result": {
+                      "key": "result",
+                      "name": "Result"
+                    },
+                    "status": {
+                      "key": "status",
+                      "name": "Status"
                     }
                   }
-                },
-                "status": {
-                  "key": "status",
-                  "name": "Status"
-                },
-                "success": {
-                  "key": "success",
-                  "name": "Success"
                 },
                 "error_code": {
                   "key": "error_code",
@@ -275,11 +1478,29 @@
                       "key": "msg",
                       "name": "Message Text"
                     },
+                    "params": {
+                      "key": "params",
+                      "name": "Params",
+                      "variables": {
+                        "name": {
+                          "key": "name",
+                          "name": "Name"
+                        }
+                      }
+                    },
                     "type": {
                       "key": "type",
                       "name": "Message Type"
                     }
                   }
+                },
+                "status": {
+                  "key": "status",
+                  "name": "Status"
+                },
+                "success": {
+                  "key": "success",
+                  "name": "Success"
                 },
                 "tracking_id": {
                   "key": "tracking_id",
@@ -289,478 +1510,393 @@
               "dataType": "VALUE"
             }
           },
-          "Channels": [
-            ""
-          ],
-          "Ports": [
-            {
-              "Name": "Success",
-              "Value": "success",
-              "portType": "success",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "04c4ab9e-e2b0-4299-b49e-29251ebfe54d",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276,
-                "x2": 660,
-                "y2": 120,
-                "Show": "0"
-              }
-            },
-            {
-              "Name": "Working Hours Error",
-              "Value": "workingHoursError",
-              "portType": "workingHoursError",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "c4ab9ee2-b042-49f4-9e29-251ebfe54d44",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Fraud Detected",
-              "Value": "fraudDetected",
-              "portType": "fraudDetected",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "ab9ee2b0-4299-449e-a925-1ebfe54d4493",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Rate Limited",
-              "Value": "rateLimited",
-              "portType": "rateLimited",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "9ee2b042-99f4-4e29-a51e-bfe54d449318",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Assignment Expired",
-              "Value": "assignmentExpired",
-              "portType": "assignmentExpired",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "e2b04299-f49e-4925-9ebf-e54d44931853",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Call Blocked",
-              "Value": "callBlocked",
-              "portType": "callBlocked",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "b04299f4-9e29-451e-bfe5-4d449318532d",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Number Pool Empty",
-              "Value": "numberPoolEmpty",
-              "portType": "numberPoolEmpty",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "4299f49e-2925-4ebf-a54d-449318532d03",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Validation Error",
-              "Value": "validationError",
-              "portType": "validationError",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "99f49e29-251e-4fe5-8d44-9318532d03c1",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Not Found",
-              "Value": "notFound",
-              "portType": "notFound",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "f49e2925-1ebf-454d-8493-18532d03c122",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Unauthorized",
-              "Value": "unauthorized",
-              "portType": "unauthorized",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "9e29251e-bfe5-4d44-9318-532d03c122d8",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Forbidden",
-              "Value": "forbidden",
-              "portType": "forbidden",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "29251ebf-e54d-4493-9853-2d03c122d8fc",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Timeout",
-              "Value": "timeout",
-              "portType": "timeout",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "251ebfe5-4d44-4318-932d-03c122d8fc10",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Error",
-              "Value": "error",
-              "portType": "error",
-              "readOnly": true,
-              "hide": false,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "1ebfe54d-4493-4853-ad03-c122d8fc1059",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            },
-            {
-              "Name": "Error All",
-              "Value": "errorAll",
-              "portType": "errorAll",
-              "readOnly": true,
-              "hide": false,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "bfe54d44-9318-432d-83c1-22d8fc1059df",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#194d33",
-                "x1": 336,
-                "y1": 120,
-                "w": 162,
-                "h": 276
-              }
-            }
-          ],
-          "PanoUUID": "5e04c4ab-9ee2-4042-99f4-9e29251ebfe5-call_masking_incomingCall",
-          "w": 162,
-          "h": 276
-        },
-        "e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call": {
-          "Version": 1002,
-          "PanoType": "redirect_call",
-          "Announcements": {},
-          "ID": "e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call",
-          "Name": "Redirect Call",
+          "Version": 1001,
           "noDelete": 0,
           "noInput": 0,
           "noOutput": 0,
-          "visible": 0,
           "noTitle": 0,
+          "r": "9",
           "selfConnectable": 0,
-          "x": 660,
-          "y": 120,
-          "r": "varsayilan",
+          "visible": 0,
+          "x": 1416,
+          "y": 372,
+          "w": 161,
+          "h": 156
+        },
+        "aa6b3ff5-e1d5-4e52-a292-8e25fc22aae6-shortcut": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "aa6b3ff5-e1d5-4e52-a292-8e25fc22aae6-shortcut",
           "IMG": {
-            "T": "S",
-            "R": "phone_forwarded"
+            "R": "shortcut",
+            "T": "S"
           },
+          "Name": "Shortcut",
+          "PanoType": "shortcut",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Anons Dinlet - Hoşçakalın",
+              "UUID": "6b3ff5e1-d53e-42e2-928e-25fc22aae67e",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 948,
+                "y1": 84,
+                "x2": 1680,
+                "y2": 264,
+                "w": 192,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {},
+            "setting": {
+              "shortcutPanoChannel": "",
+              "shortcutPanoUUID": "875129a2-93e5-44e8-8685-6499f9d97103-anons"
+            }
+          },
+          "Version": 1001,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 1,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 948,
+          "y": 84,
+          "w": 192,
+          "h": 22
+        },
+        "b4eee8f0-840b-4155-a88b-fdce7611d9e0-call_channel_status": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "b4eee8f0-840b-4155-a88b-fdce7611d9e0-call_channel_status",
+          "IMG": {
+            "R": "call_split",
+            "T": "S"
+          },
+          "Name": "Call Channel Status",
+          "PanoType": "call_channel_status",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Call Closed",
+              "UUID": "eee8f084-0bb1-45a8-8bfd-ce7611d9e0b1",
+              "Value": "callClosed",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "callClosed",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 1272,
+                "y1": 216,
+                "x2": 1680,
+                "y2": 264,
+                "w": 174,
+                "h": 108,
+                "R": "#BF360C"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Call Active",
+              "UUID": "e8f0840b-b155-488b-bdce-7611d9e0b131",
+              "Value": "callActive",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "callActive",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 1272,
+                "y1": 216,
+                "x2": 1188,
+                "y2": 396,
+                "w": 174,
+                "h": 108,
+                "R": "#BF360C"
+              }
+            }
+          ],
           "Settings": {
             "main": {
-              "ignore_early_media": true,
-              "originate_timeout": 30,
-              "ringback": "%(2000,4000,440.0,480.0)"
+              "channel": "A"
+            }
+          },
+          "Version": 1001,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 0,
+          "r": "turuncu",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 1272,
+          "y": 216,
+          "w": 174,
+          "h": 108
+        },
+        "d2bc3ac8-5239-4bdd-8284-d6d8c7330f39-anons": {
+          "Announcements": {
+            "anons": "70b15e2f-ca53-4a49-8107-8bc67bac57d6"
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "d2bc3ac8-5239-4bdd-8284-d6d8c7330f39-anons",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet - 3",
+          "PanoType": "anons",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Müsait Değil",
+              "UUID": "bc3ac852-398b-4d02-84d6-d8c7330f3985",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 948,
+                "y1": 348,
+                "x2": 1188,
+                "y2": 396,
+                "w": 138,
+                "h": 22,
+                "R": "#827717"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 948,
+          "y": 348,
+          "w": 138,
+          "h": 22
+        },
+        "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr": {
+          "Announcements": {
+            "hata": "",
+            "karsilama": "59df9452-49bf-4d82-93a9-e834bac29b7a",
+            "kisaon": "07fbafaa-6b3f-45e1-953e-52e2928e25fc",
+            "tuslamasonrasi": "",
+            "zamanasimi": ""
+          },
+          "Channels": [
+            ""
+          ],
+          "ID": "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr",
+          "IMG": {
+            "R": "tty",
+            "T": "S"
+          },
+          "Name": "IVR Menüsü",
+          "PanoType": "ivr",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "aa6b3ff5-e1d5-4e52-a292-8e25fc22aae6-shortcut",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error",
+              "UUID": "71038007-fbaf-4a6b-bff5-e1d53e52e292",
+              "Value": "error",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "error",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": -12,
+                "x2": 948,
+                "y2": 84,
+                "w": 142,
+                "h": 156,
+                "R": "#263238"
+              }
             },
-            "Call": {
-              "CallNumber": "",
-              "DestinationType": "extension_uuid",
-              "DestinationUUID": "",
-              "ScenarioVersions": "",
-              "CallIncomingDTMF": "NORMAL",
-              "CallIncomingDID": "NORMAL",
-              "ExtensionControlNumber": 3
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "aa6b3ff5-e1d5-4e52-a292-8e25fc22aae6-shortcut",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Timeout",
+              "UUID": "038007fb-afaa-4b3f-b5e1-d53e52e2928e",
+              "Value": "timeout",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "timeout",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": -12,
+                "x2": 948,
+                "y2": 84,
+                "w": 142,
+                "h": 156,
+                "R": "#263238"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Go": "aa6b3ff5-e1d5-4e52-a292-8e25fc22aae6-shortcut",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Çıkış",
+              "UUID": "d53e52e2-928e-45fc-a2aa-e67ea2e0b7a3",
+              "Value": "0",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": -12,
+                "x2": 948,
+                "y2": 84,
+                "w": 142,
+                "h": 156,
+                "R": "#263238"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Go": "3e52e292-8e25-4c22-aae6-7ea2e0b7a308-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "1",
+              "UUID": "8007fbaf-aa6b-4ff5-a1d5-3e52e2928e25",
+              "Value": "1",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 636,
+                "y1": -12,
+                "x2": 948,
+                "y2": 108,
+                "w": 142,
+                "h": 156,
+                "R": "#263238"
+              }
+            }
+          ],
+          "Settings": {
+            "dtmf": {
+              "max": 11,
+              "min": 1,
+              "terminators": "#",
+              "timeout": 2000
+            },
+            "main": {},
+            "setting": {
+              "numberOfAnnouncements": 2,
+              "timeout": 10000
             },
             "variablePartner": {
               "Variables": {
@@ -772,320 +1908,1127 @@
               "dataType": "VALUE"
             }
           },
+          "Version": 1001,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 0,
+          "r": "petrolmavisi",
+          "selfConnectable": 1,
+          "visible": 0,
+          "x": 636,
+          "y": -12,
+          "w": 142,
+          "h": 156
+        },
+        "e8468564-99f9-4971-8380-07fbafaa6b3f-anons": {
+          "Announcements": {
+            "anons": "856499f9-d971-4380-87fb-afaa6b3ff5e1"
+          },
           "Channels": [
             ""
           ],
+          "ID": "e8468564-99f9-4971-8380-07fbafaa6b3f-anons",
+          "IMG": {
+            "R": "perm_phone_msg",
+            "T": "S"
+          },
+          "Name": "Anons Dinlet - 6",
+          "PanoType": "anons",
           "Ports": [
             {
-              "Name": "Answer - A",
-              "Value": "answerA",
-              "portType": "answerA",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "4d449318-532d-43c1-a2d8-fc1059df9452",
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
               "Location": [
-                0,
-                0,
                 0,
                 0,
                 0,
                 0
               ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
+              "Name": "Çalışma Saatleri Dışında",
+              "UUID": "46856499-f9d9-4103-8007-fbafaa6b3ff5",
+              "Value": "undefined",
               "Path": {
                 "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "Answer - B",
-              "Value": "answerB",
-              "portType": "answerB",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "44931853-2d03-4122-98fc-1059df945249",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "End Call - A",
-              "Value": "ENDCALLA",
-              "portType": "endCallA",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "9318532d-03c1-42d8-bc10-59df945249bf",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "End Call - B",
-              "Value": "ENDCALLB",
-              "portType": "endCallB",
-              "readOnly": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "18532d03-c122-48fc-9059-df945249bf1d",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "User Busy",
-              "Value": "BUSY",
-              "portType": "BUSY",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "532d03c1-22d8-4c10-99df-945249bf1d82",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "No Answer",
-              "Value": "NOANSWER",
-              "portType": "NOANSWER",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "2d03c122-d8fc-4059-9f94-5249bf1d82d3",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "User Not Registered",
-              "Value": "USER_NOT_REGISTERED",
-              "portType": "USER_NOT_REGISTERED",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "03c122d8-fc10-49df-9452-49bf1d82d3a9",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "Origanator Cancel",
-              "Value": "CANCEL",
-              "portType": "CANCEL",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "c122d8fc-1059-4f94-9249-bf1d82d3a9e8",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "Error Extension",
-              "Value": "errorExtension",
-              "portType": "errorExtension",
-              "readOnly": true,
-              "hide": true,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "22d8fc10-59df-4452-89bf-1d82d3a9e834",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
-              }
-            },
-            {
-              "Name": "Error All",
-              "Value": "errorAll",
-              "portType": "errorAll",
-              "readOnly": true,
-              "hide": false,
-              "Variable": {
-                "Key": "",
-                "Global": false
-              },
-              "UUID": "d8fc1059-df94-4249-bf1d-82d3a9e834ba",
-              "Location": [
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
-              ],
-              "Go": "0",
-              "Channel": "",
-              "ISLEM": {},
-              "Path": {
-                "Main": 0,
-                "R": "#01579B",
-                "x1": 660,
-                "y1": 120,
-                "w": 142,
-                "h": 180
+                "Show": 1,
+                "x1": 636,
+                "y1": 468,
+                "x2": 900,
+                "y2": 540,
+                "w": 164,
+                "h": 22,
+                "R": "#827717"
               }
             }
           ],
-          "PanoUUID": "e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call",
-          "w": 142,
-          "h": 180
+          "Settings": {
+            "main": {
+              "playAsync": false
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 1,
+          "r": "zeytinyesili",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 636,
+          "y": 468,
+          "w": 164,
+          "h": 22
+        },
+        "f0840bb1-55a8-4bfd-8e76-11d9e0b131aa-call_management": {
+          "Announcements": {
+            "waitingAnnouncementA": "",
+            "waitingAnnouncementB": "",
+            "waitingMusicA": "",
+            "waitingMusicB": ""
+          },
+          "Channels": [
+            "A",
+            "B"
+          ],
+          "ID": "f0840bb1-55a8-4bfd-8e76-11d9e0b131aa-call_management",
+          "IMG": {
+            "R": "settings_phone",
+            "T": "S"
+          },
+          "Name": "Call Management",
+          "PanoType": "call_management",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Feature (DTMF) - A",
+              "UUID": "840bb155-a88b-4dce-b611-d9e0b131aa1f",
+              "Value": "featureA",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "featureA",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 948,
+                "y1": 216,
+                "x2": 900,
+                "y2": 540,
+                "w": 161,
+                "h": 109,
+                "R": "#006064"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Feature (DTMF) - B",
+              "UUID": "0bb155a8-8bfd-4e76-91d9-e0b131aa1f44",
+              "Value": "featureB",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "featureB",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 948,
+                "y1": 216,
+                "x2": 900,
+                "y2": 540,
+                "w": 161,
+                "h": 109,
+                "R": "#006064"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "b4eee8f0-840b-4155-a88b-fdce7611d9e0-call_channel_status",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "End Call - A",
+              "UUID": "b155a88b-fdce-4611-99e0-b131aa1f44a2",
+              "Value": "ENDCALLA",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "endCallA",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 948,
+                "y1": 216,
+                "x2": 1272,
+                "y2": 216,
+                "w": 161,
+                "h": 109,
+                "R": "#006064"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "b4eee8f0-840b-4155-a88b-fdce7611d9e0-call_channel_status",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "End Call - B",
+              "UUID": "55a88bfd-ce76-41d9-a0b1-31aa1f44a2da",
+              "Value": "ENDCALLB",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "endCallB",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 948,
+                "y1": 216,
+                "x2": 1272,
+                "y2": 216,
+                "w": 161,
+                "h": 109,
+                "R": "#006064"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error",
+              "UUID": "a88bfdce-7611-49e0-b131-aa1f44a2da44",
+              "Value": "error",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "error",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 948,
+                "y1": 216,
+                "x2": 1272,
+                "y2": 216,
+                "w": 161,
+                "h": 109,
+                "R": "#006064"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {},
+            "setting": {},
+            "variablePartner": {
+              "Variables": {
+                "OutputPort": {
+                  "key": "OutputPort",
+                  "name": "Output Port"
+                }
+              },
+              "dataType": "VALUE"
+            }
+          },
+          "Version": 1002,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 0,
+          "r": "8",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 948,
+          "y": 216,
+          "w": 161,
+          "h": 109
+        },
+        "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall",
+          "IMG": {
+            "R": "phone_forwarded",
+            "T": "S"
+          },
+          "Name": "CM  Incoming Call",
+          "PanoType": "call_masking_incomingCall",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Success",
+              "UUID": "0d6e1c73-6731-4c2c-9407-44b5fc8f42f1",
+              "Value": "success",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "success",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Fraud Detected",
+              "UUID": "1c736731-4c2c-4407-84b5-fc8f42f18e79",
+              "Value": "fraudDetected",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "fraudDetected",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Rate Limited",
+              "UUID": "7367314c-2c54-4744-b5fc-8f42f18e791c",
+              "Value": "rateLimited",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "rateLimited",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Call Blocked",
+              "UUID": "314c2c54-0744-45fc-8f42-f18e791cae94",
+              "Value": "callBlocked",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "callBlocked",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Number Pool Empty",
+              "UUID": "4c2c5407-44b5-4c8f-82f1-8e791cae9424",
+              "Value": "numberPoolEmpty",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "numberPoolEmpty",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Validation Error",
+              "UUID": "2c540744-b5fc-4f42-b18e-791cae942457",
+              "Value": "validationError",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "validationError",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Not Found",
+              "UUID": "540744b5-fc8f-42f1-8e79-1cae94245791",
+              "Value": "notFound",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "notFound",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Unauthorized",
+              "UUID": "0744b5fc-8f42-418e-b91c-ae94245791b3",
+              "Value": "unauthorized",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "unauthorized",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Forbidden",
+              "UUID": "44b5fc8f-42f1-4e79-9cae-94245791b3a1",
+              "Value": "forbidden",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "forbidden",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Project Not Found",
+              "UUID": "b5fc8f42-f18e-491c-ae94-245791b3a15d",
+              "Value": "projectNotFound",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "projectNotFound",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Timeout",
+              "UUID": "fc8f42f1-8e79-4cae-9424-5791b3a15db1",
+              "Value": "timeout",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": true,
+              "portType": "timeout",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error",
+              "UUID": "8f42f18e-791c-4e94-a457-91b3a15db160",
+              "Value": "error",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "error",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": -12,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "e8468564-99f9-4971-8380-07fbafaa6b3f-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Working Hours Error",
+              "UUID": "6e1c7367-314c-4c54-8744-b5fc8f42f18e",
+              "Value": "workingHoursError",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "workingHoursError",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": 468,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "6499f9d9-7103-4007-bbaf-aa6b3ff5e1d5-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Assignment Expired",
+              "UUID": "67314c2c-5407-44b5-bc8f-42f18e791cae",
+              "Value": "assignmentExpired",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "portType": "assignmentExpired",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": 492,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "12c36f41-0554-4c17-b52a-50a52dfa0537-anons",
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error All",
+              "UUID": "42f18e79-1cae-4424-9791-b3a15db16011",
+              "Value": "errorAll",
+              "Variable": {
+                "Global": false,
+                "Key": ""
+              },
+              "hide": false,
+              "portType": "errorAll",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 312,
+                "y1": 120,
+                "x2": 636,
+                "y2": 516,
+                "w": 162,
+                "h": 276,
+                "R": "#194d33"
+              }
+            }
+          ],
+          "Settings": {
+            "CallMasking": {
+              "APIKey": "ak_root_1234567890abcdef1234567890abcdef",
+              "ConnectionType": "production",
+              "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca",
+              "ProjectCode": "kurumcell"
+            },
+            "main": {},
+            "setting": {
+              "call_id": "",
+              "call_time": "",
+              "from_number": "",
+              "to_number": "",
+              "ttl_bound": 604800
+            },
+            "variablePartner": {
+              "Variables": {
+                "data": {
+                  "key": "data",
+                  "name": "Data",
+                  "variables": {
+                    "bound_until": {
+                      "key": "bound_until",
+                      "name": "Bound Until"
+                    },
+                    "call_id": {
+                      "key": "call_id",
+                      "name": "Call ID"
+                    },
+                    "call_time": {
+                      "key": "call_time",
+                      "name": "Call Time"
+                    },
+                    "caller_number": {
+                      "key": "caller_number",
+                      "name": "Caller Number"
+                    },
+                    "destination_numbers": {
+                      "key": "destination_numbers",
+                      "name": "Destination Numbers",
+                      "variables": {
+                        "number_master": {
+                          "key": "number_master",
+                          "name": "Number Master"
+                        },
+                        "number_slave": {
+                          "key": "number_slave",
+                          "name": "Number Slave"
+                        },
+                        "numbers": {
+                          "key": "numbers",
+                          "name": "Numbers"
+                        }
+                      }
+                    },
+                    "from_number": {
+                      "key": "from_number",
+                      "name": "From Number"
+                    },
+                    "masked_number": {
+                      "key": "masked_number",
+                      "name": "Masked Number"
+                    },
+                    "meta_data": {
+                      "key": "meta_data",
+                      "name": "Meta Data",
+                      "variables": {
+                        "channel": {
+                          "key": "channel",
+                          "name": "Channel"
+                        },
+                        "listing_id": {
+                          "key": "listing_id",
+                          "name": "Listing ID"
+                        },
+                        "user_info": {
+                          "key": "user_info",
+                          "name": "User Info",
+                          "variables": {
+                            "address": {
+                              "key": "address",
+                              "name": "Address"
+                            },
+                            "city": {
+                              "key": "city",
+                              "name": "City"
+                            },
+                            "email": {
+                              "key": "email",
+                              "name": "Email"
+                            },
+                            "id": {
+                              "key": "id",
+                              "name": "ID"
+                            },
+                            "name": {
+                              "key": "name",
+                              "name": "Name"
+                            },
+                            "phone": {
+                              "key": "phone",
+                              "name": "Phone"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "project_stats": {
+                      "key": "project_stats",
+                      "name": "Project Stats",
+                      "variables": {
+                        "call_stats": {
+                          "key": "call_stats",
+                          "name": "Call Stats",
+                          "variables": {
+                            "active_calls": {
+                              "key": "active_calls",
+                              "name": "Active Calls"
+                            },
+                            "is_critical": {
+                              "key": "is_critical",
+                              "name": "Is Critical"
+                            },
+                            "last_monitoring": {
+                              "key": "last_monitoring",
+                              "name": "Last Monitoring"
+                            },
+                            "max_calls": {
+                              "key": "max_calls",
+                              "name": "Max Calls"
+                            },
+                            "percentage_used": {
+                              "key": "percentage_used",
+                              "name": "Percentage Used"
+                            }
+                          }
+                        },
+                        "last_monitoring": {
+                          "key": "last_monitoring",
+                          "name": "Last Monitoring"
+                        },
+                        "pool_stats": {
+                          "key": "pool_stats",
+                          "name": "Pool Stats",
+                          "variables": {
+                            "bound_numbers": {
+                              "key": "bound_numbers",
+                              "name": "Bound Numbers"
+                            },
+                            "free_numbers": {
+                              "key": "free_numbers",
+                              "name": "Free Numbers"
+                            },
+                            "is_critical": {
+                              "key": "is_critical",
+                              "name": "Is Critical"
+                            },
+                            "last_updated": {
+                              "key": "last_updated",
+                              "name": "Last Updated"
+                            },
+                            "percentage_free": {
+                              "key": "percentage_free",
+                              "name": "Percentage Free"
+                            },
+                            "total_numbers": {
+                              "key": "total_numbers",
+                              "name": "Total Numbers"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "started_at": {
+                      "key": "started_at",
+                      "name": "Started At"
+                    },
+                    "to_number": {
+                      "key": "to_number",
+                      "name": "To Number"
+                    },
+                    "visitor_id": {
+                      "key": "visitor_id",
+                      "name": "Visitor ID"
+                    }
+                  }
+                },
+                "error_code": {
+                  "key": "error_code",
+                  "name": "Error Code"
+                },
+                "http_code": {
+                  "key": "http_code",
+                  "name": "HTTP Code"
+                },
+                "message": {
+                  "key": "message",
+                  "name": "Message",
+                  "variables": {
+                    "msg": {
+                      "key": "msg",
+                      "name": "Message Text"
+                    },
+                    "params": {
+                      "key": "params",
+                      "name": "Params",
+                      "variables": {
+                        "name": {
+                          "key": "name",
+                          "name": "Name"
+                        },
+                        "working_hours_end": {
+                          "key": "working_hours_end",
+                          "name": "Working Hours End"
+                        },
+                        "working_hours_start": {
+                          "key": "working_hours_start",
+                          "name": "Working Hours Start"
+                        },
+                        "working_hours_timezone": {
+                          "key": "working_hours_timezone",
+                          "name": "Working Hours Timezone"
+                        }
+                      }
+                    },
+                    "type": {
+                      "key": "type",
+                      "name": "Message Type"
+                    }
+                  }
+                },
+                "status": {
+                  "key": "status",
+                  "name": "Status"
+                },
+                "success": {
+                  "key": "success",
+                  "name": "Success"
+                },
+                "tracking_id": {
+                  "key": "tracking_id",
+                  "name": "Tracking ID"
+                }
+              },
+              "dataType": "VALUE"
+            }
+          },
+          "Version": 1001,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 0,
+          "noTitle": 0,
+          "r": "10",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 312,
+          "y": 120,
+          "w": 162,
+          "h": 276
+        },
+        "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
+          "IMG": {
+            "R": "shortcut",
+            "T": "S"
+          },
+          "Name": "Shortcut Hang Up Call",
+          "PanoType": "shortcut",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Hang Up Call",
+              "UUID": "e1d53e52-e292-4e25-bc22-aae67ea2e0b7",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 900,
+                "y1": 540,
+                "x2": 636,
+                "y2": 516,
+                "w": 138,
+                "h": 22,
+                "R": "#BF360C"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {},
+            "setting": {
+              "shortcutPanoChannel": "",
+              "shortcutPanoUUID": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call"
+            }
+          },
+          "Version": 1001,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 1,
+          "noTitle": 1,
+          "r": "turuncu",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 900,
+          "y": 540,
+          "w": 138,
+          "h": 22
         }
       },
       "Group": false,
@@ -1096,13 +3039,526 @@
         "kabloHizala": 6,
         "panoHizala": false,
         "scale": 1,
-        "x": 0,
-        "y": 0
+        "x": 27.77,
+        "y": 129.8
       }
     }
   },
-  "Sesler": {},
+  "Sesler": {
+    "07fbafaa-6b3f-45e1-953e-52e2928e25fc": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Devam Et",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "type": "TEXT",
+              "text": "Devam etmek için lütfen 1 tuşuna basınız. Çıkış için 0 tuşuna basınız."
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "3ff5e1d5-3e52-4292-8e25-fc22aae67ea2": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Lütfen Bekleyiniz.",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " Arama yapılıyor. Lütfen Bekleyiniz.",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "59df9452-49bf-4d82-93a9-e834bac29b7a": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Hedef Numara",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " {VAR:f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:meta_data:user_info:name:}       Hoşgeldiniz.",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "6f410554-ac17-452a-90a5-2dfa0537d2ca": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Hata Oluştu",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": "Hata Oluştu        {VAR:f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:message:msg:} ",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "70b15e2f-ca53-4a49-8107-8bc67bac57d6": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Müsait Değil",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " {VAR:80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call:Call:DialedNumber:## ### ### ## ##}     müsait değil.",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "791cae94-2457-41b3-a15d-b160114708c4": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Arama Iptal Edildi",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " Arama Iptal Edildi",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "856499f9-d971-4380-87fb-afaa6b3ff5e1": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Çalışma Saatleri Dışında",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": "Lütfen    <say-as interpret-as='time'>{VAR:f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:message:params:working_hours_start:}</say-as> <say-as interpret-as='time'>{VAR:f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:message:params:working_hours_end:}</say-as>    saatleri arasında arayınız.",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "a293e514-e846-4564-99f9-d971038007fb": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Hoşçakalın",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " Hoşçakalın",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "b07be289-6c71-4e8b-b7cf-b8e379c3b1ef": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Cevap vermiyor",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " {VAR:80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call:Call:DialedNumber:## ### ### ## ##}    Cevap vermiyor",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "ca492f5a-b4f7-41b6-973f-5f28a0a8659f": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Hata Oluştu Arama",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": "Hata Oluştu  {VAR:e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call:OutputPort:} ",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "f3d2bc3a-c852-498b-9d02-84d6d8c7330f": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Cevap Yok",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": " Cevap Yok",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    },
+    "f9d97103-8007-4baf-aa6b-3ff5e1d53e52": {
+      "SesFile": {
+        "tr": {
+          "FileName": "",
+          "FileUUID": ""
+        }
+      },
+      "SesLang": "tr",
+      "SesName": "Süre Doldu",
+      "SesTts": {
+        "tr": {
+          "data": [
+            {
+              "text": "Lütfen tekrar numara talebinde bulunun.",
+              "type": "TEXT"
+            }
+          ],
+          "langName": "global",
+          "test": {}
+        }
+      },
+      "SesType": "TTS"
+    }
+  },
   "Variables": {
+    "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call": {
+      "UUID": "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call",
+      "name": "Redirect Call",
+      "panoType": "redirect_call",
+      "variables": {
+        "Call": {
+          "key": "Call",
+          "name": "Call",
+          "variables": {
+            "AnswerTime": {
+              "key": "AnswerTime",
+              "name": "Answer Time"
+            },
+            "CallStartTime": {
+              "key": "CallStartTime",
+              "name": "Call Start Time"
+            },
+            "CallerNumber": {
+              "key": "CallerNumber",
+              "name": "Caller Number"
+            },
+            "DialedNumber": {
+              "key": "DialedNumber",
+              "name": "Dialed Number"
+            },
+            "EndTime": {
+              "key": "EndTime",
+              "name": "End Time"
+            },
+            "RingDuration": {
+              "key": "RingDuration",
+              "name": "Ring Duration"
+            },
+            "TalkDuration": {
+              "key": "TalkDuration",
+              "name": "Talk Duration"
+            },
+            "TotalCallDuration": {
+              "key": "TotalCallDuration",
+              "name": "Total Call Duration"
+            }
+          }
+        },
+        "OutputPort": {
+          "key": "OutputPort",
+          "name": "Output Port"
+        }
+      }
+    },
+    "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd": {
+      "UUID": "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd",
+      "name": "CM  Call End",
+      "panoType": "call_masking_callEnd",
+      "variables": {
+        "data": {
+          "key": "data",
+          "name": "Data",
+          "variables": {
+            "call_id": {
+              "key": "call_id",
+              "name": "Call ID"
+            },
+            "duration": {
+              "key": "duration",
+              "name": "Duration"
+            },
+            "end_time": {
+              "key": "end_time",
+              "name": "End Time"
+            },
+            "meta_data": {
+              "key": "meta_data",
+              "name": "Meta Data",
+              "variables": {
+                "channel": {
+                  "key": "channel",
+                  "name": "Channel"
+                },
+                "listing_id": {
+                  "key": "listing_id",
+                  "name": "Listing ID"
+                },
+                "user_info": {
+                  "key": "user_info",
+                  "name": "User Info",
+                  "variables": {
+                    "address": {
+                      "key": "address",
+                      "name": "Address"
+                    },
+                    "city": {
+                      "key": "city",
+                      "name": "City"
+                    },
+                    "email": {
+                      "key": "email",
+                      "name": "Email"
+                    },
+                    "id": {
+                      "key": "id",
+                      "name": "ID"
+                    },
+                    "name": {
+                      "key": "name",
+                      "name": "Name"
+                    },
+                    "phone": {
+                      "key": "phone",
+                      "name": "Phone"
+                    }
+                  }
+                }
+              }
+            },
+            "project_stats": {
+              "key": "project_stats",
+              "name": "Project Stats",
+              "variables": {
+                "call_stats": {
+                  "key": "call_stats",
+                  "name": "Call Stats",
+                  "variables": {
+                    "active_calls": {
+                      "key": "active_calls",
+                      "name": "Active Calls"
+                    },
+                    "is_critical": {
+                      "key": "is_critical",
+                      "name": "Is Critical"
+                    },
+                    "last_monitoring": {
+                      "key": "last_monitoring",
+                      "name": "Last Monitoring"
+                    },
+                    "max_calls": {
+                      "key": "max_calls",
+                      "name": "Max Calls"
+                    },
+                    "percentage_used": {
+                      "key": "percentage_used",
+                      "name": "Percentage Used"
+                    }
+                  }
+                },
+                "last_monitoring": {
+                  "key": "last_monitoring",
+                  "name": "Last Monitoring"
+                },
+                "pool_stats": {
+                  "key": "pool_stats",
+                  "name": "Pool Stats",
+                  "variables": {
+                    "bound_numbers": {
+                      "key": "bound_numbers",
+                      "name": "Bound Numbers"
+                    },
+                    "free_numbers": {
+                      "key": "free_numbers",
+                      "name": "Free Numbers"
+                    },
+                    "is_critical": {
+                      "key": "is_critical",
+                      "name": "Is Critical"
+                    },
+                    "last_updated": {
+                      "key": "last_updated",
+                      "name": "Last Updated"
+                    },
+                    "percentage_free": {
+                      "key": "percentage_free",
+                      "name": "Percentage Free"
+                    },
+                    "total_numbers": {
+                      "key": "total_numbers",
+                      "name": "Total Numbers"
+                    }
+                  }
+                }
+              }
+            },
+            "result": {
+              "key": "result",
+              "name": "Result"
+            },
+            "status": {
+              "key": "status",
+              "name": "Status"
+            }
+          }
+        },
+        "error_code": {
+          "key": "error_code",
+          "name": "Error Code"
+        },
+        "http_code": {
+          "key": "http_code",
+          "name": "HTTP Code"
+        },
+        "message": {
+          "key": "message",
+          "name": "Message",
+          "variables": {
+            "msg": {
+              "key": "msg",
+              "name": "Message Text"
+            },
+            "params": {
+              "key": "params",
+              "name": "Params",
+              "variables": {
+                "name": {
+                  "key": "name",
+                  "name": "Name"
+                }
+              }
+            },
+            "type": {
+              "key": "type",
+              "name": "Message Type"
+            }
+          }
+        },
+        "status": {
+          "key": "status",
+          "name": "Status"
+        },
+        "success": {
+          "key": "success",
+          "name": "Success"
+        },
+        "tracking_id": {
+          "key": "tracking_id",
+          "name": "Tracking ID"
+        }
+      }
+    },
     "Global": {
       "UUID": "Global",
       "name": "Global",
@@ -1310,125 +3766,203 @@
         }
       }
     },
-    "5e04c4ab-9ee2-4042-99f4-9e29251ebfe5-call_masking_incomingCall": {
-      "UUID": "5e04c4ab-9ee2-4042-99f4-9e29251ebfe5-call_masking_incomingCall",
-      "key": "5e04c4ab-9ee2-4042-99f4-9e29251ebfe5-call_masking_incomingCall",
+    "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr": {
+      "UUID": "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr",
+      "key": "d9710380-07fb-4faa-ab3f-f5e1d53e52e2-ivr",
+      "name": "IVR Menüsü",
+      "panoType": "ivr",
+      "variables": {
+        "OutputPort": {
+          "key": "OutputPort",
+          "name": "Output Port"
+        }
+      }
+    },
+    "f0840bb1-55a8-4bfd-8e76-11d9e0b131aa-call_management": {
+      "UUID": "f0840bb1-55a8-4bfd-8e76-11d9e0b131aa-call_management",
+      "name": "Call Management",
+      "panoType": "call_management",
+      "variables": {
+        "OutputPort": {
+          "key": "OutputPort",
+          "name": "Output Port"
+        }
+      }
+    },
+    "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall": {
+      "UUID": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall",
       "name": "CM  Incoming Call",
       "panoType": "call_masking_incomingCall",
       "variables": {
-        "call_id": {
-          "key": "call_id",
-          "name": "Call ID"
-        },
-        "from_number": {
-          "key": "from_number",
-          "name": "From Number"
-        },
-        "to_number": {
-          "key": "to_number",
-          "name": "To Number"
-        },
-        "call_time": {
-          "key": "call_time",
-          "name": "Call Time"
-        },
-        "caller_number": {
-          "key": "caller_number",
-          "name": "Caller Number"
-        },
-        "masked_number": {
-          "key": "masked_number",
-          "name": "Masked Number"
-        },
-        "destination_numbers": {
-          "key": "destination_numbers",
-          "name": "Destination Numbers"
-        },
-        "visitor_id": {
-          "key": "visitor_id",
-          "name": "Visitor ID"
-        },
-        "started_at": {
-          "key": "started_at",
-          "name": "Started At"
-        },
-        "bound_until": {
-          "key": "bound_until",
-          "name": "Bound Until"
-        },
-        "project_stats": {
-          "key": "project_stats",
-          "name": "Project Stats",
+        "data": {
+          "key": "data",
+          "name": "Data",
           "variables": {
-            "last_monitoring": {
-              "key": "last_monitoring",
-              "name": "Last Monitoring"
+            "bound_until": {
+              "key": "bound_until",
+              "name": "Bound Until"
             },
-            "pool_stats": {
-              "key": "pool_stats",
-              "name": "Pool Stats",
+            "call_id": {
+              "key": "call_id",
+              "name": "Call ID"
+            },
+            "call_time": {
+              "key": "call_time",
+              "name": "Call Time"
+            },
+            "caller_number": {
+              "key": "caller_number",
+              "name": "Caller Number"
+            },
+            "destination_numbers": {
+              "key": "destination_numbers",
+              "name": "Destination Numbers",
               "variables": {
-                "bound_numbers": {
-                  "key": "bound_numbers",
-                  "name": "Bound Numbers"
+                "number_master": {
+                  "key": "number_master",
+                  "name": "Number Master"
                 },
-                "free_numbers": {
-                  "key": "free_numbers",
-                  "name": "Free Numbers"
+                "number_slave": {
+                  "key": "number_slave",
+                  "name": "Number Slave"
                 },
-                "is_critical": {
-                  "key": "is_critical",
-                  "name": "Is Critical"
-                },
-                "last_updated": {
-                  "key": "last_updated",
-                  "name": "Last Updated"
-                },
-                "percentage_free": {
-                  "key": "percentage_free",
-                  "name": "Percentage Free"
-                },
-                "total_numbers": {
-                  "key": "total_numbers",
-                  "name": "Total Numbers"
+                "numbers": {
+                  "key": "numbers",
+                  "name": "Numbers"
                 }
               }
             },
-            "call_stats": {
-              "key": "call_stats",
-              "name": "Call Stats",
+            "from_number": {
+              "key": "from_number",
+              "name": "From Number"
+            },
+            "masked_number": {
+              "key": "masked_number",
+              "name": "Masked Number"
+            },
+            "meta_data": {
+              "key": "meta_data",
+              "name": "Meta Data",
               "variables": {
-                "active_calls": {
-                  "key": "active_calls",
-                  "name": "Active Calls"
+                "channel": {
+                  "key": "channel",
+                  "name": "Channel"
                 },
-                "is_critical": {
-                  "key": "is_critical",
-                  "name": "Is Critical"
+                "listing_id": {
+                  "key": "listing_id",
+                  "name": "Listing ID"
+                },
+                "user_info": {
+                  "key": "user_info",
+                  "name": "User Info",
+                  "variables": {
+                    "address": {
+                      "key": "address",
+                      "name": "Address"
+                    },
+                    "city": {
+                      "key": "city",
+                      "name": "City"
+                    },
+                    "email": {
+                      "key": "email",
+                      "name": "Email"
+                    },
+                    "id": {
+                      "key": "id",
+                      "name": "ID"
+                    },
+                    "name": {
+                      "key": "name",
+                      "name": "Name"
+                    },
+                    "phone": {
+                      "key": "phone",
+                      "name": "Phone"
+                    }
+                  }
+                }
+              }
+            },
+            "project_stats": {
+              "key": "project_stats",
+              "name": "Project Stats",
+              "variables": {
+                "call_stats": {
+                  "key": "call_stats",
+                  "name": "Call Stats",
+                  "variables": {
+                    "active_calls": {
+                      "key": "active_calls",
+                      "name": "Active Calls"
+                    },
+                    "is_critical": {
+                      "key": "is_critical",
+                      "name": "Is Critical"
+                    },
+                    "last_monitoring": {
+                      "key": "last_monitoring",
+                      "name": "Last Monitoring"
+                    },
+                    "max_calls": {
+                      "key": "max_calls",
+                      "name": "Max Calls"
+                    },
+                    "percentage_used": {
+                      "key": "percentage_used",
+                      "name": "Percentage Used"
+                    }
+                  }
                 },
                 "last_monitoring": {
                   "key": "last_monitoring",
                   "name": "Last Monitoring"
                 },
-                "max_calls": {
-                  "key": "max_calls",
-                  "name": "Max Calls"
-                },
-                "percentage_used": {
-                  "key": "percentage_used",
-                  "name": "Percentage Used"
+                "pool_stats": {
+                  "key": "pool_stats",
+                  "name": "Pool Stats",
+                  "variables": {
+                    "bound_numbers": {
+                      "key": "bound_numbers",
+                      "name": "Bound Numbers"
+                    },
+                    "free_numbers": {
+                      "key": "free_numbers",
+                      "name": "Free Numbers"
+                    },
+                    "is_critical": {
+                      "key": "is_critical",
+                      "name": "Is Critical"
+                    },
+                    "last_updated": {
+                      "key": "last_updated",
+                      "name": "Last Updated"
+                    },
+                    "percentage_free": {
+                      "key": "percentage_free",
+                      "name": "Percentage Free"
+                    },
+                    "total_numbers": {
+                      "key": "total_numbers",
+                      "name": "Total Numbers"
+                    }
+                  }
                 }
               }
+            },
+            "started_at": {
+              "key": "started_at",
+              "name": "Started At"
+            },
+            "to_number": {
+              "key": "to_number",
+              "name": "To Number"
+            },
+            "visitor_id": {
+              "key": "visitor_id",
+              "name": "Visitor ID"
             }
           }
-        },
-        "status": {
-          "key": "status",
-          "name": "Status"
-        },
-        "success": {
-          "key": "success",
-          "name": "Success"
         },
         "error_code": {
           "key": "error_code",
@@ -1446,27 +3980,45 @@
               "key": "msg",
               "name": "Message Text"
             },
+            "params": {
+              "key": "params",
+              "name": "Params",
+              "variables": {
+                "name": {
+                  "key": "name",
+                  "name": "Name"
+                },
+                "working_hours_end": {
+                  "key": "working_hours_end",
+                  "name": "Working Hours End"
+                },
+                "working_hours_start": {
+                  "key": "working_hours_start",
+                  "name": "Working Hours Start"
+                },
+                "working_hours_timezone": {
+                  "key": "working_hours_timezone",
+                  "name": "Working Hours Timezone"
+                }
+              }
+            },
             "type": {
               "key": "type",
               "name": "Message Type"
             }
           }
         },
+        "status": {
+          "key": "status",
+          "name": "Status"
+        },
+        "success": {
+          "key": "success",
+          "name": "Success"
+        },
         "tracking_id": {
           "key": "tracking_id",
           "name": "Tracking ID"
-        }
-      }
-    },
-    "e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call": {
-      "UUID": "e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call",
-      "key": "e54d4493-1853-4d03-8122-d8fc1059df94-redirect_call",
-      "name": "Redirect Call",
-      "panoType": "redirect_call",
-      "variables": {
-        "OutputPort": {
-          "key": "OutputPort",
-          "name": "Output Port"
         }
       }
     }
@@ -1477,10 +4029,11 @@
     "LangNames": {
       "de": "de-DE-KurumCELL-A",
       "en": "en-US-KurumCELL-A",
-      "tr": "tr-TR-KurumCELL-B"
+      "tr": "tr-TR-Wavenet-D"
     },
     "Language": "Language",
     "Schedules": {},
-    "SetGetVariables": {}
+    "SetGetVariables": {},
+    "panoEklemeTipi": 0
   }
 }
