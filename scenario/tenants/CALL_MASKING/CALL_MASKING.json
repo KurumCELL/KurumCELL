@@ -1304,10 +1304,10 @@
           ],
           "Settings": {
             "CallMasking": {
-              "APIKey": "ak_root_1234567890abcdef1234567890abcdef",
+              "APIKey": "",
               "ConnectionType": "production",
-              "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca",
-              "ProjectCode": "kurumcell",
+              "ModuleUUID": "",
+              "ProjectCode": "",
               "RedirectCallPanoUUID": "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call"
             },
             "main": {},
@@ -2713,10 +2713,10 @@
           ],
           "Settings": {
             "CallMasking": {
-              "APIKey": "ak_root_1234567890abcdef1234567890abcdef",
+              "APIKey": "",
               "ConnectionType": "production",
-              "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca",
-              "ProjectCode": "kurumcell"
+              "ModuleUUID": "",
+              "ProjectCode": ""
             },
             "main": {},
             "setting": {
