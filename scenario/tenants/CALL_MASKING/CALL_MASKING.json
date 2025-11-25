@@ -42,8 +42,8 @@
                 "y1": 516,
                 "x2": 1164,
                 "y2": 624,
-                "w": 138,
-                "h": 22,
+                "w": 151,
+                "h": 84,
                 "R": "#827717"
               }
             }
@@ -57,14 +57,14 @@
           "noDelete": 0,
           "noInput": 0,
           "noOutput": 0,
-          "noTitle": 1,
+          "noTitle": 0,
           "r": "zeytinyesili",
           "selfConnectable": 0,
           "visible": 0,
           "x": 636,
           "y": 516,
-          "w": 138,
-          "h": 22
+          "w": 151,
+          "h": 84
         },
         "3e52e292-8e25-4c22-aae6-7ea2e0b7a308-anons": {
           "Announcements": {
@@ -275,7 +275,7 @@
           "noDelete": 0,
           "noInput": 0,
           "noOutput": 0,
-          "noTitle": true,
+          "noTitle": 1,
           "r": "zeytinyesili",
           "selfConnectable": 0,
           "visible": 0,
