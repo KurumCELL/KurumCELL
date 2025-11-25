@@ -1180,12 +1180,6 @@
   },
   "Sesler": {
     "17a1ac38-cb6c-4265-a377-6d669fc9164f": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
       "SesLang": "tr",
       "SesName": "Müsait Değil",
       "SesTts": {
@@ -1203,12 +1197,6 @@
       "SesType": "TTS"
     },
     "6b8f6974-351a-4826-91ee-77a21302e14f": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
       "SesLang": "tr",
       "SesName": "Hata Oluştu",
       "SesTts": {
@@ -1226,12 +1214,6 @@
       "SesType": "TTS"
     },
     "9532b06f-7408-4b54-af3c-6bf34c6be278": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
       "SesLang": "tr",
       "SesName": "Cevap vermiyor",
       "SesTts": {
@@ -1249,12 +1231,6 @@
       "SesType": "TTS"
     },
     "e68fb56d-ef80-4552-b233-662b2fa96e62": {
-      "SesFile": {
-        "tr": {
-          "FileName": "",
-          "FileUUID": ""
-        }
-      },
       "SesLang": "tr",
       "SesName": "Hoşçakalın",
       "SesTts": {
