@@ -40,8 +40,8 @@
                 "Show": 1,
                 "x1": 636,
                 "y1": 516,
-                "x2": 900,
-                "y2": 540,
+                "x2": 1164,
+                "y2": 624,
                 "w": 138,
                 "h": 22,
                 "R": "#827717"
@@ -125,6 +125,106 @@
           "w": 138,
           "h": 22
         },
+        "45e7d356-c757-49b8-bc96-388767b3961b-logout": {
+          "Announcements": null,
+          "Channels": [
+            ""
+          ],
+          "ID": "45e7d356-c757-49b8-bc96-388767b3961b-logout",
+          "IMG": {
+            "R": "logout",
+            "T": "S"
+          },
+          "Name": "Logout",
+          "PanoType": "logout",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd",
+              "If": null,
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Output",
+              "UUID": "10f7cfc3-eb85-423e-83eb-52b8d64ea0f9",
+              "Value": "output",
+              "Variable": {
+                "Global": false,
+                "Key": "",
+                "UUID": ""
+              },
+              "hide": false,
+              "portType": "output",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 1,
+                "x1": 48,
+                "y1": 552,
+                "x2": 312,
+                "y2": 552,
+                "w": 142,
+                "h": 108,
+                "R": "#BF360C"
+              }
+            },
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "If": null,
+              "Location": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Error",
+              "UUID": "f7cfc3eb-8572-4e83-ab52-b8d64ea0f9bc",
+              "Value": "error",
+              "Variable": {
+                "Global": false,
+                "Key": "",
+                "UUID": ""
+              },
+              "hide": false,
+              "portType": "error",
+              "readOnly": true,
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 48,
+                "y1": 552,
+                "x2": 312,
+                "y2": 552,
+                "w": 142,
+                "h": 108,
+                "R": "#BF360C"
+              }
+            }
+          ],
+          "Settings": null,
+          "Version": 1002,
+          "noDelete": 1,
+          "noInput": 1,
+          "noOutput": 0,
+          "noTitle": 0,
+          "r": "turuncu",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 48,
+          "y": 552,
+          "w": 142,
+          "h": 108
+        },
         "5f7bca49-2f5a-44f7-b1b6-173f5f28a0a8-anons": {
           "Announcements": {
             "anons": "ca492f5a-b4f7-41b6-973f-5f28a0a8659f"
@@ -143,7 +243,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
               "Location": [
                 0,
                 0,
@@ -158,8 +258,8 @@
                 "Show": 1,
                 "x1": 948,
                 "y1": 396,
-                "x2": 1188,
-                "y2": 396,
+                "x2": 1164,
+                "y2": 624,
                 "w": 138,
                 "h": 22,
                 "R": "#827717"
@@ -217,8 +317,8 @@
                 "Show": 1,
                 "x1": 636,
                 "y1": 492,
-                "x2": 900,
-                "y2": 540,
+                "x2": 1164,
+                "y2": 624,
                 "w": 138,
                 "h": 22,
                 "R": "#827717"
@@ -243,6 +343,61 @@
           "w": 138,
           "h": 22
         },
+        "64ed093f-1604-4182-9305-9c1f4abba023-exit_pano": {
+          "Announcements": {},
+          "Channels": [
+            ""
+          ],
+          "ID": "64ed093f-1604-4182-9305-9c1f4abba023-exit_pano",
+          "IMG": {
+            "R": "close",
+            "T": "S"
+          },
+          "Name": "Exit Scenario",
+          "PanoType": "exit_pano",
+          "Ports": [
+            {
+              "AppUUID": "",
+              "Channel": "",
+              "Go": "0",
+              "Location": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "Name": "Exit Scenario",
+              "UUID": "ed093f16-04a1-4253-859c-1f4abba02385",
+              "Value": "undefined",
+              "Path": {
+                "Main": 0,
+                "Show": 0,
+                "x1": 576,
+                "y1": 648,
+                "x2": 1164,
+                "y2": 624,
+                "w": 138,
+                "h": 22,
+                "R": "#BF360C"
+              }
+            }
+          ],
+          "Settings": {
+            "main": {}
+          },
+          "Version": 1001,
+          "noDelete": 0,
+          "noInput": 0,
+          "noOutput": 1,
+          "noTitle": 1,
+          "r": "turuncu",
+          "selfConnectable": 0,
+          "visible": 0,
+          "x": 576,
+          "y": 648,
+          "w": 138,
+          "h": 22
+        },
         "68e3f3d2-bc3a-4852-b98b-dd0284d6d8c7-anons": {
           "Announcements": {
             "anons": "b07be289-6c71-4e8b-b7cf-b8e379c3b1ef"
@@ -261,7 +416,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
               "Location": [
                 0,
                 0,
@@ -276,8 +431,8 @@
                 "Show": 1,
                 "x1": 948,
                 "y1": 372,
-                "x2": 1188,
-                "y2": 396,
+                "x2": 1164,
+                "y2": 624,
                 "w": 138,
                 "h": 22,
                 "R": "#827717"
@@ -345,7 +500,7 @@
                 "x1": 48,
                 "y1": 252,
                 "x2": 312,
-                "y2": 120,
+                "y2": 108,
                 "w": 142,
                 "h": 108,
                 "R": "#33691E"
@@ -354,7 +509,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
+              "Go": "0",
               "If": null,
               "Location": [
                 0,
@@ -377,11 +532,11 @@
               "readOnly": true,
               "Path": {
                 "Main": 0,
-                "Show": 1,
+                "Show": 0,
                 "x1": 48,
                 "y1": 252,
-                "x2": 900,
-                "y2": 540,
+                "x2": 312,
+                "y2": 108,
                 "w": 142,
                 "h": 108,
                 "R": "#33691E"
@@ -391,8 +546,8 @@
           "Settings": {
             "main": {
               "earlyMediaMaxSure": 30,
-              "kayitSes": false,
-              "kayitSesDisBaglanti": false,
+              "kayitSes": true,
+              "kayitSesDisBaglanti": true,
               "noanswer": false,
               "otomatikAc": true
             }
@@ -730,7 +885,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd",
+              "Go": "0",
               "Location": [
                 0,
                 0,
@@ -751,11 +906,11 @@
               "readOnly": true,
               "Path": {
                 "Main": 0,
-                "Show": 1,
+                "Show": 0,
                 "x1": 636,
                 "y1": 216,
-                "x2": 1416,
-                "y2": 372,
+                "x2": 948,
+                "y2": 396,
                 "w": 142,
                 "h": 204,
                 "R": "#01579B"
@@ -765,7 +920,7 @@
           "Settings": {
             "Call": {
               "callerIdType": "variable",
-              "callerIdValue": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:caller_number",
+              "callerIdValue": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:masked_number",
               "routeType": "external",
               "sourceType": "variable",
               "targetValue": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:destination_numbers:numbers"
@@ -854,7 +1009,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "9f83194b-9e44-4226-b908-d3b4eee8f084-call_masking_callEnd",
+              "Go": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call",
               "Location": [
                 0,
                 0,
@@ -867,10 +1022,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 1188,
-                "y1": 396,
-                "x2": 1416,
-                "y2": 372,
+                "x1": 1284,
+                "y1": 372,
+                "x2": 1536,
+                "y2": 504,
                 "w": 138,
                 "h": 22,
                 "R": "#827717"
@@ -890,8 +1045,8 @@
           "r": "zeytinyesili",
           "selfConnectable": 0,
           "visible": 0,
-          "x": 1188,
-          "y": 396,
+          "x": 1284,
+          "y": 372,
           "w": 138,
           "h": 22
         },
@@ -924,10 +1079,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1680,
-                "y1": 264,
-                "x2": 1416,
-                "y2": 372,
+                "x1": 1536,
+                "y1": 504,
+                "x2": 1536,
+                "y2": 504,
                 "w": 138,
                 "h": 22,
                 "R": "#BF360C"
@@ -945,8 +1100,8 @@
           "r": "turuncu",
           "selfConnectable": 0,
           "visible": 0,
-          "x": 1680,
-          "y": 264,
+          "x": 1536,
+          "y": 504,
           "w": 138,
           "h": 22
         },
@@ -966,7 +1121,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call",
+              "Go": "64ed093f-1604-4182-9305-9c1f4abba023-exit_pano",
               "Location": [
                 0,
                 0,
@@ -987,10 +1142,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1020,10 +1175,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1054,10 +1209,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1088,10 +1243,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1122,10 +1277,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1156,10 +1311,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1190,10 +1345,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1224,10 +1379,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1258,10 +1413,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1270,7 +1425,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "8bfdce76-11d9-40b1-b1aa-1f44a2da4478-hang_up_call",
+              "Go": "64ed093f-1604-4182-9305-9c1f4abba023-exit_pano",
               "Location": [
                 0,
                 0,
@@ -1292,10 +1447,10 @@
               "Path": {
                 "Main": 0,
                 "Show": 1,
-                "x1": 1416,
-                "y1": 372,
-                "x2": 1680,
-                "y2": 264,
+                "x1": 312,
+                "y1": 552,
+                "x2": 576,
+                "y2": 648,
                 "w": 161,
                 "h": 156,
                 "R": "#004d40"
@@ -1304,6 +1459,7 @@
           ],
           "Settings": {
             "CallMasking": {
+              "CallMaskingIncomingCallPanoUUID": "f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall",
               "ConnectionStringType": "ProductionConnectionString",
               "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca",
               "RedirectCallPanoUUID": "80363590-ffa0-4f33-95b0-7b1468e3f3d2-redirect_call"
@@ -1516,8 +1672,8 @@
           "r": "9",
           "selfConnectable": 0,
           "visible": 0,
-          "x": 1416,
-          "y": 372,
+          "x": 312,
+          "y": 552,
           "w": 161,
           "h": 156
         },
@@ -1552,8 +1708,8 @@
                 "Show": 0,
                 "x1": 948,
                 "y1": 84,
-                "x2": 1680,
-                "y2": 264,
+                "x2": 576,
+                "y2": 648,
                 "w": 192,
                 "h": 22,
                 "R": "#827717"
@@ -1619,8 +1775,8 @@
                 "Show": 1,
                 "x1": 1272,
                 "y1": 216,
-                "x2": 1680,
-                "y2": 264,
+                "x2": 1536,
+                "y2": 504,
                 "w": 174,
                 "h": 108,
                 "R": "#BF360C"
@@ -1652,8 +1808,8 @@
                 "Show": 1,
                 "x1": 1272,
                 "y1": 216,
-                "x2": 1188,
-                "y2": 396,
+                "x2": 1284,
+                "y2": 372,
                 "w": 174,
                 "h": 108,
                 "R": "#BF360C"
@@ -1696,7 +1852,7 @@
             {
               "AppUUID": "",
               "Channel": "",
-              "Go": "875129a2-93e5-44e8-8685-6499f9d97103-anons",
+              "Go": "f5e1d53e-52e2-428e-a5fc-22aae67ea2e0-shortcut",
               "Location": [
                 0,
                 0,
@@ -1711,8 +1867,8 @@
                 "Show": 1,
                 "x1": 948,
                 "y1": 348,
-                "x2": 1188,
-                "y2": 396,
+                "x2": 1164,
+                "y2": 624,
                 "w": 138,
                 "h": 22,
                 "R": "#827717"
@@ -1952,8 +2108,8 @@
                 "Show": 1,
                 "x1": 636,
                 "y1": 468,
-                "x2": 900,
-                "y2": 540,
+                "x2": 1164,
+                "y2": 624,
                 "w": 164,
                 "h": 22,
                 "R": "#827717"
@@ -2024,8 +2180,8 @@
                 "Show": 0,
                 "x1": 948,
                 "y1": 216,
-                "x2": 900,
-                "y2": 540,
+                "x2": 1164,
+                "y2": 624,
                 "w": 161,
                 "h": 109,
                 "R": "#006064"
@@ -2058,8 +2214,8 @@
                 "Show": 0,
                 "x1": 948,
                 "y1": 216,
-                "x2": 900,
-                "y2": 540,
+                "x2": 1164,
+                "y2": 624,
                 "w": 161,
                 "h": 109,
                 "R": "#006064"
@@ -2230,7 +2386,7 @@
                 "Main": 0,
                 "Show": 1,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2263,7 +2419,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2296,7 +2452,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2329,7 +2485,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2362,7 +2518,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2396,7 +2552,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2430,7 +2586,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2464,7 +2620,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2498,7 +2654,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2532,7 +2688,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2566,7 +2722,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2600,7 +2756,7 @@
                 "Main": 0,
                 "Show": 0,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": -12,
                 "w": 162,
@@ -2633,7 +2789,7 @@
                 "Main": 0,
                 "Show": 1,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": 468,
                 "w": 162,
@@ -2666,7 +2822,7 @@
                 "Main": 0,
                 "Show": 1,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": 492,
                 "w": 162,
@@ -2700,7 +2856,7 @@
                 "Main": 0,
                 "Show": 1,
                 "x1": 312,
-                "y1": 120,
+                "y1": 108,
                 "x2": 636,
                 "y2": 516,
                 "w": 162,
@@ -2711,7 +2867,7 @@
           ],
           "Settings": {
             "CallMasking": {
-              "ConnectionStringType": "DevelopmentConnectionString",
+              "ConnectionStringType": "ProductionConnectionString",
               "ModuleUUID": "8837dbd6-073a-4e62-b148-d0897351fdca"
             },
             "main": {},
@@ -2963,7 +3119,7 @@
           "selfConnectable": 0,
           "visible": 0,
           "x": 312,
-          "y": 120,
+          "y": 108,
           "w": 162,
           "h": 276
         },
@@ -2996,8 +3152,8 @@
               "Path": {
                 "Main": 0,
                 "Show": 0,
-                "x1": 900,
-                "y1": 540,
+                "x1": 1164,
+                "y1": 624,
                 "x2": 636,
                 "y2": 516,
                 "w": 138,
@@ -3021,8 +3177,8 @@
           "r": "turuncu",
           "selfConnectable": 0,
           "visible": 0,
-          "x": 900,
-          "y": 540,
+          "x": 1164,
+          "y": 624,
           "w": 138,
           "h": 22
         }
@@ -3034,9 +3190,9 @@
       "Settings": {
         "kabloHizala": 6,
         "panoHizala": false,
-        "scale": 1,
-        "x": -66.23,
-        "y": 65.8
+        "scale": 0.8,
+        "x": 60.93,
+        "y": 61.43
       }
     }
   },
@@ -3100,7 +3256,7 @@
         "tr": {
           "data": [
             {
-              "text": " {VAR:f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:meta_data:user_info:name:}       Hoşgeldiniz.",
+              "text": " {VAR:f20d6e1c-7367-414c-ac54-0744b5fc8f42-call_masking_incomingCall:data:meta_data:user_info:adi:}           Hoşgeldiniz.",
               "type": "TEXT"
             }
           ],
