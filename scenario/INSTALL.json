@@ -21,6 +21,14 @@
         "name": "CALL_OUTPUT",
         "title": "Call Output",
         "readme": "README for Call Output"
+      },
+      {
+        "uuid": "00000000-0000-4000-8000-100000000004",
+        "type": "normal",
+        "required": false,
+        "name": "CALL_MASKING",
+        "title": "Call Masking",
+        "readme": "README for Call Masking"
       }
     ]
   },
