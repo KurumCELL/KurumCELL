@@ -1,7 +1,7 @@
 {
   "ScenarioUUID": "{MAIN_UUID}",
-  "ScenarioName": "CALL_MASKING1",
-  "ScenarioComment": "CALL_MASKING1",
+  "ScenarioName": "CALL_MASKING",
+  "ScenarioComment": "CALL_MASKING",
   "Version": 1.01,
   "ScenarioType": "normal",
   "Data": {
@@ -3185,7 +3185,7 @@
       },
       "Group": false,
       "ID": "{MAIN_UUID}",
-      "Name": "CALL_MASKING1",
+      "Name": "CALL_MASKING",
       "Order": 0,
       "Settings": {
         "kabloHizala": 6,
