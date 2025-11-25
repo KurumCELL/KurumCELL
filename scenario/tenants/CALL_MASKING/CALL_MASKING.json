@@ -57,7 +57,7 @@
           "noDelete": 0,
           "noInput": 0,
           "noOutput": 0,
-          "noTitle": 0,
+          "noTitle": 1,
           "r": "zeytinyesili",
           "selfConnectable": 0,
           "visible": 0,
